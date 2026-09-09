@@ -76,14 +76,16 @@ export class HomeComponent implements OnInit, OnDestroy {
     const catalogOne = products
       .filter(product =>
         product.brand?.trim().toLowerCase() === 'kaele' &&
-        product.catalog?.trim().toLowerCase() === 'the greek escape'
+        product.catalog?.trim().toLowerCase() === 'the greek escape' &&
+        product.images?.length > 1
       )
       .slice(0, 5);
 
     const catalogTwo = products
       .filter(product =>
         product.brand?.trim().toLowerCase() === 'esmeral' &&
-        product.catalog?.trim().toLowerCase() === 'thaci mesquita'
+        product.catalog?.trim().toLowerCase() === 'thaci mesquita' &&
+        product.images?.length > 1
       )
       .slice(0, 5);
 
