@@ -2,7 +2,7 @@ import { Product } from '../models/product.model';
 
 export const MOCK_PRODUCTS: Product[] = [
   {
-    id: 29,
+    id: 1,
     code: "8154",
     name: "Blusa Elis",
     slug: "blusa-elis",
@@ -28,7 +28,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 30,
+    id: 2,
     code: "8155",
     name: "Saia Elis",
     slug: "saia-elis",
@@ -52,7 +52,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 31,
+    id: 3,
     code: "8104",
     name: "Blusa Fani",
     slug: "blusa-fani",
@@ -78,7 +78,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 32,
+    id: 4,
     code: "8105",
     name: "Calça Fani",
     slug: "calca-fani",
@@ -102,7 +102,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 33,
+    id: 5,
     code: "8095",
     name: "Blusa Sophia",
     slug: "blusa-sophia",
@@ -129,7 +129,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 34,
+    id: 6,
     code: "8094",
     name: "Short Sophia",
     slug: "short-sophia",
@@ -152,7 +152,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 35,
+    id: 7,
     code: "8077",
     name: "Vestido Francine",
     slug: "vestido-francine",
@@ -178,7 +178,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 36,
+    id: 8,
     code: "8078",
     name: "Blusa Francine",
     slug: "blusa-francine",
@@ -204,7 +204,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 37,
+    id: 9,
     code: "8144",
     name: "Blusa Diana",
     slug: "blusa-diana",
@@ -230,7 +230,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 38,
+    id: 10,
     code: "8145",
     name: "Calça Diana",
     slug: "calca-diana",
@@ -253,7 +253,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 39,
+    id: 11,
     code: "8160",
     name: "Blusa Lori",
     slug: "blusa-lori",
@@ -277,7 +277,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 40,
+    id: 12,
     code: "8161",
     name: "Calça Lori",
     slug: "calca-lori",
@@ -301,7 +301,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 41,
+    id: 13,
     code: "8093",
     name: "Calça Sophia",
     slug: "calca-sophia",
@@ -326,7 +326,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 42,
+    id: 14,
     code: "8159",
     name: "Macacão Lori",
     slug: "macacao-lori",
@@ -354,7 +354,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 43,
+    id: 15,
     code: "8136",
     name: "Regata Manu",
     slug: "regata-manu",
@@ -379,7 +379,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 44,
+    id: 16,
     code: "8137",
     name: "Calça Manu",
     slug: "calca-manu",
@@ -403,7 +403,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 45,
+    id: 17,
     code: "8146",
     name: "Colete Geórgia",
     slug: "colete-georgia",
@@ -429,7 +429,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 46,
+    id: 18,
     code: "8147",
     name: "Calça Geórgia",
     slug: "calca-georgia",
@@ -453,7 +453,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 47,
+    id: 19,
     code: "8165",
     name: "Regata Isa",
     slug: "regata-isa",
@@ -479,7 +479,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 48,
+    id: 20,
     code: "8163",
     name: "Saia Isa",
     slug: "saia-isa",
@@ -504,7 +504,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 49,
+    id: 21,
     code: "8123",
     name: "Vestido Maira",
     slug: "vestido-maira",
@@ -530,7 +530,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 50,
+    id: 22,
     code: "8164",
     name: "Blusa Isa",
     slug: "blusa-isa",
@@ -555,7 +555,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 51,
+    id: 23,
     code: "8176",
     name: "Blusa Amber",
     slug: "blusa-amber",
@@ -579,7 +579,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 52,
+    id: 24,
     code: "8177",
     name: "Calça Amber",
     slug: "calca-amber",
@@ -603,7 +603,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 53,
+    id: 25,
     code: "8157",
     name: "Blusa Capa Mirela",
     slug: "blusa-capa-mirela",
@@ -629,7 +629,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 54,
+    id: 26,
     code: "8158",
     name: "Calça Mirela",
     slug: "calca-mirela",
@@ -655,7 +655,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 55,
+    id: 27,
     code: "8054",
     name: "Blusa Tati",
     slug: "blusa-tati",
@@ -679,7 +679,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 56,
+    id: 28,
     code: "8055",
     name: "Calça Tati",
     slug: "calca-tati",
@@ -703,7 +703,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 57,
+    id: 29,
     code: "8098",
     name: "Body Jess",
     slug: "body-jess",
@@ -728,7 +728,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 58,
+    id: 30,
     code: "8132",
     name: "Regata Mariana",
     slug: "regata-mariana",
@@ -752,7 +752,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 59,
+    id: 31,
     code: "8133",
     name: "Calça Mariana",
     slug: "calca-mariana",
@@ -775,7 +775,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 60,
+    id: 32,
     code: "8162",
     name: "Body Isa",
     slug: "body-isa",
@@ -799,7 +799,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 61,
+    id: 33,
     code: "8505",
     name: "Regata Tricot",
     slug: "regata-tricot",
@@ -823,7 +823,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 62,
+    id: 34,
     code: "8508",
     name: "Calça Isabel",
     slug: "calca-isabel",
@@ -845,7 +845,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 63,
+    id: 35,
     code: "8124",
     name: "Regata Dupla Maira",
     slug: "regata-dupla-maira",
@@ -870,7 +870,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-03"
   },
   {
-    id: 64,
+    id: 36,
     code: '39689',
     name: "Blusa Peplum Sarja Listrada",
     slug: 'blusa-peplum-sarja-listrada-39689',
@@ -894,7 +894,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 65,
+    id: 37,
     code: '39648',
     name: "Calça Sarja Listras",
     slug: 'calca-sarja-listras-39648',
@@ -917,7 +917,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 66,
+    id: 38,
     code: '39697',
     name: "Shorts Sarja Listrada",
     slug: 'shorts-sarja-listrada-39697',
@@ -940,7 +940,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 67,
+    id: 39,
     code: '39630',
     name: "Blusa Cetim com Renda",
     slug: 'blusa-cetim-com-renda-39630',
@@ -964,7 +964,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 68,
+    id: 40,
     code: '39628',
     name: "Vestido Assimétrico Malha",
     slug: 'vestido-assimetrico-malha-39628',
@@ -988,7 +988,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 69,
+    id: 41,
     code: '39699',
     name: "Vestido Tubo Malha",
     slug: 'vestido-tubo-malha-39699',
@@ -1012,7 +1012,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 70,
+    id: 42,
     code: '39508',
     name: "Blusa Peplum Alfaiataria",
     slug: 'blusa-peplum-alfaiataria-39508',
@@ -1037,7 +1037,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 71,
+    id: 43,
     code: '39530',
     name: "Calça Balloon Alfaiataria",
     slug: 'calca-balloon-alfaiataria-39530',
@@ -1063,7 +1063,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 72,
+    id: 44,
     code: '39519',
     name: "Top sem Alças Alfaiataria",
     slug: 'top-sem-alcas-alfaiataria-39519',
@@ -1087,7 +1087,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 73,
+    id: 45,
     code: '39650',
     name: "Blusa Um Ombro Tule",
     slug: 'blusa-um-ombro-tule-39650',
@@ -1111,7 +1111,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 74,
+    id: 46,
     code: '39678',
     name: "Blusa Manga Longa Renda",
     slug: 'blusa-manga-longa-renda-39678',
@@ -1135,7 +1135,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 75,
+    id: 47,
     code: '39654',
     name: "Calça Aladin Peplum",
     slug: 'calca-aladin-peplum-39654',
@@ -1160,7 +1160,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 76,
+    id: 48,
     code: '38854',
     name: "Vestido Alça Laço Poá",
     slug: 'vestido-alca-laco-poa-38854',
@@ -1184,7 +1184,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 77,
+    id: 49,
     code: '38789',
     name: "Blusa Peplum Poá",
     slug: 'blusa-peplum-poa-38789',
@@ -1208,7 +1208,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 78,
+    id: 50,
     code: '39543',
     name: "Calça Barrel Cós Elástico",
     slug: 'calca-barrel-cos-elastico-39543',
@@ -1233,7 +1233,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 79,
+    id: 51,
     code: '39540',
     name: "Blusa Degagê Comprida",
     slug: 'blusa-degage-comprida-39540',
@@ -1258,7 +1258,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 80,
+    id: 52,
     code: '39535',
     name: "Calça Wide Alfaiataria",
     slug: 'calca-wide-alfaiataria-39535',
@@ -1282,7 +1282,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 81,
+    id: 53,
     code: '39513',
     name: "Top sem Alças Couro P.U",
     slug: 'top-sem-alcas-couro-p-u-39513',
@@ -1306,7 +1306,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 82,
+    id: 54,
     code: '39510',
     name: "Saia Midi Couro P.U",
     slug: 'saia-midi-couro-p-u-39510',
@@ -1330,7 +1330,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-03',
   },
   {
-    id: 109,
+    id: 55,
     code: "38804",
     name: "Regata Alça Canelado",
     slug: "regata-alca-canelado-38804",
@@ -1356,7 +1356,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 110,
+    id: 56,
     code: "39618",
     name: "Blusa Assimétrica Roletês",
     slug: "blusa-assimetrica-roletes-39618",
@@ -1381,7 +1381,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 111,
+    id: 57,
     code: "39641",
     name: "Camisa Amarração Listras",
     slug: "camisa-amarracao-listras-39641",
@@ -1404,7 +1404,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 112,
+    id: 58,
     code: "39646",
     name: "Blusa Peplum Malha",
     slug: "blusa-peplum-malha-tricoline-39646",
@@ -1427,7 +1427,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 113,
+    id: 59,
     code: "39603",
     name: "Top sem Alças Assimétrico",
     slug: "top-sem-alcas-assimetrico-39603",
@@ -1450,7 +1450,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 114,
+    id: 60,
     code: "39590",
     name: "Top sem Alças Sarja",
     slug: "top-sem-alcas-sarja-39590",
@@ -1475,7 +1475,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 115,
+    id: 61,
     code: "39597",
     name: "Calça Capri Sarja",
     slug: "calca-capri-sarja-39597",
@@ -1500,7 +1500,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 116,
+    id: 62,
     code: "39695",
     name: "Blusa Frente Única Liocel",
     slug: "blusa-frente-unica-liocel-39695",
@@ -1524,7 +1524,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 117,
+    id: 63,
     code: "39694",
     name: "Calça Ampla Liocel",
     slug: "calca-ampla-liocel-39694",
@@ -1548,7 +1548,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 118,
+    id: 64,
     code: "39661",
     name: "Calça Cós Virado",
     slug: "calca-cos-virado-39661",
@@ -1572,7 +1572,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 119,
+    id: 65,
     code: "39670",
     name: "Macacão 1 Ombro Linho",
     slug: "macacao-1-ombro-linho-39670",
@@ -1597,7 +1597,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 120,
+    id: 66,
     code: "39555",
     name: "Blusa Costas Degagê",
     slug: "blusa-costas-degage-39555",
@@ -1622,7 +1622,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 121,
+    id: 67,
     code: "39557",
     name: "Saia Alfaiataria",
     slug: "saia-alfaiataria-39557",
@@ -1646,7 +1646,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 122,
+    id: 68,
     code: "39626",
     name: "Body Franzido Malha",
     slug: "body-franzido-malha-39626",
@@ -1670,7 +1670,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 123,
+    id: 69,
     code: "39666",
     name: "Túnica Assimétrica Alfaiataria",
     slug: "tunica-assimetrica-alfaiataria-39666",
@@ -1694,7 +1694,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 124,
+    id: 70,
     code: "39712",
     name: "Vestido sem Alças Liocel",
     slug: "vestido-sem-alcas-liocel-39712",
@@ -1719,7 +1719,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 125,
+    id: 71,
     code: "39550",
     name: "Vestido Longo Blusê",
     slug: "vestido-longo-bluse-39550",
@@ -1743,7 +1743,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 126,
+    id: 72,
     code: "39698",
     name: "Vestido Curto Malha",
     slug: "vestido-curto-malha-39698",
@@ -1767,7 +1767,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 127,
+    id: 73,
     code: "39708",
     name: "Vestido Cetim + Paetê",
     slug: "vestido-cetim-paete-39708",
@@ -1790,7 +1790,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 128,
+    id: 74,
     code: "39720",
     name: "Corset Sarja",
     slug: "corset-sarja-39720",
@@ -1812,7 +1812,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 129,
+    id: 75,
     code: "39716",
     name: "Calça Aladin Sarja",
     slug: "calca-aladin-sarja-39716",
@@ -1834,7 +1834,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 130,
+    id: 76,
     code: "39607",
     name: "Calça Jeans New Baggy Balloon",
     slug: "calca-jeans-new-baggy-balloon-39607",
@@ -1856,7 +1856,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 131,
+    id: 77,
     code: "39572",
     name: "Calça Baggy Prega",
     slug: "calca-baggy-prega-39572",
@@ -1882,7 +1882,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
   {
-    id: 132,
+    id: 78,
     code: "39589",
     name: "Trench Coat com Pregas",
     slug: "trench-coat-com-pregas-39589",
@@ -1905,7 +1905,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: '2026-08-10',
   },
  {
-    id: 133,
+    id: 79,
     code: "8216",
     name: "Vestido Tali",
     slug: "vestido-tali",
@@ -1931,7 +1931,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 134,
+    id: 80,
     code: "8207",
     name: "Regata Rita",
     slug: "regata-rita",
@@ -1959,7 +1959,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 135,
+    id: 81,
     code: "8208",
     name: "Calça Rita",
     slug: "calca-rita",
@@ -1987,7 +1987,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 136,
+    id: 82,
     code: "8214",
     name: "Regata Yara",
     slug: "regata-yara",
@@ -2013,7 +2013,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 137,
+    id: 83,
     code: "8215",
     name: "Calça Yara",
     slug: "calca-yara",
@@ -2039,7 +2039,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 138,
+    id: 84,
     code: "8509",
     name: "Jaqueta Beatriz",
     slug: "jaqueta-beatriz",
@@ -2062,7 +2062,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 139,
+    id: 85,
     code: "8187",
     name: "Regata Nina",
     slug: "regata-nina",
@@ -2085,7 +2085,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 140,
+    id: 86,
     code: "8188",
     name: "Short Nina",
     slug: "short-nina",
@@ -2108,7 +2108,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 141,
+    id: 87,
     code: "8211",
     name: "Vestido Sophi",
     slug: "vestido-sophi",
@@ -2134,7 +2134,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 142,
+    id: 88,
     code: "8205",
     name: "Blazer Rita",
     slug: "blazer-rita",
@@ -2159,7 +2159,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 143,
+    id: 89,
     code: "8142",
     name: "Regata Dupla Jade",
     slug: "regata-dupla-jade",
@@ -2183,7 +2183,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 144,
+    id: 90,
     code: "8206",
     name: "Bermuda Rita",
     slug: "bermuda-rita",
@@ -2209,7 +2209,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 145,
+    id: 91,
     code: "8203",
     name: "Jaqueta Liz",
     slug: "jaqueta-liz",
@@ -2237,7 +2237,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 146,
+    id: 92,
     code: "8202",
     name: "Blusa Liz",
     slug: "blusa-liz",
@@ -2263,7 +2263,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 147,
+    id: 93,
     code: "8204",
     name: "Calça Liz",
     slug: "calca-liz",
@@ -2293,7 +2293,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 148,
+    id: 94,
     code: "8217",
     name: "Blusa Celia",
     slug: "blusa-celia",
@@ -2322,7 +2322,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 149,
+    id: 95,
     code: "8218",
     name: "Calça Celia",
     slug: "calca-celia",
@@ -2351,7 +2351,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 150,
+    id: 96,
     code: "8200",
     name: "Blusa Lola",
     slug: "blusa-lola",
@@ -2379,7 +2379,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 151,
+    id: 97,
     code: "8201",
     name: "Calça Lola",
     slug: "calca-lola",
@@ -2406,7 +2406,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 152,
+    id: 98,
     code: "8212",
     name: "Vestido Celia",
     slug: "vestido-celia",
@@ -2434,7 +2434,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 153,
+    id: 99,
     code: "8173",
     name: "Body Many",
     slug: "body-many",
@@ -2460,7 +2460,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 154,
+    id: 100,
     code: "8135",
     name: "Vestido Ju",
     slug: "vestido-ju",
@@ -2486,7 +2486,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 155,
+    id: 101,
     code: "8514",
     name: "Cardigan Listrado Mamá",
     slug: "cardigan-listrado-mama",
@@ -2513,7 +2513,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 156,
+    id: 102,
     code: "8195",
     name: "Top Fiorela",
     slug: "top-fiorela",
@@ -2538,7 +2538,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 157,
+    id: 103,
     code: "8196",
     name: "Calça Fiorela",
     slug: "calca-fiorela",
@@ -2563,7 +2563,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 158,
+    id: 104,
     code: "8191",
     name: "Blusa Agnes",
     slug: "blusa-agnes",
@@ -2591,7 +2591,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 159,
+    id: 105,
     code: "8189",
     name: "Calça Agnes",
     slug: "calca-agnes",
@@ -2619,7 +2619,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 160,
+    id: 106,
     code: "8115",
     name: "Blusa Brenda",
     slug: "blusa-brenda",
@@ -2650,7 +2650,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 161,
+    id: 107,
     code: "8117",
     name: "Short Brenda",
     slug: "short-brenda",
@@ -2681,7 +2681,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 162,
+    id: 108,
     code: "8213",
     name: "T-Shirt Hamptons",
     slug: "t-shirt-hamptons",
@@ -2711,7 +2711,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 163,
+    id: 109,
     code: "8224",
     name: "Blusa Mia",
     slug: "blusa-mia",
@@ -2738,7 +2738,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 164,
+    id: 110,
     code: "8190",
     name: "Saia Agnes",
     slug: "saia-agnes",
@@ -2764,7 +2764,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 165,
+    id: 111,
     code: "8143",
     name: "Blusa Jade",
     slug: "blusa-jade",
@@ -2790,7 +2790,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 166,
+    id: 112,
     code: "8116",
     name: "Saia Brenda",
     slug: "saia-brenda",
@@ -2816,7 +2816,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 167,
+    id: 113,
     code: "8209",
     name: "Blusa Paula",
     slug: "blusa-paula",
@@ -2842,7 +2842,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 168,
+    id: 114,
     code: "8210",
     name: "Calça Paula",
     slug: "calca-paula",
@@ -2868,7 +2868,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 169,
+    id: 115,
     code: "8134",
     name: "Blusa Ju",
     slug: "blusa-ju",
@@ -2894,7 +2894,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 170,
+    id: 116,
     code: "8506",
     name: "Calça Baloon Beatriz",
     slug: "calca-baloon-beatriz",
@@ -2918,7 +2918,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 171,
+    id: 117,
     code: "bone-the-hamptons",
     name: "Boné The Hamptons",
     slug: "bone-the-hamptons",
@@ -2942,7 +2942,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-23"
   },
   {
-    id: 172,
+    id: 118,
     code: "39746",
     name: "Jardineira Sarja",
     slug: "jardineira-sarja",
@@ -2965,7 +2965,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 173,
+    id: 119,
     code: "39593",
     name: "Blusa Tricot Polo Textura",
     slug: "blusa-tricot-polo-textura",
@@ -2988,7 +2988,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 174,
+    id: 120,
     code: "39649",
     name: "Saia Cargo Sarja",
     slug: "saia-cargo-sarja",
@@ -3015,7 +3015,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 175,
+    id: 121,
     code: "39214",
     name: "Blusa Tricot Rendada",
     slug: "blusa-tricot-rendada",
@@ -3042,7 +3042,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 176,
+    id: 122,
     code: "39663",
     name: "Shorts Alfaiataria",
     slug: "shorts-alfaiataria",
@@ -3071,7 +3071,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 177,
+    id: 123,
     code: "39636",
     name: "Body Assimétrico Malha",
     slug: "body-assimetrico-malha",
@@ -3098,7 +3098,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 178,
+    id: 124,
     code: "39743",
     name: "Calça Jeans Barrel Leg Martingale",
     slug: "calca-jeans-barrel-leg-martingale",
@@ -3121,7 +3121,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 179,
+    id: 125,
     code: "39718",
     name: "Calça Jeans Balloon Rasgos",
     slug: "calca-jeans-balloon-rasgos",
@@ -3144,7 +3144,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 180,
+    id: 126,
     code: "39680",
     name: "Cropped Malha Algodão",
     slug: "cropped-malha-algodao",
@@ -3169,7 +3169,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 181,
+    id: 127,
     code: "39775",
     name: "Bermuda Jeans Amaciada",
     slug: "bermuda-jeans-amaciada",
@@ -3192,7 +3192,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 182,
+    id: 128,
     code: "39620",
     name: "Blusa Assimétrica Malha",
     slug: "blusa-assimetrica-malha",
@@ -3218,7 +3218,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 183,
+    id: 129,
     code: "39625",
     name: "Blusa Malha Acinturada",
     slug: "blusa-malha-acinturada",
@@ -3247,7 +3247,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 184,
+    id: 130,
     code: "38667",
     name: "Tee Básica Algodão",
     slug: "tee-basica-algodao",
@@ -3273,7 +3273,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 185,
+    id: 131,
     code: "39662",
     name: "Blusa Capa Malha",
     slug: "blusa-capa-malha",
@@ -3302,7 +3302,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 186,
+    id: 132,
     code: "39717",
     name: "Calça Extra Wide Sarja",
     slug: "calca-extra-wide-sarja",
@@ -3325,7 +3325,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 187,
+    id: 133,
     code: "39677",
     name: "Blusa Frente Única Malha",
     slug: "blusa-frente-unica-malha",
@@ -3354,7 +3354,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 188,
+    id: 134,
     code: "39609",
     name: "Calça Jeans Culotte",
     slug: "calca-jeans-culotte",
@@ -3377,7 +3377,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 189,
+    id: 135,
     code: "39682",
     name: "Blusa Assimétrica Malha",
     slug: "blusa-assimetrica-malha",
@@ -3406,7 +3406,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 190,
+    id: 136,
     code: "39690",
     name: "Blusa Canelada Com Renda Lateral",
     slug: "blusa-canelada-com-renda-lateral",
@@ -3435,7 +3435,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 191,
+    id: 137,
     code: "39622",
     name: "Baby Look Franzida",
     slug: "baby-look-franzida",
@@ -3464,7 +3464,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 192,
+    id: 138,
     code: "38797",
     name: "Blusa Um Ombro Algodão",
     slug: "blusa-um-ombro-algodao",
@@ -3492,7 +3492,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 193,
+    id: 139,
     code: "39509",
     name: "Blusa Recorte Couro P.U",
     slug: "blusa-recorte-couro-p-u",
@@ -3517,7 +3517,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 194,
+    id: 140,
     code: "39685",
     name: "Blusa Alça Malha",
     slug: "blusa-alca-malha",
@@ -3544,7 +3544,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 195,
+    id: 141,
     code: "35537",
     name: "Tricot Alça Frente Única",
     slug: "tricot-alca-frente-unica",
@@ -3573,7 +3573,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 196,
+    id: 142,
     code: "39610",
     name: "Calça Jeans Basic Reta",
     slug: "calca-jeans-basic-reta",
@@ -3596,7 +3596,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 197,
+    id: 143,
     code: "39224",
     name: "Calça Jeans Mom",
     slug: "calca-jeans-mom",
@@ -3619,7 +3619,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 198,
+    id: 144,
     code: "39672",
     name: "Calça Balloon Bolsos",
     slug: "calca-balloon-bolsos",
@@ -3642,7 +3642,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 199,
+    id: 145,
     code: "11130",
     name: "Regata Vivien",
     slug: "regata-vivien",
@@ -3666,7 +3666,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 200,
+    id: 146,
     code: "11131",
     name: "Saia Vivien",
     slug: "saia-vivien",
@@ -3690,7 +3690,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 201,
+    id: 147,
     code: "11137",
     name: "Top Vivien",
     slug: "top-vivien",
@@ -3713,7 +3713,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 202,
+    id: 148,
     code: "11162",
     name: "Regata Vanessa",
     slug: "regata-vanessa",
@@ -3738,7 +3738,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 203,
+    id: 149,
     code: "11163",
     name: "Calça Vanessa",
     slug: "calca-vanessa",
@@ -3763,7 +3763,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 204,
+    id: 150,
     code: "11132",
     name: "Vestido Dani",
     slug: "vestido-dani",
@@ -3786,7 +3786,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 205,
+    id: 151,
     code: "11096",
     name: "Camisa Vera",
     slug: "camisa-vera",
@@ -3811,7 +3811,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 206,
+    id: 152,
     code: "11079",
     name: "Saia Laila",
     slug: "saia-laila",
@@ -3834,7 +3834,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 207,
+    id: 153,
     code: "11133",
     name: "Regata Paula",
     slug: "regata-paula",
@@ -3857,7 +3857,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 208,
+    id: 154,
     code: "11134",
     name: "Bermuda Paula",
     slug: "bermuda-paula",
@@ -3880,7 +3880,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 209,
+    id: 155,
     code: "11145",
     name: "Blusa Luiza",
     slug: "blusa-luiza",
@@ -3905,7 +3905,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 210,
+    id: 156,
     code: "11146",
     name: "Saia Luiza",
     slug: "saia-luiza",
@@ -3930,7 +3930,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 211,
+    id: 157,
     code: "11138",
     name: "Regata Ana",
     slug: "regata-ana",
@@ -3955,7 +3955,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 212,
+    id: 158,
     code: "11139",
     name: "Calça Ana",
     slug: "calca-ana",
@@ -3980,7 +3980,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 213,
+    id: 159,
     code: "11502",
     name: "Jardineira Sarja",
     slug: "jardineira-sarja",
@@ -4002,7 +4002,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 214,
+    id: 160,
     code: "11531",
     name: "Calça Jeans Cecília",
     slug: "calca-jeans-cecilia",
@@ -4024,7 +4024,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 215,
+    id: 161,
     code: "11115",
     name: "Body Andressa",
     slug: "body-andressa",
@@ -4051,7 +4051,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 216,
+    id: 162,
     code: "11164",
     name: "Calça Yolanda",
     slug: "calca-yolanda",
@@ -4077,7 +4077,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 217,
+    id: 163,
     code: "11147",
     name: "Regata Cintia",
     slug: "regata-cintia",
@@ -4103,7 +4103,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 218,
+    id: 164,
     code: "11148",
     name: "Saia Cintia",
     slug: "saia-cintia",
@@ -4129,7 +4129,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 219,
+    id: 165,
     code: "11157",
     name: "Regata Carla",
     slug: "regata-carla",
@@ -4154,7 +4154,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 220,
+    id: 166,
     code: "11158",
     name: "Calça Carla",
     slug: "calca-carla",
@@ -4179,7 +4179,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 221,
+    id: 167,
     code: "11104",
     name: "Regata Vanda",
     slug: "regata-vanda",
@@ -4206,7 +4206,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 222,
+    id: 168,
     code: "11156",
     name: "Vestido Carla",
     slug: "vestido-carla",
@@ -4231,7 +4231,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 223,
+    id: 169,
     code: "11526",
     name: "Conjunto Onda",
     slug: "conjunto-onda",
@@ -4255,7 +4255,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 224,
+    id: 170,
     code: "11080",
     name: "Jaqueta Cecilia",
     slug: "jaqueta-cecilia",
@@ -4278,7 +4278,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 225,
+    id: 171,
     code: "11081",
     name: "Calça Cecilia",
     slug: "calca-cecilia",
@@ -4301,14 +4301,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
 {
-    id: 226,
+    id: 172,
     code: "39706",
     name: "Vestido Longo Echarpe",
     slug: "vestido-longo-echarpe",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Vestido",
-    price: 259.90,
+    price: 519.80,
     description: "Vestido Longo Echarpe do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "96% POLIÉSTER 4% ELASTANO",
     images: [
@@ -4328,14 +4328,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 227,
+    id: 173,
     code: "39714",
     name: "Jaqueta",
     slug: "jaqueta",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Jaqueta",
-    price: 299.90,
+    price: 599.80,
     description: "Jaqueta do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "97% ALGODÃO 3% ELASTANO",
     images: [
@@ -4352,14 +4352,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 228,
+    id: 174,
     code: "39719",
     name: "Calça Wide Sarja",
     slug: "calca-wide-sarja",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 229.90,
+    price: 459.80,
     description: "Calça Wide Sarja do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% ALGODÃO",
     images: [
@@ -4378,14 +4378,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 229,
+    id: 175,
     code: "39681",
     name: "Cropped Muscle",
     slug: "cropped-muscle",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Cropped",
-    price: 119.90,
+    price: 239.80,
     description: "Cropped Muscle do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% ALGODÃO",
     images: [
@@ -4405,14 +4405,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 230,
+    id: 176,
     code: "39781",
     name: "Calça Jeans Cós Virado",
     slug: "calca-jeans-cos-virado",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 248.90,
+    price: 497.80,
     description: "Calça Jeans Cós Virado do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% ALGODÃO",
     images: [
@@ -4427,14 +4427,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 231,
+    id: 177,
     code: "39713",
     name: "Tee Pontas Algodão",
     slug: "tee-pontas-algodao",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Tee",
-    price: 84.90,
+    price: 169.80,
     description: "Tee Pontas Algodão do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% ALGODÃO",
     images: [
@@ -4451,14 +4451,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 232,
+    id: 178,
     code: "39707",
     name: "Top Peplum",
     slug: "top-peplum",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Top",
-    price: 159.90,
+    price: 319.80,
     description: "Top Peplum do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "92% POLIÉSTER 8% ELASTANO",
     images: [
@@ -4475,14 +4475,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 233,
+    id: 179,
     code: "39710",
     name: "Calça Pantalona",
     slug: "calca-pantalona",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 219.90,
+    price: 439.80,
     description: "Calça Pantalona do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "90,1% LIOCEL 9,9% LINHO",
     images: [
@@ -4500,14 +4500,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 234,
+    id: 180,
     code: "39733",
     name: "Blusa Sem Alças Cetim",
     slug: "blusa-sem-alcas-cetim",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Blusa",
-    price: 119.90,
+    price: 239.80,
     description: "Blusa Sem Alças Cetim do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% POLIÉSTER",
     images: [
@@ -4525,14 +4525,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 235,
+    id: 181,
     code: "39772",
     name: "Calça Jeans Barra Destroyed",
     slug: "calca-jeans-barra-destroyed",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 219.90,
+    price: 439.80,
     description: "Calça Jeans Barra Destroyed do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% ALGODÃO",
     images: [
@@ -4547,14 +4547,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 236,
+    id: 182,
     code: "39773",
     name: "Corset Flor Jeans",
     slug: "corset-flor-jeans",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Corset",
-    price: 219.90,
+    price: 439.80,
     description: "Corset Flor Jeans do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% ALGODÃO",
     images: [
@@ -4570,14 +4570,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 237,
+    id: 183,
     code: "39771",
     name: "Calça Tiras Jeans",
     slug: "calca-tiras-jeans",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 229.90,
+    price: 459.80,
     description: "Calça Tiras Jeans do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% ALGODÃO",
     images: [
@@ -4593,14 +4593,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 238,
+    id: 184,
     code: "39711",
     name: "Macacão Sem Alças",
     slug: "macacao-sem-alcas",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Macacão",
-    price: 299.90,
+    price: 599.80,
     description: "Macacão Sem Alças do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% POLIÉSTER",
     images: [
@@ -4617,14 +4617,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 239,
+    id: 185,
     code: "39702",
     name: "Saia Curta Alfaiataria",
     slug: "saia-curta-alfaiataria",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Saia",
-    price: 139.90,
+    price: 279.80,
     description: "Saia Curta Alfaiataria do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% POLIÉSTER",
     images: [
@@ -4640,14 +4640,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 240,
+    id: 186,
     code: "39722",
     name: "Saia Paetê",
     slug: "saia-paete",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Saia",
-    price: 249.90,
+    price: 499.80,
     description: "Saia Paetê do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% POLIÉSTER",
     images: [
@@ -4664,14 +4664,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 241,
+    id: 187,
     code: "39752",
     name: "Vestido Cetim",
     slug: "vestido-cetim",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Vestido",
-    price: 279.90,
+    price: 559.80,
     description: "Vestido Cetim do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% POLIÉSTER",
     images: [
@@ -4688,14 +4688,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 242,
+    id: 188,
     code: "39769",
     name: "Vestido Sem Alça",
     slug: "vestido-sem-alca",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Vestido",
-    price: 269.90,
+    price: 539.80,
     description: "Vestido Sem Alça do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "87% POLIAMIDA 13% ELASTANO",
     images: [
@@ -4713,14 +4713,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 243,
+    id: 189,
     code: "39726",
     name: "Vestido Capa",
     slug: "vestido-capa",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Vestido",
-    price: 249.90,
+    price: 499.80,
     description: "Vestido Capa do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "97% POLIÉSTER 3% ELASTANO",
     images: [
@@ -4739,14 +4739,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 244,
+    id: 190,
     code: "39753",
     name: "Vestido Longo Malha",
     slug: "vestido-longo-malha",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Vestido",
-    price: 399.90,
+    price: 799.80,
     description: "Vestido Longo Malha do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "90% POLIAMIDA 10% ELASTANO",
     images: [
@@ -4763,14 +4763,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 245,
+    id: 191,
     code: "39754",
     name: "Macacão Sem Alças",
     slug: "macacao-sem-alcas",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Macacão",
-    price: 249.90,
+    price: 499.80,
     description: "Macacão Sem Alças do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "93% POLIÉSTER 7% ELASTANO",
     images: [
@@ -4789,14 +4789,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 246,
+    id: 192,
     code: "39693",
     name: "Túnica Jacquard",
     slug: "tunica-jacquard",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Túnica",
-    price: 219.90,
+    price: 439.80,
     description: "Túnica Jacquard do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "77% VISCOSE 23% POLIAMIDA",
     images: [
@@ -4815,14 +4815,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 247,
+    id: 193,
     code: "39692",
     name: "Calça Jacquard",
     slug: "calca-jacquard",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 179.90,
+    price: 359.80,
     description: "Calça Jacquard do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "77% VISCOSE 23% POLIAMIDA",
     images: [
@@ -4841,14 +4841,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 248,
+    id: 194,
     code: "39737",
     name: "Colete Alfaiataria",
     slug: "colete-alfaiataria",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Colete",
-    price: 239.90,
+    price: 479.80,
     description: "Colete Alfaiataria do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "50% ALGODÃO 47% POLIAMIDA 3% ELASTANO",
     images: [
@@ -4865,14 +4865,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 249,
+    id: 195,
     code: "39732",
     name: "Shorts Alfaiataria",
     slug: "shorts-alfaiataria",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Shorts",
-    price: 179.90,
+    price: 359.80,
     description: "Shorts Alfaiataria do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "50% ALGODÃO 47% POLIAMIDA 3% ELASTANO",
     images: [
@@ -4889,14 +4889,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 250,
+    id: 196,
     code: "39750",
     name: "Vestido Lastex",
     slug: "vestido-lastex",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Vestido",
-    price: 299.90,
+    price: 599.80,
     description: "Vestido Lastex do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "71% LIOCEL 18% POLIAMIDA 11% LINHO",
     images: [
@@ -4915,14 +4915,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 251,
+    id: 197,
     code: "39704",
     name: "Capa Renda",
     slug: "capa-renda",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Capa",
-    price: 139.90,
+    price: 279.80,
     description: "Capa Renda do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "65% ALGODÃO 35% POLIAMIDA",
     images: [
@@ -4938,14 +4938,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 252,
+    id: 198,
     code: "39703",
     name: "Calça Harem Renda",
     slug: "calca-harem-renda",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 229.90,
+    price: 459.80,
     description: "Calça Harem Renda do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "65% ALGODÃO 35% POLIAMIDA",
     images: [
@@ -4961,14 +4961,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 253,
+    id: 199,
     code: "39747",
     name: "Blusa Ombro A Ombro",
     slug: "blusa-ombro-a-ombro",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Blusa",
-    price: 159.90,
+    price: 319.80,
     description: "Blusa Ombro A Ombro do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% ALGODÃO",
     images: [
@@ -4984,14 +4984,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 254,
+    id: 200,
     code: "39729",
     name: "Calça Envelope",
     slug: "calca-envelope",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 249.90,
+    price: 499.80,
     description: "Calça Envelope do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "92% VISCOSE 8% POLIÉSTER",
     images: [
@@ -5007,14 +5007,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 255,
+    id: 201,
     code: "39751",
     name: "Body",
     slug: "body",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Body",
-    price: 169.90,
+    price: 339.80,
     description: "Body do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "95% POLIAMIDA 5% ELASTANO",
     images: [
@@ -5031,14 +5031,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 256,
+    id: 202,
     code: "39725",
     name: "Calça Peplum",
     slug: "calca-peplum",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 289.90,
+    price: 579.80,
     description: "Calça Peplum do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% VISCOSE",
     images: [
@@ -5054,14 +5054,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 257,
+    id: 203,
     code: "39738",
     name: "Saia Peplum",
     slug: "saia-peplum",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Saia",
-    price: 199.90,
+    price: 399.80,
     description: "Saia Peplum do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "50% ALGODÃO 47% POLIAMIDA 3% ELASTANO",
     images: [
@@ -5080,14 +5080,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 258,
+    id: 204,
     code: "39723",
     name: "Body Camisa",
     slug: "body-camisa",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Body",
-    price: 199.90,
+    price: 399.80,
     description: "Body Camisa do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "100% ALGODÃO",
     images: [
@@ -5107,14 +5107,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 259,
+    id: 205,
     code: "39701",
     name: "Túnica Zebra",
     slug: "tunica-zebra",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Túnica",
-    price: 189.90,
+    price: 379.80,
     description: "Túnica Zebra do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "97% POLIÉSTER 3% ELASTANO",
     images: [
@@ -5131,14 +5131,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 260,
+    id: 206,
     code: "39700",
     name: "Calça Tule Zebra",
     slug: "calca-tule-zebra",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Calça",
-    price: 149.90,
+    price: 299.80,
     description: "Calça Tule Zebra do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "97% POLIÉSTER 3% ELASTANO",
     images: [
@@ -5155,14 +5155,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 261,
+    id: 207,
     code: "39734",
     name: "Biquini",
     slug: "biquini",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Biquíni",
-    price: 129.90,
+    price: 259.80,
     description: "Biquini do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "95% POLIAMIDA 5% ELASTANO",
     images: [
@@ -5182,14 +5182,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 262,
+    id: 208,
     code: "39744",
     name: "Conjunto Tricot",
     slug: "conjunto-tricot",
     brand: "esmeral",
     catalog: "Thaci Mesquita",
     category: "Conjunto",
-    price: 299.90,
+    price: 599.80,
     description: "Conjunto Tricot do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "96% VISCOSE 4% ELASTANO",
     images: [
@@ -5206,14 +5206,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 263,
+    id: 209,
     code: "8223",
     name: "T-Shirt Mia",
     slug: "t-shirt-mia",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "T-shirt",
-    price: 89.90,
+    price: 179.80,
     description: "T-Shirt Mia do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5235,14 +5235,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 264,
+    id: 210,
     code: "8513",
     name: "Calça Carla",
     slug: "calca-carla",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 199.90,
+    price: 399.80,
     description: "Calça Carla do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40",
     images: [
@@ -5261,14 +5261,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 265,
+    id: 211,
     code: "8231",
     name: "Blusa Lana",
     slug: "blusa-lana",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 149.90,
+    price: 299.80,
     description: "Blusa Lana do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5295,14 +5295,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 266,
+    id: 212,
     code: "8232",
     name: "Calça Lana",
     slug: "calca-lana",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 189.90,
+    price: 379.80,
     description: "Calça Lana do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5330,14 +5330,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 267,
+    id: 213,
     code: "8251",
     name: "Regata Olga",
     slug: "regata-olga",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 119.90,
+    price: 239.80,
     description: "Regata Olga do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5358,14 +5358,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 268,
+    id: 214,
     code: "8252",
     name: "Calça Olga",
     slug: "calca-olga",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 199.90,
+    price: 399.80,
     description: "Calça Olga do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5385,14 +5385,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 269,
+    id: 215,
     code: "8221",
     name: "Blusa Luiza",
     slug: "blusa-luiza",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 139.90,
+    price: 279.80,
     description: "Blusa Luiza do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5413,14 +5413,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 270,
+    id: 216,
     code: "8222",
     name: "Saia Luiza",
     slug: "saia-luiza",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Saia",
-    price: 199.90,
+    price: 399.80,
     description: "Saia Luiza do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5441,14 +5441,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 271,
+    id: 217,
     code: "8248",
     name: "Vestido Sonia",
     slug: "vestido-sonia",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Vestido",
-    price: 299.90,
+    price: 599.80,
     description: "Vestido Sonia do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5467,14 +5467,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 272,
+    id: 218,
     code: "8227",
     name: "Frente Única Nívea",
     slug: "frente-unica-nivea",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 169.90,
+    price: 339.80,
     description: "Frente Única Nívea do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5498,14 +5498,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 273,
+    id: 219,
     code: "8228",
     name: "Calça Nívea",
     slug: "calca-nivea",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 209.90,
+    price: 419.80,
     description: "Calça Nívea do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5528,14 +5528,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 274,
+    id: 220,
     code: "8240",
     name: "Regata Bruna",
     slug: "regata-bruna",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 179.90,
+    price: 359.80,
     description: "Regata Bruna do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5555,14 +5555,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 275,
+    id: 221,
     code: "8241",
     name: "Calça Bruna",
     slug: "calca-bruna",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 189.90,
+    price: 379.80,
     description: "Calça Bruna do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5581,14 +5581,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 276,
+    id: 222,
     code: "8219",
     name: "Regata Nati",
     slug: "regata-nati",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 159.90,
+    price: 319.80,
     description: "Regata Nati do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5609,14 +5609,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 277,
+    id: 223,
     code: "8220",
     name: "Calça Nati",
     slug: "calca-nati",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 199.90,
+    price: 399.80,
     description: "Calça Nati do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5638,14 +5638,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 278,
+    id: 224,
     code: "8229",
     name: "Blusa Poly",
     slug: "blusa-poly",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 99.90,
+    price: 199.80,
     description: "Blusa Poly do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5667,14 +5667,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 279,
+    id: 225,
     code: "8230",
     name: "Calça Poly",
     slug: "calca-poly",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 169.90,
+    price: 339.80,
     description: "Calça Poly do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5695,14 +5695,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 280,
+    id: 226,
     code: "8233",
     name: "Regata Bela",
     slug: "regata-bela",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 129.90,
+    price: 259.80,
     description: "Regata Bela do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5731,14 +5731,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 281,
+    id: 227,
     code: "8235",
     name: "Calça Bela",
     slug: "calca-bela",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 199.90,
+    price: 399.80,
     description: "Calça Bela do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5767,14 +5767,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 282,
+    id: 228,
     code: "8236",
     name: "Macacão Ludi",
     slug: "macacao-ludi",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Macacão",
-    price: 259.90,
+    price: 519.80,
     description: "Macacão Ludi do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5794,14 +5794,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 283,
+    id: 229,
     code: "8199",
     name: "Blusa Jes",
     slug: "blusa-jes",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 109.90,
+    price: 219.80,
     description: "Blusa Jes do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5821,14 +5821,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 284,
+    id: 230,
     code: "8243",
     name: "Calça Renata",
     slug: "calca-renata",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 189.90,
+    price: 379.80,
     description: "Calça Renata do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5850,14 +5850,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 285,
+    id: 231,
     code: "8097",
     name: "Regata Jes",
     slug: "regata-jes",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 49.90,
+    price: 99.80,
     description: "Regata Jes do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5880,14 +5880,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 286,
+    id: 232,
     code: "8234",
     name: "Blusa Bela",
     slug: "blusa-bela",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 149.90,
+    price: 299.80,
     description: "Blusa Bela do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5909,14 +5909,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 287,
+    id: 233,
     code: "8126",
     name: "Blusa Paloma",
     slug: "blusa-paloma",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 89.90,
+    price: 179.80,
     description: "Blusa Paloma do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5937,14 +5937,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 288,
+    id: 234,
     code: "8127",
     name: "Regata Paloma",
     slug: "regata-paloma",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 79.90,
+    price: 159.80,
     description: "Regata Paloma do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5963,14 +5963,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 289,
+    id: 235,
     code: "8128",
     name: "Body Paloma",
     slug: "body-paloma",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Body",
-    price: 86.90,
+    price: 173.80,
     description: "Body Paloma do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -5989,14 +5989,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 290,
+    id: 236,
     code: "8242",
     name: "Body Renata",
     slug: "body-renata",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Body",
-    price: 109.90,
+    price: 219.80,
     description: "Body Renata do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6018,14 +6018,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 291,
+    id: 237,
     code: "8268",
     name: "Frente Única",
     slug: "frente-unica",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 189.90,
+    price: 379.80,
     description: "Frente Única do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6052,14 +6052,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 292,
+    id: 238,
     code: "8270",
     name: "Calça Joy",
     slug: "calca-joy",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 189.90,
+    price: 379.80,
     description: "Calça Joy do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6088,14 +6088,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 293,
+    id: 239,
     code: "8269",
     name: "Saia Joy",
     slug: "saia-joy",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Saia",
-    price: 169.90,
+    price: 339.80,
     description: "Saia Joy do catálogo Kaele | The Greek Escape - Summer Edition 14.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6115,14 +6115,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-14"
   },
   {
-    id: 294,
+    id: 240,
     code: "8237",
     name: "Vestido Nicole",
     slug: "vestido-nicole",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Vestido",
-    price: 179.90,
+    price: 359.80,
     description: "Vestido Nicole do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6144,14 +6144,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 295,
+    id: 241,
     code: "8260",
     name: "Regata Ester",
     slug: "regata-ester",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 159.90,
+    price: 319.80,
     description: "Regata Ester do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6177,14 +6177,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 296,
+    id: 242,
     code: "8261",
     name: "Calça Ester",
     slug: "calca-ester",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 199.90,
+    price: 399.80,
     description: "Calça Ester do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6211,14 +6211,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 297,
+    id: 243,
     code: "8259",
     name: "Vestido Ester",
     slug: "vestido-ester",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Vestido",
-    price: 249.90,
+    price: 499.80,
     description: "Vestido Ester do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6237,14 +6237,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 298,
+    id: 244,
     code: "8192",
     name: "Blusa Liana",
     slug: "blusa-liana",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 169.90,
+    price: 339.80,
     description: "Blusa Liana do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6269,14 +6269,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 299,
+    id: 245,
     code: "8193",
     name: "Saia Liana",
     slug: "saia-liana",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Saia",
-    price: 179.90,
+    price: 359.80,
     description: "Saia Liana do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6300,14 +6300,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 300,
+    id: 246,
     code: "8194",
     name: "Vestido Liana",
     slug: "vestido-liana",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Vestido",
-    price: 189.90,
+    price: 379.80,
     description: "Vestido Liana do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6330,14 +6330,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 301,
+    id: 247,
     code: "8225",
     name: "Blusa Mia",
     slug: "blusa-mia",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 169.90,
+    price: 339.80,
     description: "Blusa Mia do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6363,14 +6363,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 302,
+    id: 248,
     code: "8226",
     name: "Calça Mia",
     slug: "calca-mia",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 189.90,
+    price: 379.80,
     description: "Calça Mia do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6397,14 +6397,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 303,
+    id: 249,
     code: "8184",
     name: "Colete Maisa",
     slug: "colete-maisa",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Colete",
-    price: 159.90,
+    price: 319.80,
     description: "Colete Maisa do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6425,14 +6425,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 304,
+    id: 250,
     code: "8185",
     name: "Calça Maisa",
     slug: "calca-maisa",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 209.90,
+    price: 419.80,
     description: "Calça Maisa do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6453,14 +6453,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 305,
+    id: 251,
     code: "8238",
     name: "Regata Nicole",
     slug: "regata-nicole",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 89.90,
+    price: 179.80,
     description: "Regata Nicole do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6479,14 +6479,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 306,
+    id: 252,
     code: "8255",
     name: "Calça Mira",
     slug: "calca-mira",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 159.90,
+    price: 319.80,
     description: "Calça Mira do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6508,14 +6508,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 307,
+    id: 253,
     code: "8197",
     name: "Blusa Luma",
     slug: "blusa-luma",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 159.90,
+    price: 319.80,
     description: "Blusa Luma do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6534,14 +6534,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 308,
+    id: 254,
     code: "8198",
     name: "Bermuda Luma",
     slug: "bermuda-luma",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Bermuda",
-    price: 159.90,
+    price: 319.80,
     description: "Bermuda Luma do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6560,14 +6560,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 309,
+    id: 255,
     code: "8246",
     name: "Colete Marta",
     slug: "colete-marta",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Colete",
-    price: 199.90,
+    price: 399.80,
     description: "Colete Marta do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6588,14 +6588,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 310,
+    id: 256,
     code: "8247",
     name: "Calça Marta",
     slug: "calca-marta",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 229.90,
+    price: 459.80,
     description: "Calça Marta do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6615,14 +6615,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 311,
+    id: 257,
     code: "8512",
     name: "Bermuda Sasha",
     slug: "bermuda-sasha",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Bermuda",
-    price: 179.90,
+    price: 359.80,
     description: "Bermuda Sasha do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40",
     images: [
@@ -6640,14 +6640,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 312,
+    id: 258,
     code: "8256",
     name: "Vestido Mira",
     slug: "vestido-mira",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Vestido",
-    price: 219.90,
+    price: 439.80,
     description: "Vestido Mira do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6671,14 +6671,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 313,
+    id: 259,
     code: "8254",
     name: "Top Mira",
     slug: "top-mira",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Top",
-    price: 99.90,
+    price: 199.80,
     description: "Top Mira do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6698,14 +6698,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 314,
+    id: 260,
     code: "8249",
     name: "Regata Helen",
     slug: "regata-helen",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 179.90,
+    price: 359.80,
     description: "Regata Helen do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6726,14 +6726,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 315,
+    id: 261,
     code: "8250",
     name: "Calça Helen",
     slug: "calca-helen",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 239.90,
+    price: 479.80,
     description: "Calça Helen do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6754,14 +6754,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 316,
+    id: 262,
     code: "8245",
     name: "Calça Paola",
     slug: "calca-paola",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 189.90,
+    price: 379.80,
     description: "Calça Paola do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6783,14 +6783,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 317,
+    id: 263,
     code: "8257",
     name: "Regata Gabi",
     slug: "regata-gabi",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 179.90,
+    price: 359.80,
     description: "Regata Gabi do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6812,14 +6812,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 318,
+    id: 264,
     code: "8258",
     name: "Calça Gabi",
     slug: "calca-gabi",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Calça",
-    price: 279.90,
+    price: 559.80,
     description: "Calça Gabi do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6841,14 +6841,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 319,
+    id: 265,
     code: "8239",
     name: "Blusa Nicole",
     slug: "blusa-nicole",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Blusa",
-    price: 109.90,
+    price: 219.80,
     description: "Blusa Nicole do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6870,14 +6870,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 320,
+    id: 266,
     code: "8281",
     name: "Saia Olga",
     slug: "saia-olga",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Saia",
-    price: 189.90,
+    price: 379.80,
     description: "Saia Olga do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6900,14 +6900,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 321,
+    id: 267,
     code: "8280",
     name: "Regata Olga",
     slug: "regata-olga",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 99.90,
+    price: 199.80,
     description: "Regata Olga do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6930,14 +6930,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 322,
+    id: 268,
     code: "8244",
     name: "Regata Paola",
     slug: "regata-paola",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Regata",
-    price: 109.90,
+    price: 219.80,
     description: "Regata Paola do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6957,14 +6957,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 323,
+    id: 269,
     code: "8263",
     name: "Camisa Paola",
     slug: "camisa-paola",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Camisa",
-    price: 159.90,
+    price: 319.80,
     description: "Camisa Paola do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -6984,14 +6984,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 324,
+    id: 270,
     code: "8266",
     name: "Corset Tami",
     slug: "corset-tami",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Corset",
-    price: 149.90,
+    price: 299.80,
     description: "Corset Tami do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
@@ -7011,14 +7011,14 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-09-21"
   },
   {
-    id: 325,
+    id: 271,
     code: "8267",
     name: "Bermuda Tami",
     slug: "bermuda-tami",
     brand: "kaele",
     catalog: "The Greek Escape",
     category: "Bermuda",
-    price: 199.90,
+    price: 399.80,
     description: "Bermuda Tami do catálogo Kaele | The Greek Escape - Summer Edition 21.09.2026.",
     composition: "36 | 38 | 40 | 42",
     images: [
