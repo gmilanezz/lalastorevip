@@ -17,7 +17,7 @@ const LEGACY_BRANDS_KEY = 'admin-brands';
 const LEGACY_CATALOGS_KEY = 'admin-catalogs-by-brand';
 
 const DEFAULT_STATE: CatalogState = {
-  brands: ['Cashier', 'Esmeral', 'Kaele', 'Mysk', 'Rock Lola'],
+  brands: ['Cashier', 'Esmeral', 'Kaele', 'Mysk', 'Rock Lola', 'Outras Peças'],
   catalogs: [
     { brand: 'Esmeral', catalog: 'Summer Dream' },
     { brand: 'Esmeral', catalog: 'A Summer with Nat Bars' },
@@ -25,6 +25,7 @@ const DEFAULT_STATE: CatalogState = {
     { brand: 'Kaele', catalog: 'Mamá Castilho' },
     { brand: 'Esmeral', catalog: 'Basic' },
     { brand: 'Mysk', catalog: 'Summer 27' },
+    { brand: 'Outras Peças', catalog: 'Looks Em Estoque' },
   ]
 };
 
@@ -118,7 +119,6 @@ export class CatalogService {
     const current = this.stateSubject.value;
 
     const nextState: CatalogState = {
-      // A marca continua existindo mesmo se ficar sem catálogos.
       brands: [...current.brands],
       catalogs: current.catalogs.filter(
         (item) =>
@@ -133,28 +133,30 @@ export class CatalogService {
   }
 
   private loadInitialState(): CatalogState {
-    const storedState = this.readStoredState();
-    if (storedState) {
-      return storedState;
-    }
+  const stored = localStorage.getItem(STORAGE_KEY);
 
-    const legacyBrands = this.readLegacyBrands();
-    const legacyCatalogs = this.readLegacyCatalogs();
+  if (!stored) {
+    return DEFAULT_STATE;
+  }
 
-    const initialState: CatalogState = {
+  try {
+    const parsed: CatalogState = JSON.parse(stored);
+
+    return {
       brands: this.uniqueSorted([
         ...DEFAULT_STATE.brands,
-        ...legacyBrands
+        ...parsed.brands
       ]),
+
       catalogs: this.sortCatalogs([
         ...DEFAULT_STATE.catalogs,
-        ...legacyCatalogs
+        ...parsed.catalogs
       ])
     };
-
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(initialState));
-    return initialState;
+  } catch {
+    return DEFAULT_STATE;
   }
+}
 
   private mergeState(brands: string[], catalogs: CatalogItem[]): void {
     const current = this.stateSubject.value;

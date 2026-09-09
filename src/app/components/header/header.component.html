@@ -11,10 +11,7 @@
 
           <ul class="dropdown-menu" *ngIf="brand.catalogs.length > 0">
             <li *ngFor="let catalog of brand.catalogs">
-              <a
-                [routerLink]="['/catalogo', brand.name, catalog]"
-                routerLinkActive="active-link"
-              >
+              <a [routerLink]="['/catalogo', brand.name, catalog]" routerLinkActive="active-link">
                 {{ catalog }}
               </a>
             </li>
@@ -52,27 +49,19 @@
   <nav class="mobile-menu" [ngClass]="{ active: isMobileMenuOpen }" aria-label="Menu mobile"
     (click)="$event.stopPropagation()">
     <ul class="menu-list">
-      <li
-        class="menu-item has-submenu"
-        *ngFor="let brand of brands"
-        [ngClass]="{ active: openSubmenu === brand.name }"
-      >
+      <li class="menu-item has-submenu" *ngFor="let brand of brands" [ngClass]="{ active: openSubmenu === brand.name }">
         <button class="menu-link" type="button" (click)="toggleSubmenu(brand.name)">
           {{ brand.name }}
         </button>
 
         <ul class="submenu" *ngIf="brand.catalogs.length > 0">
           <li *ngFor="let catalog of brand.catalogs">
-            <a
-              [routerLink]="['/catalogo', brand.name, catalog]"
-              (click)="closeMobileMenu()"
-            >
+            <a [routerLink]="['/catalogo', brand.name, catalog]" (click)="closeMobileMenu()">
               {{ catalog }}
             </a>
           </li>
         </ul>
       </li>
-
       <li class="menu-item has-submenu" [ngClass]="{ active: openSubmenu === 'Sobre' }">
         <button class="menu-link" type="button" (click)="toggleSubmenu('Sobre')">
           Sobre
