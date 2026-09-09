@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, map } from 'rxjs';
-import { ProductService } from './product.service';
 
 export interface CatalogItem {
   brand: string;
@@ -21,9 +20,11 @@ const DEFAULT_STATE: CatalogState = {
   catalogs: [
     { brand: 'Esmeral', catalog: 'Summer Dream' },
     { brand: 'Esmeral', catalog: 'A Summer with Nat Bars' },
+    { brand: 'Esmeral', catalog: 'Basic' },
+    { brand: 'Esmeral', catalog: 'Thaci Mesquita' },
+    { brand: 'Kaele', catalog: 'The Greek Escape' },
     { brand: 'Kaele', catalog: 'Lucentia II' },
     { brand: 'Kaele', catalog: 'Mamá Castilho' },
-    { brand: 'Esmeral', catalog: 'Basic' },
     { brand: 'Mysk', catalog: 'Summer 27' },
     { brand: 'Outras Peças', catalog: 'Looks Em Estoque' },
   ]
@@ -31,40 +32,25 @@ const DEFAULT_STATE: CatalogState = {
 
 @Injectable({ providedIn: 'root' })
 export class CatalogService {
+
   private readonly stateSubject = new BehaviorSubject<CatalogState>(
     this.loadInitialState()
   );
 
-  readonly state$: Observable<CatalogState> = this.stateSubject.asObservable();
+  readonly state$: Observable<CatalogState> =
+    this.stateSubject.asObservable();
 
-  readonly catalogs$: Observable<CatalogItem[]> = this.stateSubject.pipe(
-    map(state => state.catalogs)
-  );
+  readonly catalogs$: Observable<CatalogItem[]> =
+    this.stateSubject.pipe(
+      map(state => state.catalogs)
+    );
 
-  constructor(private readonly productService: ProductService) {
-    this.productService.products$.subscribe(products => {
-      const brands = products
-        .map(product => product.brand?.trim())
-        .filter((brand): brand is string => Boolean(brand));
-
-      const catalogs = products
-        .filter(product =>
-          Boolean(product.brand?.trim()) &&
-          Boolean(product.catalog?.trim())
-        )
-        .map(product => ({
-          brand: product.brand.trim(),
-          catalog: product.catalog.trim()
-        }));
-
-      this.mergeState(brands, catalogs);
-    });
-  }
+  // SEM CONSTRUCTOR
 
   getState(): CatalogState {
     return {
       brands: [...this.stateSubject.value.brands],
-      catalogs: this.stateSubject.value.catalogs.map((item) => ({ ...item }))
+      catalogs: this.stateSubject.value.catalogs.map(item => ({ ...item }))
     };
   }
 
@@ -133,30 +119,28 @@ export class CatalogService {
   }
 
   private loadInitialState(): CatalogState {
-  const stored = localStorage.getItem(STORAGE_KEY);
+    const storedState = this.readStoredState();
+    if (storedState) {
+      return storedState;
+    }
 
-  if (!stored) {
-    return DEFAULT_STATE;
-  }
+    const legacyBrands = this.readLegacyBrands();
+    const legacyCatalogs = this.readLegacyCatalogs();
 
-  try {
-    const parsed: CatalogState = JSON.parse(stored);
-
-    return {
+    const initialState: CatalogState = {
       brands: this.uniqueSorted([
         ...DEFAULT_STATE.brands,
-        ...parsed.brands
+        ...legacyBrands
       ]),
-
       catalogs: this.sortCatalogs([
         ...DEFAULT_STATE.catalogs,
-        ...parsed.catalogs
+        ...legacyCatalogs
       ])
     };
-  } catch {
-    return DEFAULT_STATE;
+
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(initialState));
+    return initialState;
   }
-}
 
   private mergeState(brands: string[], catalogs: CatalogItem[]): void {
     const current = this.stateSubject.value;
@@ -360,3 +344,5 @@ export class CatalogService {
       .trim();
   }
 }
+
+localStorage.removeItem('lalastorevip_catalog_state');

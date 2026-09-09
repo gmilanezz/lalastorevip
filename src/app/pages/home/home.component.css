@@ -380,7 +380,7 @@
 
   .carousel-track {
     padding-bottom: 50px;
-    margin-top: -20px;
+    margin-top: -30px;
   }
 
   .carousel-track app-product-card {
@@ -403,6 +403,17 @@
   .about-brand p {
     font-size: 1.05rem;
     margin-top: -25px;
+  }
+
+  .section-header h2{
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: 700;
+  }
+
+  .subtitle{
+    font-size: 1.2rem;
+    max-width: 300px;
   }
 }
 

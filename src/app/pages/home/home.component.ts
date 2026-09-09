@@ -29,23 +29,23 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   readonly slides = [
     {
-      desktopImage: 'assets/kaele/mama-castilho/8116-1.jpg',
-      mobileImage: 'assets/kaele/mama-castilho/8116-1.jpg',
-      alt: 'A Summer with Nat Bars',
-      link: '/catalogo/kaele/Mamá Castilho'
+      desktopImage: 'assets/kaele/thegreekescape/8223-1.jpg',
+      mobileImage: 'assets/kaele/thegreekescape/8223-1.jpg',
+      alt: 'Imagem do catálogo The Greek Escape',
+      link: '/catalogo/Kaele/The Greek Escape'
     },
     {
-      desktopImage: 'assets/kaele/mama-castilho/8134-1.jpg',
-      mobileImage: 'assets/kaele/mama-castilho/8134-1.jpg',
-      alt: 'A Summer with Nat Bars',
-      link: '/catalogo/kaele/Mamá Castilho'
+      desktopImage: 'assets/esmeral/thacimesquita/39769-4.jpg',
+      mobileImage: 'assets/esmeral/thacimesquita/39769-4.jpg',
+      alt: 'Imagem do catálgo Thaci Mesquita',
+      link: '/catalogo/Esmeral/Thaci Mesquita'
     },
     {
-      desktopImage: 'assets/kaele/mama-castilho/8202-1.jpg',
-      mobileImage: 'assets/kaele/mama-castilho/8202-1.jpg',
-      alt: 'A Summer with Nat Bars',
-      link: '/catalogo/kaele/Mamá Castilho'
-    }
+      desktopImage: 'assets/kaele/thegreekescape/8228-2.jpg',
+      mobileImage: 'assets/kaele/thegreekescape/8228-2.jpg',
+      alt: 'Imagem do catálogo The Greek Escape',
+      link: '/catalogo/Kaele/The Greek Escape'
+    },
   ];
 
   private readonly heroImages = [
@@ -69,14 +69,31 @@ export class HomeComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
-  this.featuredProducts = this.productService
-    .getProducts()
-    .filter(product =>
-      product.brand?.trim().toLowerCase() === 'kaele' &&
-      product.catalog?.trim().toLowerCase() === 'mamá castilho' &&
-      product.isActive
-    )
-    .slice(0, 8);
+    const products = this.productService
+      .getProducts()
+      .filter(product => product.isActive);
+
+    const catalogOne = products
+      .filter(product =>
+        product.brand?.trim().toLowerCase() === 'kaele' &&
+        product.catalog?.trim().toLowerCase() === 'the greek escape'
+      )
+      .slice(0, 5);
+
+    const catalogTwo = products
+      .filter(product =>
+        product.brand?.trim().toLowerCase() === 'esmeral' &&
+        product.catalog?.trim().toLowerCase() === 'thaci mesquita'
+      )
+      .slice(0, 5);
+
+    this.featuredProducts = Array.from({ length: 5 }, (_, index) => [
+      catalogOne[index],
+      catalogTwo[index]
+    ])
+      .flat()
+      .filter((product): product is Product => Boolean(product))
+      .slice(0, 10);
 
   this.catalogSubscription = this.catalogService.catalogs$.subscribe((catalogs: CatalogItem[]) => {
     this.brands = this.groupCatalogsByBrand(catalogs);
