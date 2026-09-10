@@ -29,8 +29,8 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   readonly slides = [
     {
-      desktopImage: 'assets/kaele/thegreekescape/8223-1.jpg',
-      mobileImage: 'assets/kaele/thegreekescape/8223-1.jpg',
+      desktopImage: 'assets/kaele/the-greek-escape/8194-1.jpg',
+      mobileImage: 'assets/kaele/the-greek-escape/8194-1.jpg',
       alt: 'Imagem do catálogo The Greek Escape',
       link: '/catalogo/Kaele/The Greek Escape'
     },
@@ -41,8 +41,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       link: '/catalogo/Esmeral/Thaci Mesquita'
     },
     {
-      desktopImage: 'assets/kaele/thegreekescape/8228-2.jpg',
-      mobileImage: 'assets/kaele/thegreekescape/8228-2.jpg',
+      desktopImage: 'assets/kaele/the-greek-escape/8221-1.jpg',
+      mobileImage: 'assets/kaele/the-greek-escape/8221-1.jpg',
       alt: 'Imagem do catálogo The Greek Escape',
       link: '/catalogo/Kaele/The Greek Escape'
     },
@@ -75,8 +75,8 @@ export class HomeComponent implements OnInit, OnDestroy {
 
     const catalogOne = products
       .filter(product =>
-        product.brand?.trim().toLowerCase() === 'esmeral' &&
-        product.catalog?.trim().toLowerCase() === 'mamá castilho' &&
+        product.brand?.trim().toLowerCase() === 'kaele' &&
+        product.catalog?.trim().toLowerCase() === 'the greek escape' &&
         product.images?.length > 1
       )
       .slice(0, 5);
