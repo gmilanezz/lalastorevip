@@ -4724,8 +4724,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Capa do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "97% POLIÉSTER 3% ELASTANO",
     images: [
-      "assets/esmeral/thacimesquita/39726-4.jpg",
-      "assets/esmeral/thacimesquita/39726-5.jpg",
+      "assets/esmeral/thacimesquita/39726-2.jpg",
       "assets/esmeral/thacimesquita/39726.jpg",
     ],
     colors: [
@@ -4750,6 +4749,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Longo Malha do catálogo Esmeral | Thaci Mesquita - Summer Collection 14 de setembro de 2026.",
     composition: "90% POLIAMIDA 10% ELASTANO",
     images: [
+      "assets/esmeral/thacimesquita/39753-4.jpg",
+      "assets/esmeral/thacimesquita/39753-5.jpg",
       "assets/esmeral/thacimesquita/39753.jpg",
     ],
     colors: [
