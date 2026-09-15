@@ -84,6 +84,8 @@ export class CartComponent implements OnInit, OnDestroy {
         return [
           `${index + 1}. ${product.name}`,
           `Código: ${product.code}`,
+          `Marca: ${product.brand}`,
+          `Catálogo: ${product.catalog}`,
           item.selectedColor ? `Cor: ${item.selectedColor}` : null,
           item.selectedSize ? `Tamanho: ${item.selectedSize}` : null,
           `Quantidade: ${item.quantity}`,

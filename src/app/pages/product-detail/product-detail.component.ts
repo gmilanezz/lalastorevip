@@ -29,7 +29,7 @@ export class ProductDetailComponent implements OnInit {
     private readonly cartService: CartService,
     private readonly location: Location,
     private readonly router: Router
-  ) {}
+  ) { }
 
   goToPreviousPage(): void {
     if (window.history.length > 1) {
@@ -41,14 +41,27 @@ export class ProductDetailComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.product = this.productService.getProductById(id);
+    this.route.paramMap.subscribe(params => {
+      const id = Number(params.get('id'));
 
-    if (this.product) {
-      this.selectedImage = this.product.images[0];
-      this.selectedColor = this.product.colors[0]?.name ?? '';
-      this.selectedSize = this.product.sizes[0] ?? '';
-    }
+      this.product = this.productService.getProductById(id);
+
+      if (this.product) {
+        this.selectedImage = this.product.images[0];
+        this.selectedColor = this.product.colors[0]?.name ?? '';
+        this.selectedSize = this.product.sizes[0] ?? '';
+        this.isAddedToCart = false;
+      } else {
+        this.selectedImage = '';
+        this.selectedColor = '';
+        this.selectedSize = '';
+      }
+
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
   }
 
   addToCart(): void {
