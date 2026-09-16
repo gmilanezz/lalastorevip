@@ -283,7 +283,16 @@
 
 .info-section {
   background-color: #fff;
-  padding: 60px 0;
+  padding: 20px 0 100px 0;
+  align-items: center;
+}
+
+.info-section h1{
+  color: #4A035F;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  padding: 0 0 10px 0;
 }
 
 .accordion {
