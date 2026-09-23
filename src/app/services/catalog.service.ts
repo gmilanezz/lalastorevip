@@ -26,6 +26,7 @@ const DEFAULT_STATE: CatalogState = {
     { brand: 'Kaele', catalog: 'Lucentia II' },
     { brand: 'Kaele', catalog: 'Mamá Castilho' },
     { brand: 'Mysk', catalog: 'Summer 27' },
+    { brand: 'Mysk', catalog: 'Creators Edition' },
     { brand: 'Outras Peças', catalog: 'Looks Em Estoque' },
   ]
 };
