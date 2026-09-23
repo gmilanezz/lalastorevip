@@ -29,8 +29,8 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   readonly slides = [
     {
-      desktopImage: 'assets/kaele/the-greek-escape/8194-1.jpg',
-      mobileImage: 'assets/kaele/the-greek-escape/8194-1.jpg',
+      desktopImage: 'assets/mysk/creators-edition/11094-2.jpg',
+      mobileImage: 'assets/mysk/creators-edition/11094-2.jpg',
       alt: 'Imagem do catálogo The Greek Escape',
       link: '/catalogo/Kaele/The Greek Escape'
     },
@@ -83,8 +83,8 @@ export class HomeComponent implements OnInit, OnDestroy {
 
     const catalogTwo = products
       .filter(product =>
-        product.brand?.trim().toLowerCase() === 'esmeral' &&
-        product.catalog?.trim().toLowerCase() === 'thaci mesquita' &&
+        product.brand?.trim().toLowerCase() === 'mysk' &&
+        product.catalog?.trim().toLowerCase() === 'creators edition' &&
         product.images?.length > 1
       )
       .slice(0, 5);
