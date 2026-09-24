@@ -7125,8 +7125,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Nadia do catálogo Creators Edition.",
     composition: "Linho",
     images: [
-      "assets/mysk/creators-edition/11159.jpg",
       "assets/mysk/creators-edition/11159-2.jpg",
+      "assets/mysk/creators-edition/11159.jpg",
       "assets/mysk/creators-edition/11159-3.jpg",
       "assets/mysk/creators-edition/11159-4.jpg",
       "assets/mysk/creators-edition/11159-1.jpg",
@@ -7154,8 +7154,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Nadia do catálogo Creators Edition.",
     composition: "Linho",
     images: [
-      "assets/mysk/creators-edition/11160-2.jpg",
       "assets/mysk/creators-edition/11160.jpg",
+      "assets/mysk/creators-edition/11160-2.jpg",
       "assets/mysk/creators-edition/11160-3.jpg",
       "assets/mysk/creators-edition/11160-4.jpg",
       "assets/mysk/creators-edition/11160-1.jpg",
@@ -7183,8 +7183,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Camisa Laura do catálogo Creators Edition.",
     composition: "Voil Algodão",
     images: [
-      "assets/mysk/creators-edition/11170.jpg",
       "assets/mysk/creators-edition/11170-2.jpg",
+      "assets/mysk/creators-edition/11170.jpg",
       "assets/mysk/creators-edition/11170-3.jpg",
       "assets/mysk/creators-edition/11170-4.jpg",
       "assets/mysk/creators-edition/11170-1.jpg",
@@ -7212,8 +7212,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Laura do catálogo Creators Edition.",
     composition: "Voil Algodão",
     images: [
-      "assets/mysk/creators-edition/11171-4.jpg", 
       "assets/mysk/creators-edition/11171-2.jpg",
+      "assets/mysk/creators-edition/11171-4.jpg", 
       "assets/mysk/creators-edition/11171.jpg",
       "assets/mysk/creators-edition/11171-3.jpg",
       "assets/mysk/creators-edition/11171-1.jpg",

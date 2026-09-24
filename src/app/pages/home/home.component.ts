@@ -35,14 +35,14 @@ export class HomeComponent implements OnInit, OnDestroy {
       link: '/catalogo/Kaele/The Greek Escape'
     },
     {
-      desktopImage: 'assets/esmeral/thacimesquita/39769-4.jpg',
-      mobileImage: 'assets/esmeral/thacimesquita/39769-4.jpg',
+      desktopImage: 'assets/mysk/creators-edition/11166.jpg',
+      mobileImage: 'assets/mysk/creators-edition/11166.jpg',
       alt: 'Imagem do catálgo Thaci Mesquita',
       link: '/catalogo/Esmeral/Thaci Mesquita'
     },
     {
-      desktopImage: 'assets/kaele/the-greek-escape/8221-1.jpg',
-      mobileImage: 'assets/kaele/the-greek-escape/8221-1.jpg',
+      desktopImage: 'assets/mysk/creators/edition/11173-8.jpg',
+      mobileImage: 'assets/mysk/creators/edition/11173-8.jpg',
       alt: 'Imagem do catálogo The Greek Escape',
       link: '/catalogo/Kaele/The Greek Escape'
     },
