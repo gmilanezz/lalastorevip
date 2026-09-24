@@ -41,8 +41,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       link: '/catalogo/Esmeral/Thaci Mesquita'
     },
     {
-      desktopImage: 'assets/mysk/creators/edition/11173-8.jpg',
-      mobileImage: 'assets/mysk/creators/edition/11173-8.jpg',
+      desktopImage: 'assets/mysk/creators-edition/11173-8.jpg',
+      mobileImage: 'assets/mysk/creators-edition/11173-8.jpg',
       alt: 'Imagem do catálogo The Greek Escape',
       link: '/catalogo/Kaele/The Greek Escape'
     },

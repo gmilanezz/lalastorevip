@@ -7212,9 +7212,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Laura do catálogo Creators Edition.",
     composition: "Voil Algodão",
     images: [
+      "assets/mysk/creators-edition/11171.jpg",
       "assets/mysk/creators-edition/11171-2.jpg",
       "assets/mysk/creators-edition/11171-4.jpg", 
-      "assets/mysk/creators-edition/11171.jpg",
       "assets/mysk/creators-edition/11171-3.jpg",
       "assets/mysk/creators-edition/11171-1.jpg",
     
