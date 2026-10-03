@@ -16,16 +16,12 @@ const LEGACY_BRANDS_KEY = 'admin-brands';
 const LEGACY_CATALOGS_KEY = 'admin-catalogs-by-brand';
 
 const DEFAULT_STATE: CatalogState = {
-  brands: ['Cashier', 'Esmeral', 'Kaele', 'Mysk', 'Rock Lola', 'Outras Peças'],
+  brands: ['Cashier', 'Esmeral', 'Kaele', 'Mysk', 'Outras Peças'],
   catalogs: [
-    { brand: 'Esmeral', catalog: 'Summer Dream' },
-    { brand: 'Esmeral', catalog: 'A Summer with Nat Bars' },
-    { brand: 'Esmeral', catalog: 'Basic' },
-    { brand: 'Esmeral', catalog: 'Thaci Mesquita' },
+    { brand: 'Cashier', catalog: 'Golden Hours' },
+    { brand: 'Esmeral', catalog: 'Alto Verão 27' },
     { brand: 'Kaele', catalog: 'The Greek Escape' },
-    { brand: 'Kaele', catalog: 'Lucentia II' },
-    { brand: 'Kaele', catalog: 'Mamá Castilho' },
-    { brand: 'Mysk', catalog: 'Summer 27' },
+    { brand: 'Kaele', catalog: 'Chapter One' },
     { brand: 'Mysk', catalog: 'Creators Edition' },
     { brand: 'Mysk', catalog: 'Creators Edition - Drop 02' },
     { brand: 'Outras Peças', catalog: 'Looks Em Estoque' },
