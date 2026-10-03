@@ -27,6 +27,7 @@ const DEFAULT_STATE: CatalogState = {
     { brand: 'Kaele', catalog: 'Mamá Castilho' },
     { brand: 'Mysk', catalog: 'Summer 27' },
     { brand: 'Mysk', catalog: 'Creators Edition' },
+    { brand: 'Mysk', catalog: 'Creators Edition - Drop 02' },
     { brand: 'Outras Peças', catalog: 'Looks Em Estoque' },
   ]
 };
