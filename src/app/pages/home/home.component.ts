@@ -35,27 +35,27 @@ export class HomeComponent implements OnInit, OnDestroy {
       link: '/catalogo/Kaele/The Greek Escape'
     },
     {
-      desktopImage: 'assets/mysk/creators-edition/11166.jpg',
-      mobileImage: 'assets/mysk/creators-edition/11166.jpg',
+      desktopImage: 'assets/kaele/chapter-one-sunrise/8273-1.jpg',
+      mobileImage: 'assets/kaele/chapter-one-sunrise/8273-1.jpg',
       alt: 'Imagem do catálgo Thaci Mesquita',
       link: '/catalogo/Esmeral/Thaci Mesquita'
     },
     {
-      desktopImage: 'assets/mysk/creators-edition/11173-8.jpg',
-      mobileImage: 'assets/mysk/creators-edition/11173-8.jpg',
+      desktopImage: 'assets/esmeral/alto-verao-27/39785-1.jpg',
+      mobileImage: 'assets/esmeral/alto-verao-27/39785-1.jpg',
       alt: 'Imagem do catálogo The Greek Escape',
       link: '/catalogo/Kaele/The Greek Escape'
     },
   ];
 
   private readonly heroImages = [
-    'assets/kaele/mama-castilho/8115-1.jpg',
-    'assets/kaele/mama-castilho/8514-1.jpg',
-    'assets/kaele/mama-castilho/8134-1.jpg',
-    'assets/kaele/mama-castilho/8143-1.jpg',
-    'assets/kaele/mama-castilho/8189-1.jpg',
-    'assets/kaele/mama-castilho/8173-1.jpg',
-    'assets/kaele/mama-castilho/8211-1.jpg'
+    'assets/mysk/creators-edition-drop-02/11108-1.jpg',
+    'assets/mysk/creators-edition-drop-02/11200-1.jpg',
+    'assets/mysk/creators-edition-drop-02/11203-1.jpg',
+    'assets/mysk/creators-edition-drop-02/11216-1.jpg',
+    'assets/mysk/creators-edition-drop-02/11225-1.jpg',
+    'assets/mysk/creators-edition-drop-02/11228-1.jpg',
+    'assets/mysk/creators-edition-drop-02/11234-1.jpg'
   ];
 
   readonly heroSlides = [...this.heroImages, ...this.heroImages];
@@ -76,7 +76,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     const catalogOne = products
       .filter(product =>
         product.brand?.trim().toLowerCase() === 'kaele' &&
-        product.catalog?.trim().toLowerCase() === 'the greek escape' &&
+        product.catalog?.trim().toLowerCase() === 'chapter one' &&
         product.images?.length > 1
       )
       .slice(0, 5);
@@ -84,7 +84,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     const catalogTwo = products
       .filter(product =>
         product.brand?.trim().toLowerCase() === 'mysk' &&
-        product.catalog?.trim().toLowerCase() === 'creators edition' &&
+        product.catalog?.trim().toLowerCase() === 'creators edition - drop 02' &&
         product.images?.length > 1
       )
       .slice(0, 5);
