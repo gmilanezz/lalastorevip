@@ -49,13 +49,13 @@ export class HomeComponent implements OnInit, OnDestroy {
   ];
 
   private readonly heroImages = [
-    'assets/mysk/creators-edition-drop-02/11108-1.jpg',
-    'assets/mysk/creators-edition-drop-02/11200-1.jpg',
-    'assets/mysk/creators-edition-drop-02/11203-1.jpg',
-    'assets/mysk/creators-edition-drop-02/11216-1.jpg',
-    'assets/mysk/creators-edition-drop-02/11225-1.jpg',
-    'assets/mysk/creators-edition-drop-02/11228-1.jpg',
-    'assets/mysk/creators-edition-drop-02/11234-1.jpg'
+    'assets/mysk/creators-edition-drop-02/11246-4.jpg',
+    'assets/mysk/creators-edition-drop-02/11246-3.jpg',
+    'assets/mysk/creators-edition-drop-02/11246-5.jpg',
+    'assets/mysk/creators-edition-drop-02/11246-2.jpg',
+    'assets/mysk/creators-edition-drop-02/11246-8.jpg',
+    'assets/mysk/creators-edition-drop-02/11251-2.jpg',
+    'assets/mysk/creators-edition-drop-02/11252-3.jpg'
   ];
 
   readonly heroSlides = [...this.heroImages, ...this.heroImages];
