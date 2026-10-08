@@ -16,7 +16,7 @@ const LEGACY_BRANDS_KEY = 'admin-brands';
 const LEGACY_CATALOGS_KEY = 'admin-catalogs-by-brand';
 
 const DEFAULT_STATE: CatalogState = {
-  brands: ['Cashier', 'Esmeral', 'Kaele', 'Mysk', 'Outras Peças'],
+  brands: ['Cashier', 'Esmeral', 'Kaele', 'Mysk', 'Kesses'],
   catalogs: [
     { brand: 'Cashier', catalog: 'Golden Hours' },
     { brand: 'Esmeral', catalog: 'Alto Verão 27' },
@@ -24,7 +24,7 @@ const DEFAULT_STATE: CatalogState = {
     { brand: 'Kaele', catalog: 'Chapter One' },
     { brand: 'Mysk', catalog: 'Creators Edition' },
     { brand: 'Mysk', catalog: 'Creators Edition - Drop 02' },
-    { brand: 'Outras Peças', catalog: 'Looks Em Estoque' },
+    { brand: 'Kesses', catalog: 'Catálogo 1' },
   ]
 };
 
