@@ -5498,5 +5498,2029 @@ export const MOCK_PRODUCTS: Product[] = [
     stock: 5,
     isActive: true,
     createdAt: "2026-10-08"
+  },
+  {
+    "id": 208,
+    "code": "11255",
+    "name": "Vestido Mara",
+    "slug": "vestido-mara-11255",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Vestido",
+    "price": 479.8,
+    "description": "Vestido Mara do catálogo MYSK | Summer 27.",
+    "composition": "marfino, choco e preto Tule 96% Poliéster 4% Elastano",
+    "images": [
+      "assets/mysk/summer-27/11255-1.jpg",
+      "assets/mysk/summer-27/11255-2.jpg",
+      "assets/mysk/summer-27/11255-3.jpg",
+      "assets/mysk/summer-27/11255-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Marfino",
+        "hex": "#F7F1E5"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 209,
+    "code": "11257",
+    "name": "Blusa Malu",
+    "slug": "blusa-malu-11257",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Blusa",
+    "price": 239.8,
+    "description": "Blusa Malu do catálogo MYSK | Summer 27.",
+    "composition": "creme e choco Crepe Texturizado 100% Poliéster",
+    "images": [
+      "assets/mysk/summer-27/11257-2.jpg",
+      "assets/mysk/summer-27/11257-1.jpg",
+      "assets/mysk/summer-27/11257-3.jpg",
+      "assets/mysk/summer-27/11257-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Creme",
+        "hex": "#F3E9DA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 210,
+    "code": "11258",
+    "name": "Calça Malu",
+    "slug": "calca-malu-11258",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Calça",
+    "price": 439.8,
+    "description": "Calça Malu do catálogo MYSK | Summer 27.",
+    "composition": "creme e choco Crepe Texturizado 100% Poliéster",
+    "images": [
+      "assets/mysk/summer-27/11258-1.jpg",
+      "assets/mysk/summer-27/11258-2.jpg",
+      "assets/mysk/summer-27/11258-3.jpg",
+      "assets/mysk/summer-27/11258-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Creme",
+        "hex": "#F3E9DA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 211,
+    "code": "11270",
+    "name": "Top Frente Única Adelia",
+    "slug": "top-frente-unica-adelia-11270",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Top",
+    "price": 319.8,
+    "description": "Top Frente Única Adelia do catálogo MYSK | Summer 27.",
+    "composition": "preto Chiffon Bordado 66% Algodão 34% Poliéster",
+    "images": [
+      "assets/mysk/summer-27/11270-3.jpg",
+      "assets/mysk/summer-27/11270-2.jpg",
+      "assets/mysk/summer-27/11270-1.jpg",
+      "assets/mysk/summer-27/11270-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 212,
+    "code": "11271",
+    "name": "Calça Adelia",
+    "slug": "calca-adelia-11271",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Calça",
+    "price": 539.8,
+    "description": "Calça Adelia do catálogo MYSK | Summer 27.",
+    "composition": "preto Chiffon Bordado 66% Algodão 34% Poliéster",
+    "images": [
+      "assets/mysk/summer-27/11271-3.jpg",
+      "assets/mysk/summer-27/11271-1.jpg",
+      "assets/mysk/summer-27/11271-2.jpg",
+      "assets/mysk/summer-27/11271-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 213,
+    "code": "11184",
+    "name": "Top Pietra",
+    "slug": "top-pietra-11184",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Top",
+    "price": 319.8,
+    "description": "Top Pietra do catálogo MYSK | Summer 27.",
+    "composition": "off e choco Viscotexture 100% Viscose",
+    "images": [
+      "assets/mysk/summer-27/11184-1.jpg",
+      "assets/mysk/summer-27/11184-2.jpg",
+      "assets/mysk/summer-27/11184-3.jpg",
+      "assets/mysk/summer-27/11184-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 214,
+    "code": "11185",
+    "name": "Calça Pietra",
+    "slug": "calca-pietra-11185",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Calça",
+    "price": 399.8,
+    "description": "Calça Pietra do catálogo MYSK | Summer 27.",
+    "composition": "off e choco Viscotexture 100% Viscose",
+    "images": [
+      "assets/mysk/summer-27/11185-2.jpg",
+      "assets/mysk/summer-27/11185-1.jpg",
+      "assets/mysk/summer-27/11185-3.jpg",
+      "assets/mysk/summer-27/11185-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 215,
+    "code": "11247",
+    "name": "Vestido Fran",
+    "slug": "vestido-fran-11247",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Vestido",
+    "price": 499.8,
+    "description": "Vestido Fran do catálogo MYSK | Summer 27.",
+    "composition": "off, marrom e azul Malha Fru Fru 97% Poliéster 3% Elastano",
+    "images": [
+      "assets/mysk/summer-27/11247-1.jpg",
+      "assets/mysk/summer-27/11247-2.jpg",
+      "assets/mysk/summer-27/11247-3.jpg",
+      "assets/mysk/summer-27/11247-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Azul",
+        "hex": "#668CC0"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#79523F"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 216,
+    "code": "11248",
+    "name": "Regata Denise",
+    "slug": "regata-denise-11248",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Regata",
+    "price": 299.8,
+    "description": "Regata Denise do catálogo MYSK | Summer 27.",
+    "composition": "rosa, aveia e choco Linho 70% Viscose 25% Linho 5% Algodão",
+    "images": [
+      "assets/mysk/summer-27/11248-3.jpg",
+      "assets/mysk/summer-27/11248-1.jpg",
+      "assets/mysk/summer-27/11248-2.jpg",
+      "assets/mysk/summer-27/11248-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E9A8B6"
+      },
+      {
+        "name": "Aveia",
+        "hex": "#D8CDB8"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 217,
+    "code": "11249",
+    "name": "Calça Denise",
+    "slug": "calca-denise-11249",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Calça",
+    "price": 379.8,
+    "description": "Calça Denise do catálogo MYSK | Summer 27.",
+    "composition": "Linho 70% Viscose 25% Linho 5% Algodão rosa, aveia e choco",
+    "images": [
+      "assets/mysk/summer-27/11249-2.jpg",
+      "assets/mysk/summer-27/11249-1.jpg",
+      "assets/mysk/summer-27/11249-3.jpg",
+      "assets/mysk/summer-27/11249-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E9A8B6"
+      },
+      {
+        "name": "Aveia",
+        "hex": "#D8CDB8"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 218,
+    "code": "11250",
+    "name": "Vestido Denise",
+    "slug": "vestido-denise-11250",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Vestido",
+    "price": 459.8,
+    "description": "Vestido Denise do catálogo MYSK | Summer 27.",
+    "composition": "Linho 70% Viscose 25% Linho 5% Algodão rosa, aveia e choco",
+    "images": [
+      "assets/mysk/summer-27/11250-1.jpg",
+      "assets/mysk/summer-27/11250-2.jpg",
+      "assets/mysk/summer-27/11250-3.jpg",
+      "assets/mysk/summer-27/11250-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E9A8B6"
+      },
+      {
+        "name": "Aveia",
+        "hex": "#D8CDB8"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 219,
+    "code": "11197",
+    "name": "Top Teka",
+    "slug": "top-teka-11197",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Top",
+    "price": 313.8,
+    "description": "Top Teka do catálogo MYSK | Summer 27.",
+    "composition": "rosa, camel e off Alfaiataria 100% Poliéster",
+    "images": [
+      "assets/mysk/summer-27/11197-1.jpg",
+      "assets/mysk/summer-27/11197-2.jpg",
+      "assets/mysk/summer-27/11197-3.jpg",
+      "assets/mysk/summer-27/11197-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E9A8B6"
+      },
+      {
+        "name": "Camel",
+        "hex": "#C19A6B"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 220,
+    "code": "11198",
+    "name": "Calça Teka",
+    "slug": "calca-teka-11198",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Calça",
+    "price": 439.8,
+    "description": "Calça Teka do catálogo MYSK | Summer 27.",
+    "composition": "Alfaiataria 100% Poliéster rosa, camel e off",
+    "images": [
+      "assets/mysk/summer-27/11198-3.jpg",
+      "assets/mysk/summer-27/11198-1.jpg",
+      "assets/mysk/summer-27/11198-2.jpg",
+      "assets/mysk/summer-27/11198-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E9A8B6"
+      },
+      {
+        "name": "Camel",
+        "hex": "#C19A6B"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 221,
+    "code": "11528",
+    "name": "Regata com Franja Hanna",
+    "slug": "regata-com-franja-hanna-11528",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Regata",
+    "price": 279.8,
+    "description": "Regata com Franja Hanna do catálogo MYSK | Summer 27.",
+    "composition": "Tricot 43% Acrílico 43% Poliéster 14% Viscose marrom e bege",
+    "images": [
+      "assets/mysk/summer-27/11528-3.jpg",
+      "assets/mysk/summer-27/11528-1.jpg",
+      "assets/mysk/summer-27/11528-2.jpg",
+      "assets/mysk/summer-27/11528-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Marrom",
+        "hex": "#79523F"
+      },
+      {
+        "name": "Bege",
+        "hex": "#E8D7BE"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 222,
+    "code": "11266",
+    "name": "Saia Midia Teka",
+    "slug": "saia-midia-teka-11266",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Saia",
+    "price": 439.8,
+    "description": "Saia Midia Teka do catálogo MYSK | Summer 27.",
+    "composition": "Alfaiataria 100% Poliéster rosa, camel e off",
+    "images": [
+      "assets/mysk/summer-27/11266-1.jpg",
+      "assets/mysk/summer-27/11266-2.jpg",
+      "assets/mysk/summer-27/11266-3.jpg",
+      "assets/mysk/summer-27/11266-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E9A8B6"
+      },
+      {
+        "name": "Camel",
+        "hex": "#C19A6B"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 223,
+    "code": "11537",
+    "name": "Calça com Vinco Luara",
+    "slug": "calca-com-vinco-luara-11537",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Calça",
+    "price": 399.8,
+    "description": "Calça com Vinco Luara do catálogo MYSK | Summer 27.",
+    "composition": "Jeans 100% Algodão Denim",
+    "images": [
+      "assets/mysk/summer-27/11537-1.jpg",
+      "assets/mysk/summer-27/11537-2.jpg",
+      "assets/mysk/summer-27/11537-3.jpg",
+      "assets/mysk/summer-27/11537-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Não informada",
+        "hex": "#CCCCCC"
+      }
+    ],
+    "sizes": [
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 224,
+    "code": "11275",
+    "name": "Blusa Katarina",
+    "slug": "blusa-katarina-11275",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Blusa",
+    "price": 195.8,
+    "description": "Blusa Katarina do catálogo MYSK | Summer 27.",
+    "composition": "Malha 92% Poliéster 8% Elastano fendi e off",
+    "images": [
+      "assets/mysk/summer-27/11275-2.jpg",
+      "assets/mysk/summer-27/11275-1.jpg",
+      "assets/mysk/summer-27/11275-3.jpg",
+      "assets/mysk/summer-27/11275-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Fendi",
+        "hex": "#B8A58D"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 225,
+    "code": "11240",
+    "name": "Short Renda Fly",
+    "slug": "short-renda-fly-11240",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Short",
+    "price": 279.8,
+    "description": "Short Renda Fly do catálogo MYSK | Summer 27.",
+    "composition": "Renda 45% Poliamida 35% Algodão 20% Viscose off e preto",
+    "images": [
+      "assets/mysk/summer-27/11240-1.jpg",
+      "assets/mysk/summer-27/11240-2.jpg",
+      "assets/mysk/summer-27/11240-3.jpg",
+      "assets/mysk/summer-27/11240-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 226,
+    "code": "11195",
+    "name": "Camisa Marina",
+    "slug": "camisa-marina-11195",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Camisa",
+    "price": 519.8,
+    "description": "Camisa Marina do catálogo MYSK | Summer 27.",
+    "composition": "Sarja Estampada 98% Algodão 2% Elastano choco",
+    "images": [
+      "assets/mysk/summer-27/11195-3.jpg",
+      "assets/mysk/summer-27/11195-1.jpg",
+      "assets/mysk/summer-27/11195-2.jpg",
+      "assets/mysk/summer-27/11195-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 227,
+    "code": "11196",
+    "name": "Calça Marina",
+    "slug": "calca-marina-11196",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Calça",
+    "price": 499.8,
+    "description": "Calça Marina do catálogo MYSK | Summer 27.",
+    "composition": "Sarja Estampada 98% Algodão 2% Elastano choco",
+    "images": [
+      "assets/mysk/summer-27/11196-2.jpg",
+      "assets/mysk/summer-27/11196-1.jpg",
+      "assets/mysk/summer-27/11196-3.jpg",
+      "assets/mysk/summer-27/11196-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 228,
+    "code": "11126",
+    "name": "Blusa Indy",
+    "slug": "blusa-indy-11126",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Blusa",
+    "price": 193.8,
+    "description": "Blusa Indy do catálogo MYSK | Summer 27.",
+    "composition": "Malha 100% Algodão choco, off, rosa e preto",
+    "images": [
+      "assets/mysk/summer-27/11126-3.jpg",
+      "assets/mysk/summer-27/11126-1.jpg",
+      "assets/mysk/summer-27/11126-2.jpg",
+      "assets/mysk/summer-27/11126-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E9A8B6"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 229,
+    "code": "11128",
+    "name": "Blusa Mary",
+    "slug": "blusa-mary-11128",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Blusa",
+    "price": 173.8,
+    "description": "Blusa Mary do catálogo MYSK | Summer 27.",
+    "composition": "Malha 100% Algodão choco, off, rosa e preto",
+    "images": [
+      "assets/mysk/summer-27/11128-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E9A8B6"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 230,
+    "code": "11535",
+    "name": "Shorts Sarja com Pregas",
+    "slug": "shorts-sarja-com-pregas-11535",
+    "brand": "mysk",
+    "catalog": "Summer 27",
+    "category": "Short",
+    "price": 319.8,
+    "description": "Shorts Sarja com Pregas do catálogo MYSK | Summer 27.",
+    "composition": "11535 Sarja 100% Algodão off white e marrom 34 36 38 40",
+    "images": [
+      "assets/mysk/summer-27/11535-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#79523F"
+      }
+    ],
+    "sizes": [
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 231,
+    "code": "8304",
+    "name": "Camisa Sophia ",
+    "slug": "camisa-sophia-8304",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Camisa",
+    "price": 359.8,
+    "description": "Camisa Sophia  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "liocel TURQUESA",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8304-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8304-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 232,
+    "code": "8303",
+    "name": "Calça Sophia ",
+    "slug": "calca-sophia-8303",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Calça",
+    "price": 439.8,
+    "description": "Calça Sophia  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "liocel TURQUESA",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8303-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8303-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 233,
+    "code": "8343",
+    "name": "Blusa Frente-Única Tereza ",
+    "slug": "blusa-frente-unica-tereza-8343",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Blusa",
+    "price": 279.8,
+    "description": "Blusa Frente-Única Tereza  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "viscose",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8343-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8343-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 234,
+    "code": "8344",
+    "name": "Calça Tereza ",
+    "slug": "calca-tereza-8344",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Calça",
+    "price": 399.8,
+    "description": "Calça Tereza  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "viscose",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8344-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8341-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8341-3.jpg",
+      "assets/kaele/chapter-two-turquoise/8344-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 235,
+    "code": "8345",
+    "name": "Vestido Tereza ",
+    "slug": "vestido-tereza-8345",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Vestido",
+    "price": 479.8,
+    "description": "Vestido Tereza  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "viscose TURQUESA PRETO TURQUESA TURQUESA",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8345-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8345-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8345-3.jpg",
+      "assets/kaele/chapter-two-turquoise/8345-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 236,
+    "code": "8319",
+    "name": "Regata Corina ",
+    "slug": "regata-corina-8319",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Regata",
+    "price": 259.8,
+    "description": "Regata Corina  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "liocel TURQUESA",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8341-3.jpg",
+      "assets/kaele/chapter-two-turquoise/8341-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8319-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8319-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8319-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 237,
+    "code": "8320",
+    "name": "Saia Corina ",
+    "slug": "saia-corina-8320",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Saia",
+    "price": 279.8,
+    "description": "Saia Corina  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "liocel TURQUESA",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8320-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8320-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8320-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 238,
+    "code": "8341",
+    "name": "Blusa Eliza ",
+    "slug": "blusa-eliza-8341",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Blusa",
+    "price": 399.8,
+    "description": "Blusa Eliza  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "paetê *acompanha top",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8341-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8341-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Azul",
+        "hex": "#668CC0"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 239,
+    "code": "8348",
+    "name": "T-Shirt Sea You Soon ",
+    "slug": "t-shirt-sea-you-soon-8348",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "T-Shirt",
+    "price": 159.8,
+    "description": "T-Shirt Sea You Soon  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "algodão",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8348-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8348-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8348-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 240,
+    "code": "8342",
+    "name": "Short Eliza ",
+    "slug": "short-eliza-8342",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Short",
+    "price": 319.8,
+    "description": "Short Eliza  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "paetê AZUL OFF",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8342-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8342-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8342-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Azul",
+        "hex": "#668CC0"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 241,
+    "code": "8318",
+    "name": "Vestido Mara ",
+    "slug": "vestido-mara-8318",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Vestido",
+    "price": 499.8,
+    "description": "Vestido Mara  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "tela crochet",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8317-3.jpg",
+      "assets/kaele/chapter-two-turquoise/8318-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8318-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 242,
+    "code": "8317",
+    "name": "Vestido Pamela ",
+    "slug": "vestido-pamela-8317",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Vestido",
+    "price": 399.8,
+    "description": "Vestido Pamela  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "tela de crochet",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8317-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8317-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8317-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 243,
+    "code": "8314",
+    "name": "Vestido Thici ",
+    "slug": "vestido-thici-8314",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Vestido",
+    "price": 559.8,
+    "description": "Vestido Thici  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "crepe",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8353-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8353-3.jpg",
+      "assets/kaele/chapter-two-turquoise/8314-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8314-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 244,
+    "code": "8353",
+    "name": "Blusa Mara ",
+    "slug": "blusa-mara-8353",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Blusa",
+    "price": 219.8,
+    "description": "Blusa Mara  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "viscose com elastano",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8353-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Azul",
+        "hex": "#668CC0"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 245,
+    "code": "8316",
+    "name": "Regata Debora ",
+    "slug": "regata-debora-8316",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Regata",
+    "price": 339.8,
+    "description": "Regata Debora  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "renda",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8316-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8316-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8316-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Azul",
+        "hex": "#668CC0"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 246,
+    "code": "8340",
+    "name": "Saia Debora ",
+    "slug": "saia-debora-8340",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Saia",
+    "price": 439.8,
+    "description": "Saia Debora  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "renda AZUL PRETO",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8340-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8340-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8340-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Azul",
+        "hex": "#668CC0"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 247,
+    "code": "8297",
+    "name": "Saia Bia ",
+    "slug": "saia-bia-8297",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Saia",
+    "price": 439.8,
+    "description": "Saia Bia  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "renda",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8297-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8297-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8297-3.jpg",
+      "assets/kaele/chapter-two-turquoise/8297-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Azul",
+        "hex": "#668CC0"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#79523F"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 248,
+    "code": "8296",
+    "name": "Corset Bia ",
+    "slug": "corset-bia-8296",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Corset",
+    "price": 299.8,
+    "description": "Corset Bia  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "renda AZUL PRETO MARROM OFF",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8296-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8296-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Azul",
+        "hex": "#668CC0"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#79523F"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 249,
+    "code": "8321",
+    "name": "Blusa Corina ",
+    "slug": "blusa-corina-8321",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Blusa",
+    "price": 239.8,
+    "description": "Blusa Corina  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "liocel",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8321-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8321-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 250,
+    "code": "8322",
+    "name": "Short Corina ",
+    "slug": "short-corina-8322",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Short",
+    "price": 239.8,
+    "description": "Short Corina  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "liocel",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8322-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8322-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Turquesa",
+        "hex": "#36B7BD"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 251,
+    "code": "8262",
+    "name": "Vestido Assimétrico Drica ",
+    "slug": "vestido-assimetrico-drica-8262",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Vestido",
+    "price": 399.8,
+    "description": "Vestido Assimétrico Drica  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "chifon CORAL PRETO",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8264-3.jpg",
+      "assets/kaele/chapter-two-turquoise/8262-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8262-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8262-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Aveia",
+        "hex": "#D8CDB8"
+      },
+      {
+        "name": "Coral",
+        "hex": "#F17868"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 252,
+    "code": "8264",
+    "name": "Regata Drica ",
+    "slug": "regata-drica-8264",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Regata",
+    "price": 319.8,
+    "description": "Regata Drica  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "chifon AVEIA CORAL PRETO",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8264-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8264-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Aveia",
+        "hex": "#D8CDB8"
+      },
+      {
+        "name": "Coral",
+        "hex": "#F17868"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 253,
+    "code": "8265",
+    "name": "Saia Drica ",
+    "slug": "saia-drica-8265",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Saia",
+    "price": 399.8,
+    "description": "Saia Drica  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "chifon CORAL PRETO AVEIA",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8265-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8265-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Aveia",
+        "hex": "#D8CDB8"
+      },
+      {
+        "name": "Coral",
+        "hex": "#F17868"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 254,
+    "code": "8335",
+    "name": "Vestido Rafaela ",
+    "slug": "vestido-rafaela-8335",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Vestido",
+    "price": 659.8,
+    "description": "Vestido Rafaela  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "tricoline acetinado",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8335-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8335-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Creme",
+        "hex": "#F3E9DA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 255,
+    "code": "8328",
+    "name": "Camisa Rafaela ",
+    "slug": "camisa-rafaela-8328",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Camisa",
+    "price": 379.8,
+    "description": "Camisa Rafaela  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "tricoline acetinado CREME CHOCO OFF",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8328-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8328-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Creme",
+        "hex": "#F3E9DA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 256,
+    "code": "8329",
+    "name": "Calça Rafaela ",
+    "slug": "calca-rafaela-8329",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Calça",
+    "price": 439.8,
+    "description": "Calça Rafaela  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "tricoline acetinado CREME CHOCO OFF",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8329-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8329-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      },
+      {
+        "name": "Choco",
+        "hex": "#50332A"
+      },
+      {
+        "name": "Creme",
+        "hex": "#F3E9DA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 257,
+    "code": "8312",
+    "name": "Regata Claire ",
+    "slug": "regata-claire-8312",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Regata",
+    "price": 159.8,
+    "description": "Regata Claire  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "malha de algodão e renda",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8312-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8312-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 258,
+    "code": "8518",
+    "name": "Calça Barrel Tamara ",
+    "slug": "calca-barrel-tamara-8518",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Calça",
+    "price": 399.8,
+    "description": "Calça Barrel Tamara  do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "AZUL 8518 R$ 199,90 CALÇA BARREL TAMARA 36 | 38 | 40 denin",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8518-2.jpg",
+      "assets/kaele/chapter-two-turquoise/8518-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Azul",
+        "hex": "#668CC0"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 259,
+    "code": "8298",
+    "name": "Blusa Peplum Leona",
+    "slug": "blusa-peplum-leona-8298",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Blusa",
+    "price": 319.8,
+    "description": "Blusa Peplum Leona do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "PRETO OFF 8298BLUSA PEPLUM LEONA renda de algodão",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8298-1.jpg",
+      "assets/kaele/chapter-two-turquoise/8298-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": 260,
+    "code": "8300",
+    "name": "Calça Leona",
+    "slug": "calca-leona-8300",
+    "brand": "kaele",
+    "catalog": "Chapter Two: Turquoise",
+    "category": "Calça",
+    "price": 419.8,
+    "description": "Calça Leona do catálogo KAELE | Chapter Two: Turquoise.",
+    "composition": "PRETO OFF 8300CALÇA LEONA renda de algodão",
+    "images": [
+      "assets/kaele/chapter-two-turquoise/8300-peca.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#111111"
+      },
+      {
+        "name": "Off",
+        "hex": "#F8F3EA"
+      }
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "stock": 5,
+    "isActive": true,
+    "createdAt": "2026-10-15"
   }
 ];

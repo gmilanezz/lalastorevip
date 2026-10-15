@@ -22,8 +22,10 @@ const DEFAULT_STATE: CatalogState = {
     { brand: 'Esmeral', catalog: 'Alto Verão 27' },
     { brand: 'Kaele', catalog: 'The Greek Escape' },
     { brand: 'Kaele', catalog: 'Chapter One' },
+    { brand: 'Kaele', catalog: 'Chapter Two: Turquoise' },
     { brand: 'Mysk', catalog: 'Creators Edition' },
     { brand: 'Mysk', catalog: 'Creators Edition - Drop 02' },
+    { brand: 'Mysk', catalog: 'Summer 27' },
     { brand: 'Kesses', catalog: 'Catálogo 1' },
   ]
 };
@@ -42,8 +44,6 @@ export class CatalogService {
     this.stateSubject.pipe(
       map(state => state.catalogs)
     );
-
-  // SEM CONSTRUCTOR
 
   getState(): CatalogState {
     return {
