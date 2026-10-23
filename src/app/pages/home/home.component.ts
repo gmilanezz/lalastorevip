@@ -29,14 +29,14 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   readonly slides = [
     {
-      desktopImage: 'assets/mysk/creators-edition/11094-2.jpg',
-      mobileImage: 'assets/mysk/creators-edition/11094-2.jpg',
+      desktopImage: 'assets/mysk/summer-26-10-26/11082-modelo-1.jpg',
+      mobileImage: 'assets/mysk/summer-26-10-26/11082-modelo-1.jpg',
       alt: 'Imagem do catálogo The Greek Escape',
       link: '/catalogo/Kaele/The Greek Escape'
     },
     {
-      desktopImage: 'assets/kaele/chapter-one-sunrise/8273-1.jpg',
-      mobileImage: 'assets/kaele/chapter-one-sunrise/8273-1.jpg',
+      desktopImage: 'assets/esmeral/night-edition-26-10/39727-modelo-1.jpg',
+      mobileImage: 'assets/esmeral/night-edition-26-10/39727-modelo-1.jpg',
       alt: 'Imagem do catálgo Thaci Mesquita',
       link: '/catalogo/Esmeral/Thaci Mesquita'
     },
@@ -49,13 +49,13 @@ export class HomeComponent implements OnInit, OnDestroy {
   ];
 
   private readonly heroImages = [
-    'assets/mysk/creators-edition-drop-02/11246-4.jpg',
-    'assets/mysk/creators-edition-drop-02/11246-3.jpg',
-    'assets/mysk/creators-edition-drop-02/11246-5.jpg',
-    'assets/mysk/creators-edition-drop-02/11246-2.jpg',
-    'assets/mysk/creators-edition-drop-02/11246-8.jpg',
-    'assets/mysk/creators-edition-drop-02/11251-2.jpg',
-    'assets/mysk/creators-edition-drop-02/11252-3.jpg'
+    'assets/mysk/summer-26-10-26/11232-modelo-1.jpg',
+    'assets/mysk/summer-26-10-26/11268-modelo-1.jpg',
+    'assets/mysk/summer-26-10-26/11241-modelo-1.jpg',
+    'assets/mysk/summer-26-10-26/11273-modelo-1.jpg',
+    'assets/kaele/26-10-26/8330-modelo-1.jpg',
+    'assets/kaele/26-10-26/8332-modelo-1.jpg',
+    'assets/kaele/26-10-26/8347-modelo-1.jpg'
   ];
 
   readonly heroSlides = [...this.heroImages, ...this.heroImages];
@@ -75,16 +75,16 @@ export class HomeComponent implements OnInit, OnDestroy {
 
     const catalogOne = products
       .filter(product =>
-        product.brand?.trim().toLowerCase() === 'kaele' &&
-        product.catalog?.trim().toLowerCase() === 'chapter one' &&
+        product.brand?.trim().toLowerCase() === 'mysk' &&
+        product.catalog?.trim().toLowerCase() === 'summer 26' &&
         product.images?.length > 1
       )
       .slice(0, 5);
 
     const catalogTwo = products
       .filter(product =>
-        product.brand?.trim().toLowerCase() === 'mysk' &&
-        product.catalog?.trim().toLowerCase() === 'creators edition - drop 02' &&
+        product.brand?.trim().toLowerCase() === 'esmeral' &&
+        product.catalog?.trim().toLowerCase() === 'night edition' &&
         product.images?.length > 1
       )
       .slice(0, 5);

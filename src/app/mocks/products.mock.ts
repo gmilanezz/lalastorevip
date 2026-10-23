@@ -2,3662 +2,6 @@ import { Product } from '../models/product.model';
 
 export const MOCK_PRODUCTS: Product[] = [
   {
-    id: 1,
-    code: "8223",
-    name: "T-Shirt Mia",
-    slug: "t-shirt-mia",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Camiseta",
-    price: 179.80,
-    description: "T-Shirt Mia do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Algodão",
-    images: [
-      "assets/kaele/the-greek-escape/8223-1.jpg",
-      "assets/kaele/the-greek-escape/8223-2.jpg",
-      "assets/kaele/the-greek-escape/8223-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 2,
-    code: "8513",
-    name: "Calça Carla",
-    slug: "calca-carla",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Carla do catálogo Kaele | The Greek Escape.",
-    composition: "Sarja",
-    images: [
-      "assets/kaele/the-greek-escape/8513-1.jpg",
-      "assets/kaele/the-greek-escape/8513-2.jpg",
-      "assets/kaele/the-greek-escape/8513-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" }
-    ],
-    sizes: ["36", "38", "40"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 3,
-    code: "8231",
-    name: "Blusa Lana",
-    slug: "blusa-lana",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 299.80,
-    description: "Blusa Lana do catálogo Kaele | The Greek Escape.",
-    composition: "Viscolinho",
-    images: [
-      "assets/kaele/the-greek-escape/8231-2.jpg",
-      "assets/kaele/the-greek-escape/8231-1.jpg",
-      "assets/kaele/the-greek-escape/8231-3.jpg",
-      "assets/kaele/the-greek-escape/8231-4.jpg",
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Menta", hex: "#BFEAD8" },
-      { name: "Camel", hex: "#C19A6B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 4,
-    code: "8232",
-    name: "Calça Lana",
-    slug: "calca-lana",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 379.80,
-    description: "Calça Lana do catálogo Kaele | The Greek Escape.",
-    composition: "Viscolinho",
-    images: [
-      "assets/kaele/the-greek-escape/8232-3.jpg",
-      "assets/kaele/the-greek-escape/8232-2.jpg",
-      "assets/kaele/the-greek-escape/8232-1.jpg",
-      "assets/kaele/the-greek-escape/8232-4.jpg",
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Menta", hex: "#BFEAD8" },
-      { name: "Camel", hex: "#C19A6B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 5,
-    code: "8251",
-    name: "Regata Olga",
-    slug: "regata-olga",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 239.80,
-    description: "Regata Olga do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8251-3.jpg",
-      "assets/kaele/the-greek-escape/8251-2.jpg",
-      "assets/kaele/the-greek-escape/8251-1.jpg",
-      "assets/kaele/the-greek-escape/8251-4.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 6,
-    code: "8252",
-    name: "Calça Olga",
-    slug: "calca-olga",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Olga do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8252-2.jpg",
-      "assets/kaele/the-greek-escape/8252-1.jpg",
-      "assets/kaele/the-greek-escape/8252-3.jpg",
-      "assets/kaele/the-greek-escape/8252-4.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 7,
-    code: "8221",
-    name: "Blusa Luiza",
-    slug: "blusa-luiza",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 279.80,
-    description: "Blusa Luiza do catálogo Kaele | The Greek Escape.",
-    composition: "Chifon Estampado",
-    images: [
-      "assets/kaele/the-greek-escape/8221-1.jpg",
-      "assets/kaele/the-greek-escape/8221-2.jpg",
-      "assets/kaele/the-greek-escape/8221-3.jpg",
-    ],
-    colors: [
-      { name: "Verde", hex: "#90B255" },
-      { name: "Laranja", hex: "#F28C45" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 8,
-    code: "8222",
-    name: "Saia Luiza",
-    slug: "saia-luiza",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Saia",
-    price: 399.80,
-    description: "Saia Luiza do catálogo Kaele | The Greek Escape.",
-    composition: "Chifon Estampado",
-    images: [
-      "assets/kaele/the-greek-escape/8222-1.jpg",
-      "assets/kaele/the-greek-escape/8222-2.jpg",
-      "assets/kaele/the-greek-escape/8222-3.jpg",
-    ],
-    colors: [
-      { name: "Verde", hex: "#90B255" },
-      { name: "Laranja", hex: "#F28C45" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 9,
-    code: "8248",
-    name: "Vestido Sonia",
-    slug: "vestido-sonia",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Vestido",
-    price: 599.80,
-    description: "Vestido Sonia do catálogo Kaele | The Greek Escape.",
-    composition: "Jacquard",
-    images: [
-      "assets/kaele/the-greek-escape/8248-1.jpg",
-      "assets/kaele/the-greek-escape/8248-2.jpg",
-      "assets/kaele/the-greek-escape/8248-3.jpg",
-      "assets/kaele/the-greek-escape/8248-4.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Amarelo", hex: "#F4D76B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 10,
-    code: "8227",
-    name: "Frente Única Nívea",
-    slug: "frente-unica-nivea",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 339.80,
-    description: "Frente Única Nívea do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8227-1.jpg",
-      "assets/kaele/the-greek-escape/8227-2.jpg",
-      "assets/kaele/the-greek-escape/8227-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Amarelo", hex: "#F4D76B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 11,
-    code: "8228",
-    name: "Calça Nívea",
-    slug: "calca-nivea",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 419.80,
-    description: "Calça Nívea do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8228-1.jpg",
-      "assets/kaele/the-greek-escape/8228-2.jpg",
-      "assets/kaele/the-greek-escape/8228-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Amarelo", hex: "#F4D76B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 12,
-    code: "8240",
-    name: "Regata Bruna",
-    slug: "regata-bruna",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 359.80,
-    description: "Regata Bruna do catálogo Kaele | The Greek Escape.",
-    composition: "Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8240-1.jpg",
-      "assets/kaele/the-greek-escape/8240-2.jpg",
-      "assets/kaele/the-greek-escape/8240-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Amarelo", hex: "#F4D76B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 13,
-    code: "8241",
-    name: "Calça Bruna",
-    slug: "calca-bruna",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 379.80,
-    description: "Calça Bruna do catálogo Kaele | The Greek Escape.",
-    composition: "Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8241-1.jpg",
-      "assets/kaele/the-greek-escape/8241-2.jpg",
-      "assets/kaele/the-greek-escape/8241-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Amarelo", hex: "#F4D76B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 14,
-    code: "8219",
-    name: "Regata Nati",
-    slug: "regata-nati",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 319.80,
-    description: "Regata Nati do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8219-1.jpg",
-      "assets/kaele/the-greek-escape/8219-2.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Rosa", hex: "#F5B6C8" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 15,
-    code: "8220",
-    name: "Calça Nati",
-    slug: "calca-nati",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Nati do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8220-1.jpg",
-      "assets/kaele/the-greek-escape/8220-2.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Rosa", hex: "#F5B6C8" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 16,
-    code: "8229",
-    name: "Blusa Poly",
-    slug: "blusa-poly",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 199.80,
-    description: "Blusa Poly do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Texturizada",
-    images: [
-      "assets/kaele/the-greek-escape/8229-1.jpg",
-      "assets/kaele/the-greek-escape/8229-2.jpg",
-      "assets/kaele/the-greek-escape/8229-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Amarelo", hex: "#F4D76B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 17,
-    code: "8230",
-    name: "Calça Poly",
-    slug: "calca-poly",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 339.80,
-    description: "Calça Poly do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Texturizada",
-    images: [
-      "assets/kaele/the-greek-escape/8230-1.jpg",
-      "assets/kaele/the-greek-escape/8230-2.jpg",
-      "assets/kaele/the-greek-escape/8230-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Amarelo", hex: "#F4D76B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 18,
-    code: "8233",
-    name: "Regata Bela",
-    slug: "regata-bela",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 259.80,
-    description: "Regata Bela do catálogo Kaele | The Greek Escape.",
-    composition: "Crepe",
-    images: [
-      "assets/kaele/the-greek-escape/8233-1.jpg",
-      "assets/kaele/the-greek-escape/8233-2.jpg",
-      "assets/kaele/the-greek-escape/8233-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Verde", hex: "#90B255" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 19,
-    code: "8235",
-    name: "Calça Bela",
-    slug: "calca-bela",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Bela do catálogo Kaele | The Greek Escape.",
-    composition: "Crepe",
-    images: [
-      "assets/kaele/the-greek-escape/8235-1.jpg",
-      "assets/kaele/the-greek-escape/8235-2.jpg",
-      "assets/kaele/the-greek-escape/8235-3.jpg",
-      "assets/kaele/the-greek-escape/8235-4.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Verde", hex: "#90B255" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 20,
-    code: "8236",
-    name: "Macacão Ludi",
-    slug: "macacao-ludi",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Macacão",
-    price: 519.80,
-    description: "Macacão Ludi do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8236-1.jpg",
-      "assets/kaele/the-greek-escape/8236-2.jpg",
-      "assets/kaele/the-greek-escape/8236-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Areia", hex: "#D8C3A5" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 21,
-    code: "8199",
-    name: "Blusa Jes",
-    slug: "blusa-jes",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 219.80,
-    description: "Blusa Jes do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Algodão",
-    images: [
-      "assets/kaele/the-greek-escape/8199-1.jpg",
-      "assets/kaele/the-greek-escape/8199-2.jpg",
-      "assets/kaele/the-greek-escape/8199-3.jpg",
-    ],
-    colors: [
-      { name: "Off/Aveia", hex: "#B8A99A" },
-      { name: "Aveia/Aveia", hex: "#B8A99A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 22,
-    code: "8243",
-    name: "Calça Renata",
-    slug: "calca-renata",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 379.80,
-    description: "Calça Renata do catálogo Kaele | The Greek Escape.",
-    composition: "Viscose Texturizada",
-    images: [
-      "assets/kaele/the-greek-escape/8243-1.jpg",
-      "assets/kaele/the-greek-escape/8243-2.jpg",
-      "assets/kaele/the-greek-escape/8243-3.jpg",
-      "assets/kaele/the-greek-escape/8243-4.jpg",
-      "assets/kaele/the-greek-escape/8243-5.jpg",
-      "assets/kaele/the-greek-escape/8243-6.jpg",
-      "assets/kaele/the-greek-escape/8243-7.jpg",
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 23,
-    code: "8097",
-    name: "Regata Jes",
-    slug: "regata-jes",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 99.80,
-    description: "Regata Jes do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Algodão",
-    images: [
-      "assets/kaele/the-greek-escape/8097-1.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Creme", hex: "#F7E9CF" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 24,
-    code: "8234",
-    name: "Blusa Bela",
-    slug: "blusa-bela",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 299.80,
-    description: "Blusa Bela do catálogo Kaele | The Greek Escape.",
-    composition: "Crepe",
-    images: [
-      "assets/kaele/the-greek-escape/8234-1.jpg",
-      "assets/kaele/the-greek-escape/8234-2.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Verde", hex: "#90B255" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 25,
-    code: "8126",
-    name: "Blusa Paloma",
-    slug: "blusa-paloma",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 179.80,
-    description: "Blusa Paloma do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Canelada",
-    images: [
-      "assets/kaele/the-greek-escape/8126-1.jpg",
-    ],
-    colors: [
-      { name: "Amarelo", hex: "#F4D76B" },
-      { name: "Lilás", hex: "#C8A2C8" },
-      { name: "Rosa", hex: "#F5B6C8" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 26,
-    code: "8127",
-    name: "Regata Paloma",
-    slug: "regata-paloma",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 159.80,
-    description: "Regata Paloma do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Canelada",
-    images: [
-      "assets/kaele/the-greek-escape/8127-1.jpg",
-    ],
-    colors: [
-      { name: "Amarelo", hex: "#F4D76B" },
-      { name: "Lilás", hex: "#C8A2C8" },
-      { name: "Rosa", hex: "#F5B6C8" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 27,
-    code: "8128",
-    name: "Body Paloma",
-    slug: "body-paloma",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Body",
-    price: 173.80,
-    description: "Body Paloma do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Canelada",
-    images: [
-      "assets/kaele/the-greek-escape/8128-1.jpg",
-    ],
-    colors: [
-      { name: "Amarelo", hex: "#F4D76B" },
-      { name: "Lilás", hex: "#C8A2C8" },
-      { name: "Rosa", hex: "#F5B6C8" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 28,
-    code: "8242",
-    name: "Body Renata",
-    slug: "body-renata",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Body",
-    price: 219.80,
-    description: "Body Renata do catálogo Kaele | The Greek Escape.",
-    composition: "Viscose Texturizada",
-    images: [
-      "assets/kaele/the-greek-escape/8242-1.jpg",
-      "assets/kaele/the-greek-escape/8242-2.jpg",
-      "assets/kaele/the-greek-escape/8242-3.jpg",
-      "assets/kaele/the-greek-escape/8242-4.jpg",
-      "assets/kaele/the-greek-escape/8242-5.jpg",
-      "assets/kaele/the-greek-escape/8242-6.jpg",
-      "assets/kaele/the-greek-escape/8242-7.jpg",
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 29,
-    code: "8268",
-    name: "Frente Única",
-    slug: "frente-unica",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 379.80,
-    description: "Frente Única do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria Twill",
-    images: [
-      "assets/kaele/the-greek-escape/8268-1.jpg",
-      "assets/kaele/the-greek-escape/8268-2.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Camel", hex: "#C19A6B" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 30,
-    code: "8270",
-    name: "Calça Joy",
-    slug: "calca-joy",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 379.80,
-    description: "Calça Joy do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria Twill",
-    images: [
-      "assets/kaele/the-greek-escape/8270-1.jpg",
-      "assets/kaele/the-greek-escape/8270-2.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Camel", hex: "#C19A6B" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 31,
-    code: "8269",
-    name: "Saia Joy",
-    slug: "saia-joy",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Saia",
-    price: 339.80,
-    description: "Saia Joy do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria Twill",
-    images: [
-      "assets/kaele/the-greek-escape/8269-1.jpg",
-      "assets/kaele/the-greek-escape/8269-2.jpg",
-      "assets/kaele/the-greek-escape/8269-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Camel", hex: "#C19A6B" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-14"
-  },
-  {
-    id: 32,
-    code: "8237",
-    name: "Vestido Nicole",
-    slug: "vestido-nicole",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Vestido",
-    price: 359.80,
-    description: "Vestido Nicole do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Poliamida",
-    images: [
-      "assets/kaele/the-greek-escape/8237-1.jpg",
-      "assets/kaele/the-greek-escape/8237-2.jpg",
-      "assets/kaele/the-greek-escape/8237-3.jpg",
-      "assets/kaele/the-greek-escape/8237-4.jpg",
-      "assets/kaele/the-greek-escape/8237-5.jpg",
-      "assets/kaele/the-greek-escape/8237-6.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 33,
-    code: "8260",
-    name: "Regata Ester",
-    slug: "regata-ester",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 319.80,
-    description: "Regata Ester do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose Fresh",
-    images: [
-      "assets/kaele/the-greek-escape/8260-1.jpg",
-      "assets/kaele/the-greek-escape/8260-2.jpg",
-      "assets/kaele/the-greek-escape/8260-3.jpg",
-      "assets/kaele/the-greek-escape/8260-4.jpg",
-    ],
-    colors: [
-      { name: "Off/ Preto", hex: "#E8E3DB" },
-      { name: "Preto / Off", hex: "#333333" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 34,
-    code: "8261",
-    name: "Calça Ester",
-    slug: "calca-ester",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Ester do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose Fresh",
-    images: [
-      "assets/kaele/the-greek-escape/8261-1.jpg",
-      "assets/kaele/the-greek-escape/8261-2.jpg",
-      "assets/kaele/the-greek-escape/8261-3.jpg",
-    ],
-    colors: [
-      { name: "Off/ Preto", hex: "#E8E3DB" },
-      { name: "Preto / Off", hex: "#333333" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 35,
-    code: "8259",
-    name: "Vestido Ester",
-    slug: "vestido-ester",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Vestido",
-    price: 499.80,
-    description: "Vestido Ester do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose Fresh",
-    images: [
-      "assets/kaele/the-greek-escape/8259-1.jpg",
-      "assets/kaele/the-greek-escape/8259-2.jpg",
-      "assets/kaele/the-greek-escape/8259-3.jpg",
-    ],
-    colors: [
-      { name: "Off/ Preto", hex: "#E8E3DB" },
-      { name: "Preto / Off", hex: "#333333" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 36,
-    code: "8192",
-    name: "Blusa Liana",
-    slug: "blusa-liana",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 339.80,
-    description: "Blusa Liana do catálogo Kaele | The Greek Escape.",
-    composition: "Chifon Estampado",
-    images: [
-      "assets/kaele/the-greek-escape/8192-1.jpg",
-      "assets/kaele/the-greek-escape/8192-2.jpg",
-      "assets/kaele/the-greek-escape/8192-3.jpg",
-    ],
-    colors: [
-      { name: "Poá", hex: "#D8CDB8" },
-      { name: "Floral Off", hex: "#F3EBDD" },
-      { name: "Floral Preto", hex: "#222222" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 37,
-    code: "8193",
-    name: "Saia Liana",
-    slug: "saia-liana",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Saia",
-    price: 359.80,
-    description: "Saia Liana do catálogo Kaele | The Greek Escape.",
-    composition: "Chifon Estampado",
-    images: [
-      "assets/kaele/the-greek-escape/8193-1.jpg",
-      "assets/kaele/the-greek-escape/8193-2.jpg",
-      "assets/kaele/the-greek-escape/8193-3.jpg",
-    ],
-    colors: [
-      { name: "Poá", hex: "#D8CDB8" },
-      { name: "Floral Off", hex: "#F3EBDD" },
-      { name: "Floral Preto", hex: "#222222" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 38,
-    code: "8194",
-    name: "Vestido Liana",
-    slug: "vestido-liana",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Vestido",
-    price: 379.80,
-    description: "Vestido Liana do catálogo Kaele | The Greek Escape.",
-    composition: "Chifon Estampado",
-    images: [
-      "assets/kaele/the-greek-escape/8194-1.jpg",
-      "assets/kaele/the-greek-escape/8194-2.jpg",
-      "assets/kaele/the-greek-escape/8194-3.jpg",
-      "assets/kaele/the-greek-escape/8194-4.jpg",
-      "assets/kaele/the-greek-escape/8194-5.jpg",
-      "assets/kaele/the-greek-escape/8194-6.jpg",
-      "assets/kaele/the-greek-escape/8194-7.jpg",
-    ],
-    colors: [
-      { name: "Poá", hex: "#D8CDB8" },
-      { name: "Floral Off", hex: "#F3EBDD" },
-      { name: "Floral Preto", hex: "#222222" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 39,
-    code: "8225",
-    name: "Blusa Mia",
-    slug: "blusa-mia",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 339.80,
-    description: "Blusa Mia do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Algodão",
-    images: [
-      "assets/kaele/the-greek-escape/8225-1.jpg",
-      "assets/kaele/the-greek-escape/8225-2.jpg",
-      "assets/kaele/the-greek-escape/8225-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Amarelo", hex: "#F4D76B" },
-      { name: "Marinho", hex: "#0B1F3A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 40,
-    code: "8226",
-    name: "Calça Mia",
-    slug: "calca-mia",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 379.80,
-    description: "Calça Mia do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Algodão",
-    images: [
-      "assets/kaele/the-greek-escape/8226-1.jpg",
-      "assets/kaele/the-greek-escape/8226-2.jpg",
-      "assets/kaele/the-greek-escape/8226-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Amarelo", hex: "#F4D76B" },
-      { name: "Marinho", hex: "#0B1F3A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 41,
-    code: "8184",
-    name: "Colete Maisa",
-    slug: "colete-maisa",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Colete",
-    price: 319.80,
-    description: "Colete Maisa do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria Viscolinho",
-    images: [
-      "assets/kaele/the-greek-escape/8184-1.jpg",
-      "assets/kaele/the-greek-escape/8184-2.jpg",
-      "assets/kaele/the-greek-escape/8184-3.jpg",
-      "assets/kaele/the-greek-escape/8184-4.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Marinho", hex: "#0B1F3A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 42,
-    code: "8185",
-    name: "Calça Maisa",
-    slug: "calca-maisa",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 419.80,
-    description: "Calça Maisa do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria Viscolinho",
-    images: [
-      "assets/kaele/the-greek-escape/8185-1.jpg",
-      "assets/kaele/the-greek-escape/8185-2.jpg",
-      "assets/kaele/the-greek-escape/8185-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Marinho", hex: "#0B1F3A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 43,
-    code: "8238",
-    name: "Regata Nicole",
-    slug: "regata-nicole",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 179.80,
-    description: "Regata Nicole do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Poliamida",
-    images: [
-      "assets/kaele/the-greek-escape/8238-1.jpg",
-      "assets/kaele/the-greek-escape/8238-2.jpg",
-      "assets/kaele/the-greek-escape/8238-3.jpg",
-      "assets/kaele/the-greek-escape/8238-4.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 44,
-    code: "8255",
-    name: "Calça Mira",
-    slug: "calca-mira",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 319.80,
-    description: "Calça Mira do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Liberty",
-    images: [
-      "assets/kaele/the-greek-escape/8255-1.jpg",
-      "assets/kaele/the-greek-escape/8255-2.jpg",
-      "assets/kaele/the-greek-escape/8255-3.jpg",
-      "assets/kaele/the-greek-escape/8255-4.jpg",
-      "assets/kaele/the-greek-escape/8255-5.jpg",
-      "assets/kaele/the-greek-escape/8255-6.jpg",
-    ],
-    colors: [
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Marrom", hex: "#6B3F2A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 45,
-    code: "8197",
-    name: "Blusa Luma",
-    slug: "blusa-luma",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 319.80,
-    description: "Blusa Luma do catálogo Kaele | The Greek Escape.",
-    composition: "Risca De Giz",
-    images: [
-      "assets/kaele/the-greek-escape/8197-1.jpg",
-      "assets/kaele/the-greek-escape/8197-2.jpg",
-      "assets/kaele/the-greek-escape/8197-3.jpg",
-    ],
-    colors: [
-      { name: "Bege", hex: "#D9C8AD" },
-      { name: "Choco", hex: "#4A2C22" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 46,
-    code: "8198",
-    name: "Bermuda Luma",
-    slug: "bermuda-luma",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Bermuda",
-    price: 319.80,
-    description: "Bermuda Luma do catálogo Kaele | The Greek Escape.",
-    composition: "Risca De Giz",
-    images: [
-      "assets/kaele/the-greek-escape/8198-1.jpg",
-      "assets/kaele/the-greek-escape/8198-2.jpg",
-      "assets/kaele/the-greek-escape/8198-3.jpg",
-    ],
-    colors: [
-      { name: "Bege", hex: "#D9C8AD" },
-      { name: "Choco", hex: "#4A2C22" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 47,
-    code: "8246",
-    name: "Colete Marta",
-    slug: "colete-marta",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Colete",
-    price: 399.80,
-    description: "Colete Marta do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria Risca De Giz",
-    images: [
-      "assets/kaele/the-greek-escape/8246-1.jpg",
-      "assets/kaele/the-greek-escape/8246-2.jpg",
-      "assets/kaele/the-greek-escape/8246-3.jpg",
-      "assets/kaele/the-greek-escape/8246-4.jpg",
-      "assets/kaele/the-greek-escape/8246-5.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 48,
-    code: "8247",
-    name: "Calça Marta",
-    slug: "calca-marta",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 459.80,
-    description: "Calça Marta do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria Risca De Giz",
-    images: [
-      "assets/kaele/the-greek-escape/8247-1.jpg",
-      "assets/kaele/the-greek-escape/8247-2.jpg",
-      "assets/kaele/the-greek-escape/8247-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 49,
-    code: "8512",
-    name: "Bermuda Sasha",
-    slug: "bermuda-sasha",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Bermuda",
-    price: 359.80,
-    description: "Bermuda Sasha do catálogo Kaele | The Greek Escape.",
-    composition: "Denin",
-    images: [
-      "assets/kaele/the-greek-escape/8512-1.jpg",
-      "assets/kaele/the-greek-escape/8512-2.jpg",
-      "assets/kaele/the-greek-escape/8512-3.jpg",
-    ],
-    colors: [
-      { name: "Marinho", hex: "#0B1F3A" }
-    ],
-    sizes: ["36", "38", "40"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 50,
-    code: "8256",
-    name: "Vestido Mira",
-    slug: "vestido-mira",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Vestido",
-    price: 439.80,
-    description: "Vestido Mira do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Poliamida",
-    images: [
-      "assets/kaele/the-greek-escape/8256-1.jpg",
-      "assets/kaele/the-greek-escape/8256-2.jpg",
-      "assets/kaele/the-greek-escape/8256-3.jpg",
-      "assets/kaele/the-greek-escape/8256-4.jpg",
-    ],
-    colors: [
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Marrom", hex: "#6B3F2A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 51,
-    code: "8254",
-    name: "Top Mira",
-    slug: "top-mira",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Top",
-    price: 199.80,
-    description: "Top Mira do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Liberty",
-    images: [
-      "assets/kaele/the-greek-escape/8254-1.jpg",
-      "assets/kaele/the-greek-escape/8254-2.jpg",
-      "assets/kaele/the-greek-escape/8254-3.jpg",
-    ],
-    colors: [
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Marrom", hex: "#6B3F2A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 52,
-    code: "8249",
-    name: "Regata Helen",
-    slug: "regata-helen",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 359.80,
-    description: "Regata Helen do catálogo Kaele | The Greek Escape.",
-    composition: "Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8249-1.jpg",
-      "assets/kaele/the-greek-escape/8249-2.jpg",
-      "assets/kaele/the-greek-escape/8249-3.jpg",
-      "assets/kaele/the-greek-escape/8249-4.jpg",
-      "assets/kaele/the-greek-escape/8249-5.jpg",
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Marinho", hex: "#0B1F3A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 53,
-    code: "8250",
-    name: "Calça Helen",
-    slug: "calca-helen",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 479.80,
-    description: "Calça Helen do catálogo Kaele | The Greek Escape.",
-    composition: "Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8250-1.jpg",
-      "assets/kaele/the-greek-escape/8250-2.jpg",
-      "assets/kaele/the-greek-escape/8250-3.jpg",
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Marinho", hex: "#0B1F3A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 54,
-    code: "8245",
-    name: "Calça Paola",
-    slug: "calca-paola",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 379.80,
-    description: "Calça Paola do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8245-1.jpg",
-      "assets/kaele/the-greek-escape/8245-2.jpg",
-      "assets/kaele/the-greek-escape/8245-3.jpg",
-      "assets/kaele/the-greek-escape/8245-4.jpg",
-      "assets/kaele/the-greek-escape/8245-5.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 55,
-    code: "8257",
-    name: "Regata Gabi",
-    slug: "regata-gabi",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 359.80,
-    description: "Regata Gabi do catálogo Kaele | The Greek Escape.",
-    composition: "Viscose Texturizada",
-    images: [
-      "assets/kaele/the-greek-escape/8257-1.jpg",
-      "assets/kaele/the-greek-escape/8257-2.jpg",
-      "assets/kaele/the-greek-escape/8257-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Creme", hex: "#F7E9CF" },
-      { name: "Choco", hex: "#4A2C22" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 56,
-    code: "8258",
-    name: "Calça Gabi",
-    slug: "calca-gabi",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Calça",
-    price: 559.80,
-    description: "Calça Gabi do catálogo Kaele | The Greek Escape.",
-    composition: "Viscose Texturizada",
-    images: [
-      "assets/kaele/the-greek-escape/8258-1.jpg",
-      "assets/kaele/the-greek-escape/8258-2.jpg",
-      "assets/kaele/the-greek-escape/8258-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Creme", hex: "#F7E9CF" },
-      { name: "Choco", hex: "#4A2C22" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 57,
-    code: "8239",
-    name: "Blusa Nicole",
-    slug: "blusa-nicole",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Blusa",
-    price: 219.80,
-    description: "Blusa Nicole do catálogo Kaele | The Greek Escape.",
-    composition: "Malha Poliamida",
-    images: [
-      "assets/kaele/the-greek-escape/8239-1.jpg",
-      "assets/kaele/the-greek-escape/8239-2.jpg",
-      "assets/kaele/the-greek-escape/8239-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 58,
-    code: "8281",
-    name: "Saia Olga",
-    slug: "saia-olga",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Saia",
-    price: 379.80,
-    description: "Saia Olga do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8281-1.jpg",
-      "assets/kaele/the-greek-escape/8281-2.jpg",
-      "assets/kaele/the-greek-escape/8281-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 59,
-    code: "8280",
-    name: "Regata Olga",
-    slug: "regata-olga",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 199.80,
-    description: "Regata Olga do catálogo Kaele | The Greek Escape.",
-    composition: "Malha De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8280-1.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 60,
-    code: "8244",
-    name: "Regata Paola",
-    slug: "regata-paola",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Regata",
-    price: 219.80,
-    description: "Regata Paola do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8244-1.jpg",
-      "assets/kaele/the-greek-escape/8244-2.jpg",
-      "assets/kaele/the-greek-escape/8244-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 61,
-    code: "8263",
-    name: "Camisa Paola",
-    slug: "camisa-paola",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Camisa",
-    price: 319.80,
-    description: "Camisa Paola do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8263-1.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Vermelho", hex: "#C62828" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 62,
-    code: "8266",
-    name: "Corset Tami",
-    slug: "corset-tami",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Corset",
-    price: 299.80,
-    description: "Corset Tami do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria De Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8266-1.jpg",
-      "assets/kaele/the-greek-escape/8266-2.jpg",
-      "assets/kaele/the-greek-escape/8266-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Marinho", hex: "#0B1F3A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 63,
-    code: "8267",
-    name: "Bermuda Tami",
-    slug: "bermuda-tami",
-    brand: "kaele",
-    catalog: "The Greek Escape",
-    category: "Bermuda",
-    price: 399.80,
-    description: "Bermuda Tami do catálogo Kaele | The Greek Escape.",
-    composition: "Alfaiataria Viscose",
-    images: [
-      "assets/kaele/the-greek-escape/8267-1.jpg",
-      "assets/kaele/the-greek-escape/8267-2.jpg",
-      "assets/kaele/the-greek-escape/8267-3.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Marinho", hex: "#0B1F3A" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-21"
-  },
-  {
-    id: 64,
-    code: "11094",
-    name: "Regata Luly",
-    slug: "regata-luly",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Regata",
-    price: 299.80,
-    description: "Regata Luly do catálogo Creators Edition.",
-    composition: "Viscotexture",
-    images: [
-      "assets/mysk/creators-edition/11094-2.jpg",
-      "assets/mysk/creators-edition/11094.jpg",
-      "assets/mysk/creators-edition/11094-3.jpg",
-      "assets/mysk/creators-edition/11094-4.jpg",
-      "assets/mysk/creators-edition/11094-5.jpg",
-      "assets/mysk/creators-edition/11094-6.jpg",
-      "assets/mysk/creators-edition/11094-7.jpg",
-      "assets/mysk/creators-edition/11094-8.jpg",
-      "assets/mysk/creators-edition/11094-9.jpg",
-      "assets/mysk/creators-edition/11094-10.jpg",
-      "assets/mysk/creators-edition/11094-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Aveia", hex: "#D8CDB8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 65,
-    code: "11095",
-    name: "Calça Luly",
-    slug: "calca-luly",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Calça",
-    price: 459.80,
-    description: "Calça Luly do catálogo Creators Edition.",
-    composition: "Viscotexture",
-    images: [
-      "assets/mysk/creators-edition/11095.jpg",
-      "assets/mysk/creators-edition/11095-2.jpg",
-      "assets/mysk/creators-edition/11095-3.jpg",
-      "assets/mysk/creators-edition/11095-4.jpg",
-      "assets/mysk/creators-edition/11095-5.jpg",
-      "assets/mysk/creators-edition/11095-6.jpg",
-      "assets/mysk/creators-edition/11095-7.jpg",
-      "assets/mysk/creators-edition/11095-8.jpg",
-      "assets/mysk/creators-edition/11095-9.jpg",
-      "assets/mysk/creators-edition/11095-10.jpg",
-      "assets/mysk/creators-edition/11095-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Aveia", hex: "#D8CDB8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 66,
-    code: "11204",
-    name: "Saia Luly",
-    slug: "saia-luly",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Saia",
-    price: 339.80,
-    description: "Saia Luly do catálogo Creators Edition.",
-    composition: "Viscotexture",
-    images: [
-      "assets/mysk/creators-edition/11204-2.jpg",
-      "assets/mysk/creators-edition/11204.jpg",
-      "assets/mysk/creators-edition/11204-3.jpg",
-      "assets/mysk/creators-edition/11204-4.jpg",
-      "assets/mysk/creators-edition/11204-5.jpg",
-      "assets/mysk/creators-edition/11204-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Aveia", hex: "#D8CDB8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 67,
-    code: "11182",
-    name: "Vestido Cindy",
-    slug: "vestido-cindy",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Vestido",
-    price: 439.80,
-    description: "Vestido Cindy do catálogo Creators Edition.",
-    composition: "Paetê",
-    images: [
-      "assets/mysk/creators-edition/11182.jpg",
-      "assets/mysk/creators-edition/11182-2.jpg",
-      "assets/mysk/creators-edition/11182-3.jpg",
-      "assets/mysk/creators-edition/11182-4.jpg",
-      "assets/mysk/creators-edition/11182-5.jpg",
-      "assets/mysk/creators-edition/11182-6.jpg",
-      "assets/mysk/creators-edition/11182-7.jpg",
-      "assets/mysk/creators-edition/11182-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Verde", hex: "#90B255" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 68,
-    code: "11161",
-    name: "Top Vivian",
-    slug: "top-vivian",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Top",
-    price: 99.80,
-    description: "Top Vivian do catálogo Creators Edition.",
-    composition: "Poliamida",
-    images: [
-      "assets/mysk/creators-edition/11161-2.jpg",
-      "assets/mysk/creators-edition/11161.jpg",
-      "assets/mysk/creators-edition/11161-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Bem Casado", hex: "#F3E6B8" },
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Chantily", hex: "#F2E4CF" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 69,
-    code: "11165",
-    name: "Saia Tereza",
-    slug: "saia-tereza",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Saia",
-    price: 479.80,
-    description: "Saia Tereza do catálogo Creators Edition.",
-    composition: "Paetê",
-    images: [
-      "assets/mysk/creators-edition/11165-3.jpg",
-      "assets/mysk/creators-edition/11165-4.jpg",
-      "assets/mysk/creators-edition/11165-5.jpg",
-      "assets/mysk/creators-edition/11165-6.jpg",
-      "assets/mysk/creators-edition/11165-7.jpg",
-      "assets/mysk/creators-edition/11165-8.jpg",
-      "assets/mysk/creators-edition/11165-1.jpg",
-      "assets/mysk/creators-edition/11165-2.jpg",
-      "assets/mysk/creators-edition/11165.jpg",
-    
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 70,
-    code: "11238",
-    name: "Blusa Thami",
-    slug: "blusa-thami",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Blusa",
-    price: 299.80,
-    description: "Blusa Thami do catálogo Creators Edition.",
-    composition: "Chiffon",
-    images: [
-      "assets/mysk/creators-edition/11238-2.jpg",
-      "assets/mysk/creators-edition/11238.jpg",
-      "assets/mysk/creators-edition/11238-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 71,
-    code: "11532",
-    name: "Calça Jeans Livia",
-    slug: "calca-jeans-livia",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Jeans Livia do catálogo Creators Edition.",
-    composition: "Jeans",
-    images: [
-      "assets/mysk/creators-edition/11532-2.jpg",
-      "assets/mysk/creators-edition/11532.jpg",
-      "assets/mysk/creators-edition/11532-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Denim", hex: "#6F8FAF" },
-    ],
-    sizes: ["34", "36", "38", "40"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 72,
-    code: "11169",
-    name: "Vestido Nadia",
-    slug: "vestido-nadia",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Vestido",
-    price: 599.80,
-    description: "Vestido Nadia do catálogo Creators Edition.",
-    composition: "Linho",
-    images: [
-      "assets/mysk/creators-edition/11169-2.jpg",
-      "assets/mysk/creators-edition/11169.jpg",
-      "assets/mysk/creators-edition/11169-3.jpg",
-      "assets/mysk/creators-edition/11169-4.jpg",
-      "assets/mysk/creators-edition/11169-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Off", hex: "#F8F3EA" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 73,
-    code: "11159",
-    name: "Blusa Nadia",
-    slug: "blusa-nadia",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Blusa",
-    price: 353.80,
-    description: "Blusa Nadia do catálogo Creators Edition.",
-    composition: "Linho",
-    images: [
-      "assets/mysk/creators-edition/11159-2.jpg",
-      "assets/mysk/creators-edition/11159.jpg",
-      "assets/mysk/creators-edition/11159-3.jpg",
-      "assets/mysk/creators-edition/11159-4.jpg",
-      "assets/mysk/creators-edition/11159-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 74,
-    code: "11160",
-    name: "Calça Nadia",
-    slug: "calca-nadia",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Nadia do catálogo Creators Edition.",
-    composition: "Linho",
-    images: [
-      "assets/mysk/creators-edition/11160.jpg",
-      "assets/mysk/creators-edition/11160-2.jpg",
-      "assets/mysk/creators-edition/11160-3.jpg",
-      "assets/mysk/creators-edition/11160-4.jpg",
-      "assets/mysk/creators-edition/11160-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 75,
-    code: "11170",
-    name: "Camisa Laura",
-    slug: "camisa-laura",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Camisa",
-    price: 359.80,
-    description: "Camisa Laura do catálogo Creators Edition.",
-    composition: "Voil Algodão",
-    images: [
-      "assets/mysk/creators-edition/11170-2.jpg",
-      "assets/mysk/creators-edition/11170.jpg",
-      "assets/mysk/creators-edition/11170-3.jpg",
-      "assets/mysk/creators-edition/11170-4.jpg",
-      "assets/mysk/creators-edition/11170-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 76,
-    code: "11171",
-    name: "Saia Laura",
-    slug: "saia-laura",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Saia",
-    price: 399.80,
-    description: "Saia Laura do catálogo Creators Edition.",
-    composition: "Voil Algodão",
-    images: [
-      "assets/mysk/creators-edition/11171.jpg",
-      "assets/mysk/creators-edition/11171-2.jpg",
-      "assets/mysk/creators-edition/11171-4.jpg", 
-      "assets/mysk/creators-edition/11171-3.jpg",
-      "assets/mysk/creators-edition/11171-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 77,
-    code: "11116",
-    name: "Body Nany",
-    slug: "body-nany",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Body",
-    price: 239.80,
-    description: "Body Nany do catálogo Creators Edition.",
-    composition: "Malha",
-    images: [
-      "assets/mysk/creators-edition/11116.jpg",
-      "assets/mysk/creators-edition/11116-2.jpg",
-      "assets/mysk/creators-edition/11116-3.jpg",
-      "assets/mysk/creators-edition/11116-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Creme", hex: "#F7E9CF" },
-      { name: "Avelã", hex: "#A67B5B" },
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Choco", hex: "#4A2C22" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 78,
-    code: "11529",
-    name: "Conjunto Marcela",
-    slug: "conjunto-marcela",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Conjunto",
-    price: 599.80,
-    description: "Conjunto Marcela do catálogo Creators Edition.",
-    composition: "Tricot",
-    images: [
-      "assets/mysk/creators-edition/11529-2.jpg",
-      "assets/mysk/creators-edition/11529.jpg",
-      "assets/mysk/creators-edition/11529-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Mescla", hex: "#B7B2AA" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 79,
-    code: "11177",
-    name: "Regata Hilda",
-    slug: "regata-hilda",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Regata",
-    price: 319.80,
-    description: "Regata Hilda do catálogo Creators Edition.",
-    composition: "Chiffon",
-    images: [
-      "assets/mysk/creators-edition/11177-2.jpg",
-      "assets/mysk/creators-edition/11177.jpg",
-      "assets/mysk/creators-edition/11177-3.jpg",
-      "assets/mysk/creators-edition/11177-4.jpg",
-      "assets/mysk/creators-edition/11177-5.jpg",
-      "assets/mysk/creators-edition/11177-6.jpg",
-      "assets/mysk/creators-edition/11177-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Choco", hex: "#4A2C22" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 80,
-    code: "11178",
-    name: "Calça Hilda",
-    slug: "calca-hilda",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Calça",
-    price: 459.80,
-    description: "Calça Hilda do catálogo Creators Edition.",
-    composition: "Chiffon",
-    images: [
-      "assets/mysk/creators-edition/11178.jpg",
-      "assets/mysk/creators-edition/11178-2.jpg",
-      "assets/mysk/creators-edition/11178-3.jpg",
-      "assets/mysk/creators-edition/11178-4.jpg",
-      "assets/mysk/creators-edition/11178-5.jpg",
-      "assets/mysk/creators-edition/11178-6.jpg",
-      "assets/mysk/creators-edition/11178-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Choco", hex: "#4A2C22" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 81,
-    code: "11166",
-    name: "Macacão Donna",
-    slug: "macacao-donna",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Macacão",
-    price: 659.80,
-    description: "Macacão Donna do catálogo Creators Edition.",
-    composition: "Malha Texture",
-    images: [
-      "assets/mysk/creators-edition/11166.jpg",
-      "assets/mysk/creators-edition/11166-2.jpg",
-      "assets/mysk/creators-edition/11166-3.jpg",
-      "assets/mysk/creators-edition/11166-4.jpg",
-      "assets/mysk/creators-edition/11166-5.jpg",
-      "assets/mysk/creators-edition/11166-6.jpg",
-      "assets/mysk/creators-edition/11166-7.jpg",
-      "assets/mysk/creators-edition/11166-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Areia", hex: "#D8C3A5" },
-      { name: "Vinho", hex: "#722F37" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 82,
-    code: "11220",
-    name: "Regata Rubia",
-    slug: "regata-rubia",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Regata",
-    price: 299.80,
-    description: "Regata Rubia do catálogo Creators Edition.",
-    composition: "Visco Devorê",
-    images: [
-      "assets/mysk/creators-edition/11220.jpg",
-      "assets/mysk/creators-edition/11220-2.jpg",
-      "assets/mysk/creators-edition/11220-3.jpg",
-      "assets/mysk/creators-edition/11220-4.jpg",
-      "assets/mysk/creators-edition/11220-5.jpg",
-      "assets/mysk/creators-edition/11220-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Creme", hex: "#F7E9CF" },
-      { name: "Camel", hex: "#C19A6B" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 83,
-    code: "12221",
-    name: "Saia Rubia",
-    slug: "saia-rubia",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Saia",
-    price: 419.80,
-    description: "Saia Rubia do catálogo Creators Edition.",
-    composition: "Visco Devorê",
-    images: [
-      "assets/mysk/creators-edition/12221-3.jpg",
-      "assets/mysk/creators-edition/12221-2.jpg",
-      "assets/mysk/creators-edition/12221.jpg",
-      "assets/mysk/creators-edition/12221-4.jpg",
-      "assets/mysk/creators-edition/12221-5.jpg",
-      "assets/mysk/creators-edition/12221-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Creme", hex: "#F7E9CF" },
-      { name: "Camel", hex: "#C19A6B" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 84,
-    code: "11167",
-    name: "Top Virginia",
-    slug: "top-virginia",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Top",
-    price: 319.80,
-    description: "Top Virginia do catálogo Creators Edition.",
-    composition: "Tricoline",
-    images: [
-      "assets/mysk/creators-edition/11167.jpg",
-      "assets/mysk/creators-edition/11167-2.jpg",
-      "assets/mysk/creators-edition/11167-3.jpg",
-      "assets/mysk/creators-edition/11167-4.jpg",
-      "assets/mysk/creators-edition/11167-5.jpg",
-      "assets/mysk/creators-edition/11167-6.jpg",
-      "assets/mysk/creators-edition/11167-7.jpg",
-      "assets/mysk/creators-edition/11167-8.jpg",
-      "assets/mysk/creators-edition/11167-9.jpg",
-      "assets/mysk/creators-edition/11167-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Azul", hex: "#7FA8D8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 85,
-    code: "11173",
-    name: "Calça Andressa",
-    slug: "calca-andressa",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Calça",
-    price: 359.80,
-    description: "Calça Andressa do catálogo Creators Edition.",
-    composition: "Tricoline",
-    images: [
-      "assets/mysk/creators-edition/11173-8.jpg",
-      "assets/mysk/creators-edition/11173-9.jpg",
-      "assets/mysk/creators-edition/11173.jpg",
-      "assets/mysk/creators-edition/11173-2.jpg",
-      "assets/mysk/creators-edition/11173-3.jpg",
-      "assets/mysk/creators-edition/11173-4.jpg",
-      "assets/mysk/creators-edition/11173-5.jpg",
-      "assets/mysk/creators-edition/11173-6.jpg",
-      "assets/mysk/creators-edition/11173-7.jpg",
-      "assets/mysk/creators-edition/11173-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Azul", hex: "#7FA8D8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 86,
-    code: "11168",
-    name: "Saia Virginia",
-    slug: "saia-virginia",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Saia",
-    price: 379.80,
-    description: "Saia Virginia do catálogo Creators Edition.",
-    composition: "Tricoline",
-    images: [
-      "assets/mysk/creators-edition/11168.jpg",
-      "assets/mysk/creators-edition/11168-2.jpg",
-      "assets/mysk/creators-edition/11168-3.jpg",
-      "assets/mysk/creators-edition/11168-4.jpg",
-      "assets/mysk/creators-edition/11168-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Azul", hex: "#7FA8D8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 87,
-    code: "11172",
-    name: "Top Andressa",
-    slug: "top-andressa",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Top",
-    price: 239.80,
-    description: "Top Andressa do catálogo Creators Edition.",
-    composition: "Tricoline",
-    images: [
-      "assets/mysk/creators-edition/11172.jpg",
-      "assets/mysk/creators-edition/11172-2.jpg",
-      "assets/mysk/creators-edition/11172-3.jpg",
-      "assets/mysk/creators-edition/11172-4.jpg",
-      "assets/mysk/creators-edition/11172-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Vermelho", hex: "#C62828" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Azul", hex: "#7FA8D8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 88,
-    code: "11193",
-    name: "Camisa Gina",
-    slug: "camisa-gina",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Camisa",
-    price: 559.80,
-    description: "Camisa Gina do catálogo Creators Edition.",
-    composition: "Sarja",
-    images: [ 
-      "assets/mysk/creators-edition/11193-2.jpg",
-      "assets/mysk/creators-edition/11193.jpg",
-      "assets/mysk/creators-edition/11193-4.jpg",
-      "assets/mysk/creators-edition/11193-3.jpg",
-      "assets/mysk/creators-edition/11193-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Rosa", hex: "#F5B6C8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 89,
-    code: "11194",
-    name: "Calça Gina",
-    slug: "calca-gina",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Calça",
-    price: 539.80,
-    description: "Calça Gina do catálogo Creators Edition.",
-    composition: "Sarja",
-    images: [
-      "assets/mysk/creators-edition/11194-4.jpg",
-      "assets/mysk/creators-edition/11194-2.jpg",
-      "assets/mysk/creators-edition/11194.jpg",
-      "assets/mysk/creators-edition/11194-3.jpg",
-      "assets/mysk/creators-edition/11194-5.jpg",
-      "assets/mysk/creators-edition/11194-6.jpg",
-      "assets/mysk/creators-edition/11194-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Rosa", hex: "#F5B6C8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 90,
-    code: "11135",
-    name: "Regata Tati",
-    slug: "regata-tati",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Regata",
-    price: 259.80,
-    description: "Regata Tati do catálogo Creators Edition.",
-    composition: "Tricoline",
-    images: [
-      "assets/mysk/creators-edition/11135.jpg",
-      "assets/mysk/creators-edition/11135-2.jpg",
-      "assets/mysk/creators-edition/11193-5.jpg",
-      "assets/mysk/creators-edition/11193-6.jpg", 
-      "assets/mysk/creators-edition/11135-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Azul", hex: "#7FA8D8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 91,
-    code: "11136",
-    name: "Calça Tati",
-    slug: "calca-tati",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Calça",
-    price: 439.80,
-    description: "Calça Tati do catálogo Creators Edition.",
-    composition: "Tricoline",
-    images: [
-      "assets/mysk/creators-edition/11136.jpg",
-      "assets/mysk/creators-edition/11136-2.jpg",
-      "assets/mysk/creators-edition/11136-3.jpg",
-      "assets/mysk/creators-edition/11136-4.jpg",
-      "assets/mysk/creators-edition/11136-5.jpg",
-      "assets/mysk/creators-edition/11136-6.jpg",
-      "assets/mysk/creators-edition/11136-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Azul", hex: "#7FA8D8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 92,
-    code: "11174",
-    name: "Regata Dina",
-    slug: "regata-dina",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Regata",
-    price: 339.80,
-    description: "Regata Dina do catálogo Creators Edition.",
-    composition: "Paetê",
-    images: [
-      "assets/mysk/creators-edition/11135-3.jpg",
-      "assets/mysk/creators-edition/11135-4.jpg",
-      "assets/mysk/creators-edition/11135-5.jpg",
-      "assets/mysk/creators-edition/11135-6.jpg",
-      "assets/mysk/creators-edition/11174.jpg",
-      "assets/mysk/creators-edition/11174-2.jpg",
-      "assets/mysk/creators-edition/11174-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Fendi", hex: "#B7A99A" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 93,
-    code: "11176",
-    name: "Calça Dina",
-    slug: "calca-dina",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Calça",
-    price: 599.80,
-    description: "Calça Dina do catálogo Creators Edition.",
-    composition: "Paetê",
-    images: [
-      "assets/mysk/creators-edition/11176.jpg",
-      "assets/mysk/creators-edition/11176-2.jpg",
-      "assets/mysk/creators-edition/11176-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Fendi", hex: "#B7A99A" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 94,
-    code: "11175",
-    name: "Saia Dina",
-    slug: "saia-dina",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Saia",
-    price: 479.80,
-    description: "Saia Dina do catálogo Creators Edition.",
-    composition: "Paetê",
-    images: [
-      "assets/mysk/creators-edition/11175.jpg",
-      "assets/mysk/creators-edition/11175-2.jpg",
-      "assets/mysk/creators-edition/11175-3.jpg",
-      "assets/mysk/creators-edition/11175-4.jpg",
-      "assets/mysk/creators-edition/11175-5.jpg",
-      "assets/mysk/creators-edition/11175-6.jpg",
-      "assets/mysk/creators-edition/11175-7.jpg",
-      "assets/mysk/creators-edition/11175-8.jpg",
-      "assets/mysk/creators-edition/11175-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Fendi", hex: "#B7A99A" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 95,
-    code: "11205",
-    name: "Regata Lina",
-    slug: "regata-lina",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Regata",
-    price: 299.80,
-    description: "Regata Lina do catálogo Creators Edition.",
-    composition: "Cetim Estampado",
-    images: [
-      "assets/mysk/creators-edition/11205.jpg",
-      "assets/mysk/creators-edition/11205-2.jpg",
-      "assets/mysk/creators-edition/11205-3.jpg",
-      "assets/mysk/creators-edition/11205-4.jpg",
-      "assets/mysk/creators-edition/11205-5.jpg",
-      "assets/mysk/creators-edition/11205-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Azul", hex: "#7FA8D8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 96,
-    code: "11206",
-    name: "Shorts Lina",
-    slug: "shorts-lina",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Shorts",
-    price: 299.80,
-    description: "Shorts Lina do catálogo Creators Edition.",
-    composition: "Cetim Estampado",
-    images: [
-      "assets/mysk/creators-edition/11206.jpg",
-      "assets/mysk/creators-edition/11206-2.jpg",
-      "assets/mysk/creators-edition/11206-3.jpg",
-      "assets/mysk/creators-edition/11206-4.jpg",
-      "assets/mysk/creators-edition/11206-5.jpg",
-      "assets/mysk/creators-edition/11206-6.jpg",
-      "assets/mysk/creators-edition/11206-7.jpg",
-      "assets/mysk/creators-edition/11206-8.jpg",
-      "assets/mysk/creators-edition/11206-9.jpg",
-      "assets/mysk/creators-edition/11206-10.jpg",
-      "assets/mysk/creators-edition/11206-11.jpg",
-      "assets/mysk/creators-edition/11206-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Azul", hex: "#7FA8D8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 97,
-    code: "11207",
-    name: "Saia Lina",
-    slug: "saia-lina",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Saia",
-    price: 439.80,
-    description: "Saia Lina do catálogo Creators Edition.",
-    composition: "Cetim Estampado",
-    images: [
-      "assets/mysk/creators-edition/11207.jpg",
-      "assets/mysk/creators-edition/11207-2.jpg",
-      "assets/mysk/creators-edition/11207-3.jpg",
-      "assets/mysk/creators-edition/11207-4.jpg",
-      "assets/mysk/creators-edition/11207-5.jpg",
-      "assets/mysk/creators-edition/11207-6.jpg",
-      "assets/mysk/creators-edition/11207-7.jpg",
-      "assets/mysk/creators-edition/11207-8.jpg",
-      "assets/mysk/creators-edition/11207-9.jpg",
-      "assets/mysk/creators-edition/11207-1.jpg",
-    
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Azul", hex: "#7FA8D8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 98,
-    code: "11223",
-    name: "Vestido Carol",
-    slug: "vestido-carol",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Vestido",
-    price: 459.80,
-    description: "Vestido Carol do catálogo Creators Edition.",
-    composition: "Cetim",
-    images: [
-      "assets/mysk/creators-edition/11223.jpg",
-      "assets/mysk/creators-edition/11223-2.jpg",
-      "assets/mysk/creators-edition/11205-6.jpg",
-      "assets/mysk/creators-edition/11205-7.jpg",
-      "assets/mysk/creators-edition/11205-8.jpg",
-      "assets/mysk/creators-edition/11205-9.jpg",
-      "assets/mysk/creators-edition/11205-10.jpg",
-      "assets/mysk/creators-edition/11205-11.jpg",
-      "assets/mysk/creators-edition/11223-1.jpg",
-  
-    ],
-    colors: [
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Off", hex: "#F8F3EA" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 99,
-    code: "11209",
-    name: "Vestido Heyle",
-    slug: "vestido-heyle",
-    brand: "mysk",
-    catalog: "Creators Edition",
-    category: "Vestido",
-    price: 759.80,
-    description: "Vestido Heyle do catálogo Creators Edition.",
-    composition: "off, preto e azul",
-    images: [
-      "assets/mysk/creators-edition/11223-3.jpg",
-      "assets/mysk/creators-edition/11209.jpg",
-      "assets/mysk/creators-edition/11209-1.jpg",
-    
-    ],
-    colors: [
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-09-28"
-  },
-  {
-    id: 100,
-    code: "11243",
-    name: "Maiô Poá",
-    slug: "maio-poa",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Maiô",
-    price: 193.80,
-    description: "Maiô Poá do catálogo Creators Edition - Drop 02.",
-    composition: "Malha Estampada",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11243.jpg",
-      "assets/mysk/creators-edition-drop-02/11243-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11243-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11243-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11243-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11243-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 101,
-    code: "11227",
-    name: "Saia Rafaela",
-    slug: "saia-rafaela",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Saia",
-    price: 259.80,
-    description: "Saia Rafaela do catálogo Creators Edition - Drop 02.",
-    composition: "Tule",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11227-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 102,
-    code: "11226",
-    name: "Vestido Rafaela",
-    slug: "vestido-rafaela",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Vestido",
-    price: 439.80,
-    description: "Vestido Rafaela do catálogo Creators Edition - Drop 02.",
-    composition: "Tule",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11226.jpg",
-      "assets/mysk/creators-edition-drop-02/11226-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11226-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11226-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 103,
-    code: "11245",
-    name: "Maiô Bicolor",
-    slug: "maio-bicolor",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Maiô",
-    price: 199.80,
-    description: "Maiô Bicolor do catálogo Creators Edition - Drop 02.",
-    composition: "Malha Poliamida",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11245.jpg",
-      "assets/mysk/creators-edition-drop-02/11245-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11245-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11245-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11245-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 104,
-    code: "11237",
-    name: "Frente Única Samy",
-    slug: "frente-unica-samy",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Frente Única",
-    price: 299.80,
-    description: "Frente Única Samy do catálogo Creators Edition - Drop 02.",
-    composition: "Chiffon",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11237-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11237.jpg",
-      "assets/mysk/creators-edition-drop-02/11237-1.jpg",
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 105,
-    code: "11239",
-    name: "Calça Tami",
-    slug: "calca-tami",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 379.80,
-    description: "Calça Tami do catálogo Creators Edition - Drop 02.",
-    composition: "Chiffon",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11239.jpg",
-      "assets/mysk/creators-edition-drop-02/11239-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11239-1.jpg",
-    ],
-    colors: [
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 106,
-    code: "11246",
-    name: "Biquini Bicolor",
-    slug: "biquini-bicolor",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Biquíni",
-    price: 199.80,
-    description: "Biquini Bicolor do catálogo Creators Edition - Drop 02.",
-    composition: "Malha Poliamida",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11246.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-6.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-7.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-8.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-9.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-10.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-11.jpg",
-      "assets/mysk/creators-edition-drop-02/11246-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 107,
-    code: "11225",
-    name: "Calça Rafaela",
-    slug: "calca-rafaela",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 379.80,
-    description: "Calça Rafaela do catálogo Creators Edition - Drop 02.",
-    composition: "Tule",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11225.jpg",
-      "assets/mysk/creators-edition-drop-02/11225-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11225-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11225-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 108,
-    code: "11224",
-    name: "Blusa Rafaela",
-    slug: "blusa-rafaela",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Blusa",
-    price: 159.80,
-    description: "Blusa Rafaela do catálogo Creators Edition - Drop 02.",
-    composition: "Tule",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11224-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11224.jpg",
-      "assets/mysk/creators-edition-drop-02/11224-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11224-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 109,
-    code: "11244",
-    name: "Biquini Poá",
-    slug: "biquini-poa",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Biquíni",
-    price: 199.80,
-    description: "Biquini Poá do catálogo Creators Edition - Drop 02.",
-    composition: "Malha Estampada",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11244.jpg",
-      "assets/mysk/creators-edition-drop-02/11244-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11244-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11244-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11244-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 110,
-    code: "11187",
-    name: "Calça Sandy",
-    slug: "calca-sandy",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 459.80,
-    description: "Calça Sandy do catálogo Creators Edition - Drop 02.",
-    composition: "Chiffon",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11187-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 111,
-    code: "11186",
-    name: "Blusa Sandy",
-    slug: "blusa-sandy",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Blusa",
-    price: 259.80,
-    description: "Blusa Sandy do catálogo Creators Edition - Drop 02.",
-    composition: "Chiffon",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11186.jpg",
-      "assets/mysk/creators-edition-drop-02/11186-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11186-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11186-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 112,
-    code: "11534",
-    name: "Calça Wide Leg Rebecca",
-    slug: "calca-wide-leg-rebecca",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Wide Leg Rebecca do catálogo Creators Edition - Drop 02.",
-    composition: "Jeans",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11534-1.jpg",
-    ],
-    colors: [
-      { name: "Denim", hex: "#4F6D8A" },
-    ],
-    sizes: ["34", "36", "38", "40"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 113,
-    code: "11251",
-    name: "Vestido Brigitte",
-    slug: "vestido-brigitte",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Vestido",
-    price: 499.80,
-    description: "Vestido Brigitte do catálogo Creators Edition - Drop 02.",
-    composition: "Malha",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11251.jpg",
-      "assets/mysk/creators-edition-drop-02/11251-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11251-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11251-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11251-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11251-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 114,
-    code: "11252",
-    name: "Blusa Brigitte",
-    slug: "blusa-brigitte",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Blusa",
-    price: 319.80,
-    description: "Blusa Brigitte do catálogo Creators Edition - Drop 02.",
-    composition: "Malha",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11252-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11252.jpg",
-      "assets/mysk/creators-edition-drop-02/11252-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11252-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11252-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11252-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 115,
-    code: "11253",
-    name: "Calça Brigitte",
-    slug: "calca-brigitte",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 439.80,
-    description: "Calça Brigitte do catálogo Creators Edition - Drop 02.",
-    composition: "Malha",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11253.jpg",
-      "assets/mysk/creators-edition-drop-02/11253-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11253-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11253-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 116,
-    code: "11254",
-    name: "Macacão Brigitte",
-    slug: "macacao-brigitte",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Macacão",
-    price: 599.80,
-    description: "Macacão Brigitte do catálogo Creators Edition - Drop 02.",
-    composition: "Malha",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11254.jpg",
-      "assets/mysk/creators-edition-drop-02/11254-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11254-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11254-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11254-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11254-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 117,
-    code: "11210",
-    name: "Camisa Samy",
-    slug: "camisa-samy",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Camisa",
-    price: 459.80,
-    description: "Camisa Samy do catálogo Creators Edition - Drop 02.",
-    composition: "Tela Bordada",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11210.jpg",
-      "assets/mysk/creators-edition-drop-02/11210-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11210-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11210-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11210-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11210-6.jpg",
-      "assets/mysk/creators-edition-drop-02/11210-1.jpg",
-    ],
-    colors: [
-      { name: "Natural", hex: "#E8DDC8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 118,
-    code: "11211",
-    name: "Calça Samy",
-    slug: "calca-samy",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 579.80,
-    description: "Calça Samy do catálogo Creators Edition - Drop 02.",
-    composition: "Tela Bordada",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11211-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11211.jpg",
-      "assets/mysk/creators-edition-drop-02/11211-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11211-1.jpg",
-    ],
-    colors: [
-      { name: "Natural", hex: "#E8DDC8" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 119,
-    code: "11108",
-    name: "Body Mia",
-    slug: "body-mia",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Body",
-    price: 239.80,
-    description: "Body Mia do catálogo Creators Edition - Drop 02.",
-    composition: "Poliamida",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11108-1.jpg",
-    ],
-    colors: [
-      { name: "Chantily", hex: "#F2E4CF" },
-      { name: "Avelã", hex: "#A67B5B" },
-      { name: "Café", hex: "#6F4E37" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 120,
-    code: "11228",
-    name: "Blusa Fly",
-    slug: "blusa-fly",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Blusa",
-    price: 279.80,
-    description: "Blusa Fly do catálogo Creators Edition - Drop 02.",
-    composition: "Tule",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11228.jpg",
-      "assets/mysk/creators-edition-drop-02/11228-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11228-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11228-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11228-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11228-1.jpg",
-    ],
-    colors: [
-      { name: "Ardósia", hex: "#708090" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 121,
-    code: "11231",
-    name: "Saia Fly",
-    slug: "saia-fly",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Saia",
-    price: 339.80,
-    description: "Saia Fly do catálogo Creators Edition - Drop 02.",
-    composition: "Tule",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11231-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11231.jpg",
-      "assets/mysk/creators-edition-drop-02/11231-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11231-1.jpg",
-    ],
-    colors: [
-      { name: "Ardósia", hex: "#708090" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 122,
-    code: "11230",
-    name: "Calça Fly",
-    slug: "calca-fly",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 339.80,
-    description: "Calça Fly do catálogo Creators Edition - Drop 02.",
-    composition: "Tule",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11230-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11230.jpg",
-      "assets/mysk/creators-edition-drop-02/11230-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11230-1.jpg",
-    ],
-    colors: [
-      { name: "Ardósia", hex: "#708090" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 123,
-    code: "11229",
-    name: "Vestido Fly",
-    slug: "vestido-fly",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Vestido",
-    price: 339.80,
-    description: "Vestido Fly do catálogo Creators Edition - Drop 02.",
-    composition: "Tule",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11229.jpg",
-      "assets/mysk/creators-edition-drop-02/11229-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11229-3.jpg",
-    ],
-    colors: [
-      { name: "Ardósia", hex: "#708090" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 124,
-    code: "11216",
-    name: "Regata Amanda",
-    slug: "regata-amanda",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Regata",
-    price: 259.80,
-    description: "Regata Amanda do catálogo Creators Edition - Drop 02.",
-    composition: "Tela Floral",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11216-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11216.jpg",
-      "assets/mysk/creators-edition-drop-02/11216-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11216-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11216-1.jpg",
-    ],
-    colors: [
-      { name: "Creme", hex: "#F7E9CF" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 125,
-    code: "11217",
-    name: "Calça Amanda",
-    slug: "calca-amanda",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 359.80,
-    description: "Calça Amanda do catálogo Creators Edition - Drop 02.",
-    composition: "Tela Floral",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11217.jpg",
-      "assets/mysk/creators-edition-drop-02/11217-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11217-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11217-1.jpg",
-    ],
-    colors: [
-      { name: "Creme", hex: "#F7E9CF" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 126,
-    code: "11200",
-    name: "Vestido Olivia",
-    slug: "vestido-olivia",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Vestido",
-    price: 399.80,
-    description: "Vestido Olivia do catálogo Creators Edition - Drop 02.",
-    composition: "Malha Crochet",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11200.jpg",
-      "assets/mysk/creators-edition-drop-02/11200-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11200-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11200-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11200-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Marrom", hex: "#6B3F2A" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 127,
-    code: "11522",
-    name: "Top Jade",
-    slug: "top-jade",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Top",
-    price: 1079.80,
-    description: "Top Jade do catálogo Creators Edition - Drop 02.",
-    composition: "Pedraria",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11522.jpg",
-      "assets/mysk/creators-edition-drop-02/11522-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11522-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11522-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11522-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11522-6.jpg",
-      "assets/mysk/creators-edition-drop-02/11522-7.jpg",
-      "assets/mysk/creators-edition-drop-02/11522-8.jpg",
-      "assets/mysk/creators-edition-drop-02/11522-9.jpg",
-      "assets/mysk/creators-edition-drop-02/11522-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 128,
-    code: "11235",
-    name: "Saia Naya",
-    slug: "saia-naya",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Saia",
-    price: 379.80,
-    description: "Saia Naya do catálogo Creators Edition - Drop 02.",
-    composition: "Crepe Acetinado",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11235-1.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Fendi", hex: "#B7A99A" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 129,
-    code: "11233",
-    name: "Frente Única Naya",
-    slug: "frente-unica-naya",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Frente Única",
-    price: 299.80,
-    description: "Frente Única Naya do catálogo Creators Edition - Drop 02.",
-    composition: "Crepe Acetinado",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11233-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11233.jpg",
-      "assets/mysk/creators-edition-drop-02/11233-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11233-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11233-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11233-6.jpg",
-      "assets/mysk/creators-edition-drop-02/11233-7.jpg",
-      "assets/mysk/creators-edition-drop-02/11233-8.jpg",
-      "assets/mysk/creators-edition-drop-02/11233-1.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Fendi", hex: "#B7A99A" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 130,
-    code: "11234",
-    name: "Calça Naya",
-    slug: "calca-naya",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 419.80,
-    description: "Calça Naya do catálogo Creators Edition - Drop 02.",
-    composition: "Crepe Acetinado",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11234.jpg",
-      "assets/mysk/creators-edition-drop-02/11234-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11234-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11234-1.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Fendi", hex: "#B7A99A" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 131,
-    code: "11523",
-    name: "Top Jordana",
-    slug: "top-jordana",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Top",
-    price: 799.80,
-    description: "Top Jordana do catálogo Creators Edition - Drop 02.",
-    composition: "Pedraria",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11523.jpg",
-      "assets/mysk/creators-edition-drop-02/11523-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11523-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11523-4.jpg",
-      "assets/mysk/creators-edition-drop-02/11523-5.jpg",
-      "assets/mysk/creators-edition-drop-02/11523-6.jpg",
-      "assets/mysk/creators-edition-drop-02/11523-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 132,
-    code: "11242",
-    name: "Vestido Nikky",
-    slug: "vestido-nikky",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Vestido",
-    price: 539.80,
-    description: "Vestido Nikky do catálogo Creators Edition - Drop 02.",
-    composition: "Viscose Maquinetada",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11242.jpg",
-      "assets/mysk/creators-edition-drop-02/11242-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11242-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11242-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 133,
-    code: "11202",
-    name: "Regata Nikky",
-    slug: "regata-nikky",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Regata",
-    price: 239.80,
-    description: "Regata Nikky do catálogo Creators Edition - Drop 02.",
-    composition: "Viscose Maquinetada",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11202-3.jpg",
-      "assets/mysk/creators-edition-drop-02/11202.jpg",
-      "assets/mysk/creators-edition-drop-02/11202-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11202-1.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 134,
-    code: "11203",
-    name: "Calça Nikky",
-    slug: "calca-nikky",
-    brand: "mysk",
-    catalog: "Creators Edition - Drop 02",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Nikky do catálogo Creators Edition - Drop 02.",
-    composition: "Viscose Maquinetada",
-    images: [
-      "assets/mysk/creators-edition-drop-02/11203-1.jpg",
-      "assets/mysk/creators-edition-drop-02/11203.jpg",
-      "assets/mysk/creators-edition-drop-02/11203-2.jpg",
-      "assets/mysk/creators-edition-drop-02/11203-3.jpg",
-    ],
-    colors: [
-      { name: "Off White", hex: "#F8F3EA" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Preto", hex: "#111111" },
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-
-  {
     id: 135,
     code: "18189",
     name: "BLUSA HELENA",
@@ -3857,6 +201,1792 @@ export const MOCK_PRODUCTS: Product[] = [
     stock: 5,
     isActive: true,
     createdAt: "2026-10-05"
+  },
+  {
+    id: 194,
+    code: "90001",
+    name: "Regata com alças",
+    slug: "regata-com-al-as-90001",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Regata",
+    price: 199.90,
+    description: "Regata com alças. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90001-2.jpg",
+      "assets/kesses/catalogo-1/90001-1.jpg",
+    ],
+    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Marinho", hex: "#17284D" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 195,
+    code: "90002",
+    name: "Shorts listrado",
+    slug: "shorts-listrado-90002",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Shorts",
+    price: 259.90,
+    description: "Shorts listrado. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90002-2.jpg",
+      "assets/kesses/catalogo-1/90002-1.jpg",
+    ],
+    colors: [{ name: "Amarelo", hex: "#E8D29A" }, { name: "Marrom", hex: "#705340" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 196,
+    code: "90003",
+    name: "Blusa fluida marinho",
+    slug: "blusa-fluida-marinho-90003",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Blusa",
+    price: 239.90,
+    description: "Blusa fluida marinho. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90003-2.jpg",
+      "assets/kesses/catalogo-1/90003-1.jpg",
+    ],
+    colors: [{ name: "Marinho", hex: "#17284D" }, { name: "Off", hex: "#F7F1E8" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 197,
+    code: "90004",
+    name: "Calça fluida",
+    slug: "cal-a-fluida-90004",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Calça",
+    price: 299.90,
+    description: "Calça fluida. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90004-2.jpg",
+      "assets/kesses/catalogo-1/90004-1.jpg",
+    ],
+    colors: [{ name: "Marinho", hex: "#17284D" }, { name: "Off", hex: "#F7F1E8" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 198,
+    code: "90005",
+    name: "Blusa conjunto azul",
+    slug: "blusa-conjunto-azul-90005",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Blusa",
+    price: 219.90,
+    description: "Blusa conjunto azul. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90005-2.jpg",
+      "assets/kesses/catalogo-1/90005-1.jpg",
+    ],
+    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Marinho", hex: "#17284D" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 199,
+    code: "90006",
+    name: "Shorts conjunto azul",
+    slug: "shorts-conjunto-azul-90006",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Shorts",
+    price: 239.90,
+    description: "Shorts conjunto azul. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90006-2.jpg",
+      "assets/kesses/catalogo-1/90006-1.jpg",
+    ],
+    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Marinho", hex: "#17284D" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 200,
+    code: "90007",
+    name: "Top listrado",
+    slug: "top-listrado-90007",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Top",
+    price: 319.90,
+    description: "Top listrado. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90007-2.jpg",
+      "assets/kesses/catalogo-1/90007-1.jpg",
+    ],
+    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Vermelho", hex: "#C95757" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 201,
+    code: "90008",
+    name: "Shorts listrado conjunto",
+    slug: "shorts-listrado-conjunto-90008",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Shorts",
+    price: 279.90,
+    description: "Shorts listrado conjunto. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90008-2.jpg",
+      "assets/kesses/catalogo-1/90008-1.jpg",
+    ],
+    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Vermelho", hex: "#C95757" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 202,
+    code: "90009",
+    name: "Vestido longo laço",
+    slug: "vestido-longo-la-o-90009",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Vestido",
+    price: 499.90,
+    description: "Vestido longo laço. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90009-2.jpg",
+      "assets/kesses/catalogo-1/90009-1.jpg",
+    ],
+    colors: [{ name: "Rosa", hex: "#E8BBC9" }, { name: "Azul", hex: "#89B8DE" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 203,
+    code: "90010",
+    name: "Blusa listrada",
+    slug: "blusa-listrada-90010",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Blusa",
+    price: 299.90,
+    description: "Blusa listrada. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90010-2.jpg",
+      "assets/kesses/catalogo-1/90010-1.jpg",
+    ],
+    colors: [{ name: "Rosa", hex: "#E8BBC9" }, { name: "Azul", hex: "#89B8DE" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 204,
+    code: "90011",
+    name: "Vestido longo fluido",
+    slug: "vestido-longo-fluido-90011",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Vestido",
+    price: 419.90,
+    description: "Vestido longo fluido. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90011-2.jpg",
+      "assets/kesses/catalogo-1/90011-1.jpg",
+    ],
+    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Amarelo", hex: "#E8D29A" }, { name: "Marrom", hex: "#705340" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 205,
+    code: "90012",
+    name: "Blusa roxa",
+    slug: "blusa-roxa-90012",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Blusa",
+    price: 199.90,
+    description: "Blusa roxa. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90012-2.jpg",
+      "assets/kesses/catalogo-1/90012-1.jpg",
+    ],
+    colors: [{ name: "Roxo", hex: "#493267" }, { name: "Off", hex: "#F7F1E8" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 206,
+    code: "90013",
+    name: "Shorts roxo",
+    slug: "shorts-roxo-90013",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Shorts",
+    price: 259.90,
+    description: "Shorts roxo. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90013-2.jpg",
+      "assets/kesses/catalogo-1/90013-1.jpg",
+    ],
+    colors: [{ name: "Roxo", hex: "#493267" }, { name: "Off", hex: "#F7F1E8" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 207,
+    code: "90014",
+    name: "Blusa botões",
+    slug: "blusa-bot-es-90014",
+    brand: "kesses",
+    catalog: "Catálogo 1",
+    category: "Blusa",
+    price: 279.90,
+    description: "Blusa botões. Código provisório para identificação da mídia.",
+    composition: "Não informada",
+    images: [
+      "assets/kesses/catalogo-1/90014-2.jpg",
+      "assets/kesses/catalogo-1/90014-1.jpg",
+    ],
+    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Rosa", hex: "#E8BBC9" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-08"
+  },
+  {
+    id: 10000,
+    code: "8330",
+    name: "Vestido Lorena",
+    slug: "vestido-lorena-8330",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Vestido",
+    price: 579.90,
+    description: "Vestido Lorena — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8330-modelo-1.jpg",
+      "assets/kaele/26-10-26/8330-peca.jpg"
+    ],
+    colors: [{ name: "Onça", hex: "#94725D" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10001,
+    code: "8332",
+    name: "Regata Frente-Única Lorena",
+    slug: "regata-frente-unica-lorena-8332",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Regata",
+    price: 219.90,
+    description: "Regata Frente-Única Lorena — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8332-modelo-1.jpg",
+      "assets/kaele/26-10-26/8332-peca.jpg"
+    ],
+    colors: [{ name: "Onça", hex: "#D9D3CB" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10002,
+    code: "8507",
+    name: "Calça Cós Virado Juli",
+    slug: "calca-cos-virado-juli-8507",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Calça",
+    price: 399.90,
+    description: "Calça Cós Virado Juli — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8507-modelo-1.jpg",
+      "assets/kaele/26-10-26/8507-peca.jpg"
+    ],
+    colors: [{ name: "Azul", hex: "#7296C5" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10003,
+    code: "8310",
+    name: "Blusa Maya",
+    slug: "blusa-maya-8310",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Blusa",
+    price: 153.90,
+    description: "Blusa Maya — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8310-modelo-1.jpg",
+      "assets/kaele/26-10-26/8310-peca.jpg"
+    ],
+    colors: [{ name: "Branco", hex: "#fff" }, { name: "Bege", hex: "#D9D3CB" }, { name: "Rosa", hex: "#f7a1dd" } ],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10004,
+    code: "8308",
+    name: "Regata Maya",
+    slug: "regata-maya-8308",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Regata",
+    price: 193.90,
+    description: "Regata Maya — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8308-modelo-1.jpg",
+      "assets/kaele/26-10-26/8308-modelo-2.jpg",
+      "assets/kaele/26-10-26/8308-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Aveia", hex: "#D6C2A7" }, { name: "Rosa", hex: "#EAB6C5" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10005,
+    code: "8309",
+    name: "Saia Maya",
+    slug: "saia-maya-8309",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Saia",
+    price: 359.90,
+    description: "Saia Maya — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8309-modelo-1.jpg",
+      "assets/kaele/26-10-26/8309-modelo-2.jpg",
+      "assets/kaele/26-10-26/8309-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Aveia", hex: "#D6C2A7" }, { name: "Rosa", hex: "#EAB6C5" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10006,
+    code: "8338",
+    name: "Regata Tatá",
+    slug: "regata-tata-8338",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Regata",
+    price: 359.90,
+    description: "Regata Tatá — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8338-modelo-1.jpg",
+      "assets/kaele/26-10-26/8338-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10007,
+    code: "8339",
+    name: "Calça Tatá",
+    slug: "calca-tata-8339",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Calça",
+    price: 519.90,
+    description: "Calça Tatá — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8339-modelo-1.jpg",
+      "assets/kaele/26-10-26/8339-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10008,
+    code: "8326",
+    name: "Vestido Joana",
+    slug: "vestido-joana-8326",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Vestido",
+    price: 439.90,
+    description: "Vestido Joana — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8326-modelo-1.jpg",
+      "assets/kaele/26-10-26/8326-modelo-2.jpg",
+      "assets/kaele/26-10-26/8326-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Azul", hex: "#7296C5" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10009,
+    code: "8333",
+    name: "Vestido Mara",
+    slug: "vestido-mara-8333",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Vestido",
+    price: 459.90,
+    description: "Vestido Mara — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8333-modelo-1.jpg",
+      "assets/kaele/26-10-26/8333-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Azul", hex: "#7296C5" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10010,
+    code: "8336",
+    name: "Blusa Fefê",
+    slug: "blusa-fefe-8336",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Blusa",
+    price: 359.90,
+    description: "Blusa Fefê — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8336-modelo-1.jpg",
+      "assets/kaele/26-10-26/8336-modelo-2.jpg",
+      "assets/kaele/26-10-26/8336-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Azul", hex: "#7296C5" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10011,
+    code: "8337",
+    name: "Calça Fefê",
+    slug: "calca-fefe-8337",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Calça",
+    price: 439.90,
+    description: "Calça Fefê — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8337-modelo-1.jpg",
+      "assets/kaele/26-10-26/8337-modelo-2.jpg",
+      "assets/kaele/26-10-26/8337-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Azul", hex: "#7296C5" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10012,
+    code: "8311",
+    name: "Camisa Natália",
+    slug: "camisa-natalia-8311",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Camisa",
+    price: 359.90,
+    description: "Camisa Natália — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8311-modelo-1.jpg",
+      "assets/kaele/26-10-26/8311-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10013,
+    code: "8519",
+    name: "Bermuda Aurora",
+    slug: "bermuda-aurora-8519",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Bermuda",
+    price: 339.90,
+    description: "Bermuda Aurora — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8519-modelo-1.jpg",
+      "assets/kaele/26-10-26/8519-peca.jpg"
+    ],
+    colors: [{ name: "Azul", hex: "#7296C5" }, { name: "Azul Claro", hex: "#AFC9DF" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10014,
+    code: "8346",
+    name: "Top Ângela",
+    slug: "top-angela-8346",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Top",
+    price: 299.90,
+    description: "Top Ângela — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8346-modelo-1.jpg",
+      "assets/kaele/26-10-26/8346-peca.jpg"
+    ],
+    colors: [{ name: "Conforme catálogo", hex: "#D9D3CB" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10015,
+    code: "8347",
+    name: "Saia Ângela",
+    slug: "saia-angela-8347",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Saia",
+    price: 299.90,
+    description: "Saia Ângela — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8347-modelo-1.jpg",
+      "assets/kaele/26-10-26/8347-peca.jpg"
+    ],
+    colors: [{ name: "Conforme catálogo", hex: "#D9D3CB" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10016,
+    code: "8501",
+    name: "Calça Baloon Darla",
+    slug: "calca-baloon-darla-8501",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Calça",
+    price: 399.90,
+    description: "Calça Baloon Darla — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8501-modelo-1.jpg",
+      "assets/kaele/26-10-26/8501-peca.jpg"
+    ],
+    colors: [{ name: "Azul", hex: "#7296C5" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10017,
+    code: "8325",
+    name: "Blusa Joana",
+    slug: "blusa-joana-8325",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Blusa",
+    price: 279.90,
+    description: "Blusa Joana — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8325-modelo-1.jpg",
+      "assets/kaele/26-10-26/8325-peca.jpg"
+    ],
+    colors: [{ name: "Preto", hex: "#161616" }, { name: "Azul", hex: "#7296C5" }, { name: "Creme", hex: "#EFE3D1" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10018,
+    code: "8352",
+    name: "Vestido Suzana",
+    slug: "vestido-suzana-8352",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Vestido",
+    price: 559.90,
+    description: "Vestido Suzana — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8352-modelo-1.jpg",
+      "assets/kaele/26-10-26/8352-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Aveia", hex: "#D6C2A7" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10019,
+    code: "8354",
+    name: "Top Celina",
+    slug: "top-celina-8354",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Top",
+    price: 339.90,
+    description: "Top Celina — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8354-modelo-1.jpg",
+      "assets/kaele/26-10-26/8354-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10020,
+    code: "8355",
+    name: "Saia Celina",
+    slug: "saia-celina-8355",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Saia",
+    price: 339.90,
+    description: "Saia Celina — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8355-modelo-1.jpg",
+      "assets/kaele/26-10-26/8355-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10021,
+    code: "8323",
+    name: "Top Vitória",
+    slug: "top-vitoria-8323",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Top",
+    price: 259.90,
+    description: "Top Vitória — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8323-modelo-1.jpg",
+      "assets/kaele/26-10-26/8323-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Creme", hex: "#EFE3D1" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10022,
+    code: "8324",
+    name: "Calça Vitória",
+    slug: "calca-vitoria-8324",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Calça",
+    price: 539.90,
+    description: "Calça Vitória — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8324-modelo-1.jpg",
+      "assets/kaele/26-10-26/8324-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Creme", hex: "#EFE3D1" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10023,
+    code: "5336",
+    name: "Regata Liz",
+    slug: "regata-liz-5336",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Regata",
+    price: 199.90,
+    description: "Regata Liz — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/5336-modelo-1.jpg",
+      "assets/kaele/26-10-26/5336-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Aveia", hex: "#D6C2A7" }, { name: "Rosè", hex: "#DFA4AC" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10024,
+    code: "5337",
+    name: "Saia Liz",
+    slug: "saia-liz-5337",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Saia",
+    price: 239.90,
+    description: "Saia Liz — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/5337-modelo-1.jpg",
+      "assets/kaele/26-10-26/5337-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Aveia", hex: "#D6C2A7" }, { name: "Rosè", hex: "#DFA4AC" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10025,
+    code: "8125",
+    name: "Rt-Shirt Belle",
+    slug: "rt-shirt-belle-8125",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "T-Shirt",
+    price: 239.90,
+    description: "Rt-Shirt Belle — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8125-modelo-1.jpg",
+      "assets/kaele/26-10-26/8125-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Choco", hex: "#604032" }, { name: "Creme", hex: "#EFE3D1" }, { name: "Rosê", hex: "#DFA4AC" }, { name: "Rosinha", hex: "#F2CAD2" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10026,
+    code: "8327",
+    name: "Regata Taylor",
+    slug: "regata-taylor-8327",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Regata",
+    price: 159.90,
+    description: "Regata Taylor — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8327-modelo-1.jpg",
+      "assets/kaele/26-10-26/8327-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Marinho", hex: "#263A5D" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10027,
+    code: "5270",
+    name: "Regata Daisy",
+    slug: "regata-daisy-5270",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Regata",
+    price: 299.90,
+    description: "Regata Daisy — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/5270-modelo-1.jpg",
+      "assets/kaele/26-10-26/5270-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10028,
+    code: "8342",
+    name: "Short Eliza",
+    slug: "short-eliza-8342",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Short",
+    price: 319.90,
+    description: "Short Eliza — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8342-modelo-1.jpg",
+      "assets/kaele/26-10-26/8342-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Azul", hex: "#7296C5" }, { name: "Choco", hex: "#604032" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10029,
+    code: "8356",
+    name: "Vestido Débora",
+    slug: "vestido-debora-8356",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Vestido",
+    price: 659.90,
+    description: "Vestido Débora — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8356-modelo-1.jpg",
+      "assets/kaele/26-10-26/8356-peca.jpg"
+    ],
+    colors: [{ name: "Preto", hex: "#161616" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10030,
+    code: "8253",
+    name: "Regata Marina",
+    slug: "regata-marina-8253",
+    brand: "kaele",
+    catalog: "Catálogo 1",
+    category: "Regata",
+    price: 99.90,
+    description: "Regata Marina — coleção Catálogo 1 (KAELE).",
+    composition: "Conforme catálogo",
+    images: [
+      "assets/kaele/26-10-26/8253-modelo-1.jpg",
+      "assets/kaele/26-10-26/8253-peca.jpg"
+    ],
+    colors: [{ name: "Preto", hex: "#161616" }, { name: "Choco", hex: "#604032" }, { name: "Creme", hex: "#EFE3D1" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10031,
+    code: "39855",
+    name: "Vestido Longo",
+    slug: "vestido-longo-39855",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 459.90,
+    description: "Vestido Longo — coleção Night Edition (ESMERAL).",
+    composition: "95% POLIAMIDA 5% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39855-modelo-2.jpg",
+      "assets/esmeral/night-edition-26-10/39855-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10032,
+    code: "39804",
+    name: "Peplum Balonê Alfaiataria",
+    slug: "peplum-balone-alfaiataria-39804",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Peplum",
+    price: 259.90,
+    description: "Peplum Balonê Alfaiataria — coleção Night Edition (ESMERAL).",
+    composition: "100% POLIÉSTER ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39804-modelo-2.jpg",
+      "assets/esmeral/night-edition-26-10/39804-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Off White", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Vermelho", hex: "#B72D34" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10033,
+    code: "39805",
+    name: "Calça Reta Alfaiataria",
+    slug: "calca-reta-alfaiataria-39805",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Calça",
+    price: 439.90,
+    description: "Calça Reta Alfaiataria — coleção Night Edition (ESMERAL).",
+    composition: "100% POLIÉSTER ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39804-modelo-2.jpg",
+      "assets/esmeral/night-edition-26-10/39805-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Off White", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Vermelho", hex: "#B72D34" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10034,
+    code: "39839",
+    name: "Top Sem Alças Assimétrico",
+    slug: "top-sem-alcas-assimetrico-39839",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Top",
+    price: 259.90,
+    description: "Top Sem Alças Assimétrico — coleção Night Edition (ESMERAL).",
+    composition: "100% POLIÉSTER ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39839-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39839-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }, { name: "Bege", hex: "#DCC5AE" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10035,
+    code: "39850",
+    name: "Calça Harém",
+    slug: "calca-harem-39850",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Calça",
+    price: 699.90,
+    description: "Calça Harém — coleção Night Edition (ESMERAL).",
+    composition: "100% POLIÉSTER ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39850-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39850-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Off White", hex: "#F8F5EF" }, { name: "Dourado", hex: "#BCA36C" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10036,
+    code: "39795",
+    name: "Vestido Peplum",
+    slug: "vestido-peplum-39795",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 399.90,
+    description: "Vestido Peplum — coleção Night Edition (ESMERAL).",
+    composition: "45% POLIAMIDA 35% ALGODÃO 20% VISCOSE ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39795-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39795-peca.jpg"
+    ],
+    colors: [{ name: "Preto", hex: "#161616" }, { name: "Azul", hex: "#7296C5" }, { name: "Marrom", hex: "#704B37" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10037,
+    code: "39778",
+    name: "Body Transpassado",
+    slug: "body-transpassado-39778",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Body",
+    price: 259.90,
+    description: "Body Transpassado — coleção Night Edition (ESMERAL).",
+    composition: "95% POLIAMIDA 5% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39778-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39778-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }, { name: "Amarelo", hex: "#E9C45B" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10038,
+    code: "39727",
+    name: "Saia Shorts",
+    slug: "saia-shorts-39727",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Saia",
+    price: 359.90,
+    description: "Saia Shorts — coleção Night Edition (ESMERAL).",
+    composition: "100% POLIÉSTER ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39727-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39727-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Off White", hex: "#F8F5EF" }, { name: "Dourado", hex: "#BCA36C" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10039,
+    code: "39828",
+    name: "Top Lenço Com Franja",
+    slug: "top-lenco-com-franja-39828",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Top",
+    price: 149.90,
+    description: "Top Lenço Com Franja — coleção Night Edition (ESMERAL).",
+    composition: "97% POLIÉSTER 3% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39828-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39828-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }, { name: "Bege", hex: "#DCC5AE" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10040,
+    code: "39836",
+    name: "Saia Evasê Acetinada",
+    slug: "saia-evase-acetinada-39836",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Saia",
+    price: 279.90,
+    description: "Saia Evasê Acetinada — coleção Night Edition (ESMERAL).",
+    composition: "97% POLIÉSTER 3% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39828-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39836-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }, { name: "Bege", hex: "#DCC5AE" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10041,
+    code: "39837",
+    name: "Vestido Chiffon +",
+    slug: "vestido-chiffon-+-39837",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 451.90,
+    description: "Vestido Chiffon + — coleção Night Edition (ESMERAL).",
+    composition: "100% POLIÉSTER ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39837-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39837-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Off White", hex: "#F8F5EF" }, { name: "Bege", hex: "#DCC5AE" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10042,
+    code: "39856",
+    name: "Vestido Longo 1 Ombro Alfaiataria",
+    slug: "vestido-longo-1-ombro-alfaiataria-39856",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 559.90,
+    description: "Vestido Longo 1 Ombro Alfaiataria — coleção Night Edition (ESMERAL).",
+    composition: "100% POLIÉSTER ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39856-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39856-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Off White", hex: "#F8F5EF" }, { name: "Oliva", hex: "#777B4C" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10043,
+    code: "39868",
+    name: "Vestido Curto Satin",
+    slug: "vestido-curto-satin-39868",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 479.90,
+    description: "Vestido Curto Satin — coleção Night Edition (ESMERAL).",
+    composition: "95% POLIÉSTER 5% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39868-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39868-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }, { name: "Amarelo", hex: "#E9C45B" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10044,
+    code: "39851",
+    name: "Body 1 Ombro",
+    slug: "body-1-ombro-39851",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Body",
+    price: 211.90,
+    description: "Body 1 Ombro — coleção Night Edition (ESMERAL).",
+    composition: "87% POLIAMIDA 13% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39851-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39851-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10045,
+    code: "39788",
+    name: "Calça Harem Glam",
+    slug: "calca-harem-glam-39788",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Calça",
+    price: 459.90,
+    description: "Calça Harem Glam — coleção Night Edition (ESMERAL).",
+    composition: "73% VISCOSE 27% POLIÉSTER ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39788-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39788-peca.jpg"
+    ],
+    colors: [{ name: "Preto", hex: "#161616" }, { name: "Bege", hex: "#DCC5AE" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10046,
+    code: "39858",
+    name: "Vestido Tubo Alfaiataria",
+    slug: "vestido-tubo-alfaiataria-39858",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 559.90,
+    description: "Vestido Tubo Alfaiataria — coleção Night Edition (ESMERAL).",
+    composition: "97% POLIÉSTER 3% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39858-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39858-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }, { name: "Bege", hex: "#DCC5AE" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10047,
+    code: "39835",
+    name: "Vestido Curto Balonê",
+    slug: "vestido-curto-balone-39835",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 379.90,
+    description: "Vestido Curto Balonê — coleção Night Edition (ESMERAL).",
+    composition: "87% POLIAMIDA 13% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39835-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39835-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10048,
+    code: "39660",
+    name: "Vestido Curto",
+    slug: "vestido-curto-39660",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 459.90,
+    description: "Vestido Curto — coleção Night Edition (ESMERAL).",
+    composition: "95% POLIAMIDA 5% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39660-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39660-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10049,
+    code: "39736",
+    name: "Vestido 1 Ombro",
+    slug: "vestido-1-ombro-39736",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 539.90,
+    description: "Vestido 1 Ombro — coleção Night Edition (ESMERAL).",
+    composition: "95% POLIÉSTER 5% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39736-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39736-peca.jpg"
+    ],
+    colors: [{ name: "Preto", hex: "#161616" }, { name: "Marrom", hex: "#704B37" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10050,
+    code: "39777",
+    name: "Vestido Curto Alfaiataria",
+    slug: "vestido-curto-alfaiataria-39777",
+    brand: "esmeral",
+    catalog: "Night Edition",
+    category: "Vestido",
+    price: 319.90,
+    description: "Vestido Curto Alfaiataria — coleção Night Edition (ESMERAL).",
+    composition: "97% POLIÉSTER 3% ELASTANO ",
+    images: [
+      "assets/esmeral/night-edition-26-10/39777-modelo-1.jpg",
+      "assets/esmeral/night-edition-26-10/39777-peca.jpg"
+    ],
+    colors: [{ name: "Marrom", hex: "#704B37" }, { name: "Vermelho", hex: "#B72D34" }, { name: "Bege", hex: "#DCC5AE" }],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10051,
+    code: "11214",
+    name: "Regata Carolina",
+    slug: "regata-carolina-11214",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Regata",
+    price: 339.90,
+    description: "Regata Carolina — coleção summer-26-10-26 (MYSK).",
+    composition: " Laise 100% Algodão 36 38 40 42 off e preto",
+    images: [
+      "assets/mysk/summer-26-10-26/11214-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11214-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10052,
+    code: "11215",
+    name: "Calça Carolina",
+    slug: "calca-carolina-11215",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Calça",
+    price: 479.90,
+    description: "Calça Carolina — coleção summer-26-10-26 (MYSK).",
+    composition: " Laise 100% Algodão 36 38 40 42 off e preto",
+    images: [
+      "assets/mysk/summer-26-10-26/11215-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11215-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10053,
+    code: "11232",
+    name: "Vestido Helana",
+    slug: "vestido-helana-11232",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Vestido",
+    price: 439.90,
+    description: "Vestido Helana — coleção summer-26-10-26 (MYSK).",
+    composition: " Laise 100% Algodão 36 38 40 42 off e preto",
+    images: [
+      "assets/mysk/summer-26-10-26/11232-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11232-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10054,
+    code: "11268",
+    name: "Vestido Irene",
+    slug: "vestido-irene-11268",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Vestido",
+    price: 479.90,
+    description: "Vestido Irene — coleção summer-26-10-26 (MYSK).",
+    composition: " Jersey 96% Poliéster 4% Elastano 36 38 40 42 off e azul",
+    images: [
+      "assets/mysk/summer-26-10-26/11268-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11268-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Azul", hex: "#7296C5" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10055,
+    code: "11212",
+    name: "Frente Única Dina",
+    slug: "frente-unica-dina-11212",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Frente",
+    price: 359.90,
+    description: "Frente Única Dina — coleção summer-26-10-26 (MYSK).",
+    composition: " Alfaiataria 92% Viscose 8% Poliéster 36 38 40 42 menta, off, rosa e azul",
+    images: [
+      "assets/mysk/summer-26-10-26/11212-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11212-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Azul", hex: "#7296C5" }, { name: "Rosa", hex: "#EAB6C5" }, { name: "Menta", hex: "#B7D9C8" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10056,
+    code: "11213",
+    name: "Calça Dina",
+    slug: "calca-dina-11213",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Calça",
+    price: 419.90,
+    description: "Calça Dina — coleção summer-26-10-26 (MYSK).",
+    composition: " Alfaiataria 92% Viscose 8% Poliéster 36 38 40 42 menta, off, rosa e azul",
+    images: [
+      "assets/mysk/summer-26-10-26/11213-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11213-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Azul", hex: "#7296C5" }, { name: "Rosa", hex: "#EAB6C5" }, { name: "Menta", hex: "#B7D9C8" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10057,
+    code: "11241",
+    name: "Vestido Enola",
+    slug: "vestido-enola-11241",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Vestido",
+    price: 379.90,
+    description: "Vestido Enola — coleção summer-26-10-26 (MYSK).",
+    composition: " Paetê 100% Poliéster 36 38 40 42 off e verde",
+    images: [
+      "assets/mysk/summer-26-10-26/11241-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11241-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Verde", hex: "#7F9A72" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10058,
+    code: "11282",
+    name: "Regata Com Cinto Joana",
+    slug: "regata-com-cinto-joana-11282",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Regata",
+    price: 319.90,
+    description: "Regata Com Cinto Joana — coleção summer-26-10-26 (MYSK).",
+    composition: " Mescla Rustic 100% Poliéster 36 38 40 42 camel e verde",
+    images: [
+      "assets/mysk/summer-26-10-26/11282-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11282-peca.jpg"
+    ],
+    colors: [{ name: "Verde", hex: "#7F9A72" }, { name: "Camel", hex: "#BE9472" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10059,
+    code: "11283",
+    name: "Calça Joana",
+    slug: "calca-joana-11283",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Calça",
+    price: 399.90,
+    description: "Calça Joana — coleção summer-26-10-26 (MYSK).",
+    composition: " Mescla Rustic 100% Poliéster 36 38 40 42 camel e verde",
+    images: [
+      "assets/mysk/summer-26-10-26/11283-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11283-peca.jpg"
+    ],
+    colors: [{ name: "Verde", hex: "#7F9A72" }, { name: "Camel", hex: "#BE9472" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10060,
+    code: "11289",
+    name: "Vestido Laura",
+    slug: "vestido-laura-11289",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Vestido",
+    price: 719.90,
+    description: "Vestido Laura — coleção summer-26-10-26 (MYSK).",
+    composition: " Renda 96% Poliamida 4% Elastano 36 38 40 42 aveia e choco",
+    images: [
+      "assets/mysk/summer-26-10-26/11289-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11289-peca.jpg"
+    ],
+    colors: [{ name: "Choco", hex: "#604032" }, { name: "Aveia", hex: "#D6C2A7" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10061,
+    code: "11273",
+    name: "Top Suzy",
+    slug: "top-suzy-11273",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Top",
+    price: 299.90,
+    description: "Top Suzy — coleção summer-26-10-26 (MYSK).",
+    composition: " Renda 96% Poliamida 4% Elastano 36 38 40 42 creme e choco",
+    images: [
+      "assets/mysk/summer-26-10-26/11273-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11273-peca.jpg"
+    ],
+    colors: [{ name: "Choco", hex: "#604032" }, { name: "Creme", hex: "#EFE3D1" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10062,
+    code: "11274",
+    name: "Saia Midi Suzy",
+    slug: "saia-midi-suzy-11274",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Saia",
+    price: 439.90,
+    description: "Saia Midi Suzy — coleção summer-26-10-26 (MYSK).",
+    composition: " Renda 96% Poliamida 4% Elastano 36 38 40 42 creme e choco",
+    images: [
+      "assets/mysk/summer-26-10-26/11274-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11274-peca.jpg"
+    ],
+    colors: [{ name: "Choco", hex: "#604032" }, { name: "Creme", hex: "#EFE3D1" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10063,
+    code: "11236",
+    name: "Vestido Bianca",
+    slug: "vestido-bianca-11236",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Vestido",
+    price: 559.90,
+    description: "Vestido Bianca — coleção summer-26-10-26 (MYSK).",
+    composition: " Chiffon 100% Poliéster 34 36 38 40 tangerina e camel",
+    images: [
+      "assets/mysk/summer-26-10-26/11236-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11236-peca.jpg"
+    ],
+    colors: [{ name: "Conforme catálogo", hex: "#D9D3CB" }],
+    sizes: ["34", "36", "38", "40"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10064,
+    code: "11272",
+    name: "Vestido Carla",
+    slug: "vestido-carla-11272",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Vestido",
+    price: 479.90,
+    description: "Vestido Carla — coleção summer-26-10-26 (MYSK).",
+    composition: " Chiffon 100% Poliéster 34 36 38 40 tangerina e camel",
+    images: [
+      "assets/mysk/summer-26-10-26/11272-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11272-peca.jpg"
+    ],
+    colors: [{ name: "Conforme catálogo", hex: "#D9D3CB" }],
+    sizes: ["34", "36", "38", "40"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10065,
+    code: "11199",
+    name: "Vestido Dalila",
+    slug: "vestido-dalila-11199",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Vestido",
+    price: 439.90,
+    description: "Vestido Dalila — coleção summer-26-10-26 (MYSK).",
+    composition: " Alfaiataria 90% Póliéster 10% Elastano 36 38 40 42 off, marrom e preto",
+    images: [
+      "assets/mysk/summer-26-10-26/11199-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11199-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Marrom", hex: "#704B37" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10066,
+    code: "11525",
+    name: "Blusa Ombro A Ombro Estela",
+    slug: "blusa-ombro-a-ombro-estela-11525",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Blusa",
+    price: 279.90,
+    description: "Blusa Ombro A Ombro Estela — coleção summer-26-10-26 (MYSK).",
+    composition: " 36 38 40 42 Tricot 48% Viscose 48% Acrílico 4% Elastano off e preto",
+    images: [
+      "assets/mysk/summer-26-10-26/11533-modelo-1.jpg",
+      "assets/mysk/summer-26-10-26/11525-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10067,
+    code: "11533",
+    name: "Calça Alexandra",
+    slug: "calca-alexandra-11533",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Calça",
+    price: 379.90,
+    description: "Calça Alexandra — coleção summer-26-10-26 (MYSK).",
+    composition: " Jeans 100% Algodão 34 36 38 40 jeans claro e jeans escuro",
+    images: [
+      "assets/mysk/summer-26-10-26/11533-peca.jpg"
+    ],
+    colors: [{ name: "Conforme catálogo", hex: "#D9D3CB" }],
+    sizes: ["34", "36", "38", "40"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10068,
+    code: "11222",
+    name: "Vestido Lidia",
+    slug: "vestido-lidia-11222",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Vestido",
+    price: 599.90,
+    description: "Vestido Lidia — coleção summer-26-10-26 (MYSK).",
+    composition: " 36 38 40 42 Linho 68% Viscose 28% Linho 4% Fibras diversas preto, vermelho, off e azul",
+    images: [
+      "assets/mysk/summer-26-10-26/11222-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Azul", hex: "#7296C5" }, { name: "Vermelho", hex: "#B72D34" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10069,
+    code: "11082",
+    name: "Regata Agatha",
+    slug: "regata-agatha-11082",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Regata",
+    price: 179.90,
+    description: "Regata Agatha — coleção summer-26-10-26 (MYSK).",
+    composition: " Malha Canelada 97% Algodão 3% Elastano 36 38 40 42 azul, preto, off e marrom",
+    images: [
+      "assets/mysk/summer-26-10-26/11082-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Azul", hex: "#7296C5" }, { name: "Marrom", hex: "#704B37" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
+  },
+  {
+    id: 10070,
+    code: "11083",
+    name: "Regata Lina",
+    slug: "regata-lina-11083",
+    brand: "mysk",
+    catalog: "Summer 26",
+    category: "Regata",
+    price: 159.90,
+    description: "Regata Lina — coleção summer-26-10-26 (MYSK).",
+    composition: " Malha Canelada 97% Algodão 3% Elastano 36 38 40 42 azul, preto, off e marrom",
+    images: [
+      "assets/mysk/summer-26-10-26/11083-peca.jpg"
+    ],
+    colors: [{ name: "Off", hex: "#F8F5EF" }, { name: "Preto", hex: "#161616" }, { name: "Azul", hex: "#7296C5" }, { name: "Marrom", hex: "#704B37" }],
+    sizes: ["36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-23"
   },
   {
     id: 143,
@@ -4394,3133 +2524,4 @@ export const MOCK_PRODUCTS: Product[] = [
     isActive: true,
     createdAt: "2026-10-05"
   },
-  {
-    id: 164,
-    code: "8274",
-    name: "Body Gina",
-    slug: "body-gina-8274",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Body",
-    price: 319.80,
-    description: "Body Gina do catálogo Chapter One.",
-    composition: "liocel",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8274-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8274-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8274-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8274-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8274-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Azul", hex: "#7FA8D8" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 165,
-    code: "8275",
-    name: "Calça Gina",
-    slug: "calca-gina-8275",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Calça",
-    price: 359.80,
-    description: "Calça Gina do catálogo Chapter One.",
-    composition: "liocel",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8275-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8275-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8275-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8275-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8275-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Azul", hex: "#7FA8D8" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 166,
-    code: "8286",
-    name: "Vestido Lucy",
-    slug: "vestido-lucy-8286",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Vestido",
-    price: 599.80,
-    description: "Vestido Lucy do catálogo Chapter One.",
-    composition: "chifon estampado",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8286-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8286-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8286-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8286-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8286-peca.jpg",
-    ],
-    colors: [
-      { name: "Floral", hex: "#E7C8D5" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 167,
-    code: "8302",
-    name: "Vestido Sabrina",
-    slug: "vestido-sabrina-8302",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Vestido",
-    price: 679.80,
-    description: "Vestido Sabrina do catálogo Chapter One.",
-    composition: "chifon texturizado renda aplicada",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8302-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8302-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8302-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8302-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8302-peca.jpg",
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Creme", hex: "#F7E9CF" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 168,
-    code: "8294",
-    name: "Regata Sabrina",
-    slug: "regata-sabrina-8294",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Regata",
-    price: 319.80,
-    description: "Regata Sabrina do catálogo Chapter One.",
-    composition: "chifon texturizado aplicação em renda",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8294-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8294-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8294-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8294-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8294-peca.jpg",
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Creme", hex: "#F7E9CF" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 169,
-    code: "8295",
-    name: "Short Sabrina",
-    slug: "short-sabrina-8295",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Short",
-    price: 299.80,
-    description: "Short Sabrina do catálogo Chapter One.",
-    composition: "chifon texturizado aplicação em renda",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8295-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8295-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8295-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8295-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8295-peca.jpg",
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Creme", hex: "#F7E9CF" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 170,
-    code: "8305",
-    name: "Vestido Túnica Vicky",
-    slug: "vestido-tunica-vicky-8305",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Vestido",
-    price: 399.80,
-    description: "Vestido Túnica Vicky do catálogo Chapter One.",
-    composition: "chifon",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8305-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8305-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8305-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Verde", hex: "#90B255" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 171,
-    code: "8306",
-    name: "Calça Vicky",
-    slug: "calca-vicky-8306",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Calça",
-    price: 299.80,
-    description: "Calça Vicky do catálogo Chapter One.",
-    composition: "tule de renda",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8306-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8306-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8306-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Verde", hex: "#90B255" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 172,
-    code: "8315",
-    name: "Blusa Rebeca",
-    slug: "blusa-rebeca-8315",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Blusa",
-    price: 179.80,
-    description: "Blusa Rebeca do catálogo Chapter One.",
-    composition: "tule de renda",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8315-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8315-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8315-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8315-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8315-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Verde", hex: "#90B255" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 173,
-    code: "8278",
-    name: "Vestido Pietra",
-    slug: "vestido-pietra-8278",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Vestido",
-    price: 399.80,
-    description: "Vestido Pietra do catálogo Chapter One.",
-    composition: "malha de renda texturizada",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8278-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8278-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Choco", hex: "#4A2C22" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 174,
-    code: "8279",
-    name: "Blusa Pietra",
-    slug: "blusa-pietra-8279",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Blusa",
-    price: 199.80,
-    description: "Blusa Pietra do catálogo Chapter One.",
-    composition: "malha de renda texturizada",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8279-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8279-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Choco", hex: "#4A2C22" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 175,
-    code: "8284",
-    name: "Blusa Lucy",
-    slug: "blusa-lucy-8284",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Blusa",
-    price: 339.80,
-    description: "Blusa Lucy do catálogo Chapter One.",
-    composition: "chifon estampado *estampa exclusiva",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8284-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8284-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8284-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8284-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8284-peca.jpg",
-    ],
-    colors: [
-      { name: "Floral", hex: "#E7C8D5" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 176,
-    code: "8283",
-    name: "Saia Marina",
-    slug: "saia-marina-8283",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Saia",
-    price: 279.80,
-    description: "Saia Marina do catálogo Chapter One.",
-    composition: "satin",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8283-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8283-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8283-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8283-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8283-peca.jpg",
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Verde", hex: "#90B255" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 177,
-    code: "8276",
-    name: "Regata Dina",
-    slug: "regata-dina-8276",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Regata",
-    price: 339.80,
-    description: "Regata Dina do catálogo Chapter One.",
-    composition: "viscose texturizada aplicação de renda",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8276-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8276-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8276-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8276-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8276-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Aveia", hex: "#D8CDB8" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 178,
-    code: "8277",
-    name: "Calça Dina",
-    slug: "calca-dina-8277",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Dina do catálogo Chapter One.",
-    composition: "viscose texturizada renda aplicada",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8277-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8277-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8277-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Aveia", hex: "#D8CDB8" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 179,
-    code: "8292",
-    name: "Blusa Helena",
-    slug: "blusa-helena-8292",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Blusa",
-    price: 259.80,
-    description: "Blusa Helena do catálogo Chapter One.",
-    composition: "malha de viscose",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8292-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8292-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8292-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8292-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8292-peca.jpg",
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Choco", hex: "#4A2C22" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 180,
-    code: "8293",
-    name: "Calça Helena",
-    slug: "calca-helena-8293",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Calça",
-    price: 359.80,
-    description: "Calça Helena do catálogo Chapter One.",
-    composition: "malha de viscose",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8293-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8293-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8293-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8293-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8293-peca.jpg",
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Choco", hex: "#4A2C22" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 181,
-    code: "8291",
-    name: "Vestido Rose",
-    slug: "vestido-rose-8291",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Vestido",
-    price: 439.80,
-    description: "Vestido Rose do catálogo Chapter One.",
-    composition: "malha de viscose",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8291-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8291-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8291-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8291-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8291-peca.jpg",
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Aveia", hex: "#D8CDB8" },
-      { name: "Choco", hex: "#4A2C22" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 182,
-    code: "8515",
-    name: "Calça Capri Lídia",
-    slug: "calca-capri-lidia-8515",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Calça",
-    price: 399.80,
-    description: "Calça Capri Lídia do catálogo Chapter One.",
-    composition: "denin",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8515-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8515-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8515-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8515-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8515-peca.jpg",
-    ],
-    colors: [
-      { name: "Azul Claro", hex: "#B8D7EA" },
-      { name: "Azul", hex: "#7FA8D8" }
-    ],
-    sizes: ["36", "38", "40"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 183,
-    code: "8307",
-    name: "Vestido Susan",
-    slug: "vestido-susan-8307",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Vestido",
-    price: 599.80,
-    description: "Vestido Susan do catálogo Chapter One.",
-    composition: "malha de viscose viscose plana fresh",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8307-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8307-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8307-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8307-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8307-peca.jpg",
-    ],
-    colors: [
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Marrom", hex: "#6B3F2A" },
-      { name: "Manteiga", hex: "#F3DEA2" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 184,
-    code: "8331",
-    name: "Regata Susan",
-    slug: "regata-susan-8331",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Regata",
-    price: 239.80,
-    description: "Regata Susan do catálogo Chapter One.",
-    composition: "malha de viscose viscose plana fresh",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8331-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8331-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8331-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8331-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8331-peca.jpg",
-    ],
-    colors: [
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Marrom", hex: "#6B3F2A" },
-      { name: "Manteiga", hex: "#F3DEA2" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 185,
-    code: "8271",
-    name: "Jaqueta Lele",
-    slug: "jaqueta-lele-8271",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Jaqueta",
-    price: 599.80,
-    description: "Jaqueta Lele do catálogo Chapter One.",
-    composition: "viscose texturizada",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8271-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8271-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8271-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8271-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8271-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Creme", hex: "#F7E9CF" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 186,
-    code: "8272",
-    name: "Calça Lele",
-    slug: "calca-lele-8272",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Calça",
-    price: 439.80,
-    description: "Calça Lele do catálogo Chapter One.",
-    composition: "viscose texturizada",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8272-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8272-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8272-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8272-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8272-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Creme", hex: "#F7E9CF" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 187,
-    code: "8299",
-    name: "Vestido Leona",
-    slug: "vestido-leona-8299",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Vestido",
-    price: 639.80,
-    description: "Vestido Leona do catálogo Chapter One.",
-    composition: "renda de algodão",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8299-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8299-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8299-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8299-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8299-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 188,
-    code: "8313",
-    name: "Body Vicky",
-    slug: "body-vicky-8313",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Body",
-    price: 239.80,
-    description: "Body Vicky do catálogo Chapter One.",
-    composition: "tule de renda",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8313-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8313-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8313-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8313-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8313-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Verde", hex: "#90B255" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 189,
-    code: "8282",
-    name: "Regata Marina",
-    slug: "regata-marina-8282",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Regata",
-    price: 199.80,
-    description: "Regata Marina do catálogo Chapter One.",
-    composition: "satin",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8282-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8282-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8282-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8282-peca.jpg",
-    ],
-    colors: [
-      { name: "Preto", hex: "#111111" },
-      { name: "Rosa", hex: "#F5B6C8" },
-      { name: "Verde", hex: "#90B255" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 190,
-    code: "8285",
-    name: "Saia Balonê Lucy",
-    slug: "saia-balone-lucy-8285",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Saia",
-    price: 299.80,
-    description: "Saia Balonê Lucy do catálogo Chapter One.",
-    composition: "chifon estampado *estampa exclusiva",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8285-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8285-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8285-3.jpg",
-      "assets/kaele/chapter-one-sunrise/8285-4.jpg",
-      "assets/kaele/chapter-one-sunrise/8285-peca.jpg",
-    ],
-    colors: [
-      { name: "Floral", hex: "#E7C8D5" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 191,
-    code: "8289",
-    name: "Blusa Rebecca",
-    slug: "blusa-rebecca-8289",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Blusa",
-    price: 319.80,
-    description: "Blusa Rebecca do catálogo Chapter One.",
-    composition: "chifon renda aplicada",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8289-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8289-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8289-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Verde", hex: "#90B255" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 192,
-    code: "8290",
-    name: "Calça Rebecca",
-    slug: "calca-rebecca-8290",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Calça",
-    price: 479.80,
-    description: "Calça Rebecca do catálogo Chapter One.",
-    composition: "malha poliamida",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8290-1.jpg",
-      "assets/kaele/chapter-one-sunrise/8290-2.jpg",
-      "assets/kaele/chapter-one-sunrise/8290-peca.jpg",
-    ],
-    colors: [
-      { name: "Off", hex: "#F8F3EA" },
-      { name: "Preto", hex: "#111111" },
-      { name: "Verde", hex: "#90B255" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 193,
-    code: "8273",
-    name: "Blusa Laila",
-    slug: "blusa-laila-8273",
-    brand: "kaele",
-    catalog: "Chapter One",
-    category: "Blusa",
-    price: 359.80,
-    description: "Blusa Laila do catálogo Chapter One.",
-    composition: "liocel texturizado",
-    images: [
-      "assets/kaele/chapter-one-sunrise/8273-peca.jpg",
-    ],
-    colors: [
-      { name: "Azul", hex: "#7FA8D8" },
-      { name: "Choco", hex: "#4A2C22" },
-      { name: "Amarelo", hex: "#F4D76B" }
-    ],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-05"
-  },
-  {
-    id: 194,
-    code: "90001",
-    name: "Regata com alças",
-    slug: "regata-com-al-as-90001",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Regata",
-    price: 199.90,
-    description: "Regata com alças. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90001-2.jpg",
-      "assets/kesses/catalogo-1/90001-1.jpg",
-    ],
-    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Marinho", hex: "#17284D" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 195,
-    code: "90002",
-    name: "Shorts listrado",
-    slug: "shorts-listrado-90002",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Shorts",
-    price: 259.90,
-    description: "Shorts listrado. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90002-2.jpg",
-      "assets/kesses/catalogo-1/90002-1.jpg",
-    ],
-    colors: [{ name: "Amarelo", hex: "#E8D29A" }, { name: "Marrom", hex: "#705340" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 196,
-    code: "90003",
-    name: "Blusa fluida marinho",
-    slug: "blusa-fluida-marinho-90003",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Blusa",
-    price: 239.90,
-    description: "Blusa fluida marinho. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90003-2.jpg",
-      "assets/kesses/catalogo-1/90003-1.jpg",
-    ],
-    colors: [{ name: "Marinho", hex: "#17284D" }, { name: "Off", hex: "#F7F1E8" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 197,
-    code: "90004",
-    name: "Calça fluida",
-    slug: "cal-a-fluida-90004",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Calça",
-    price: 299.90,
-    description: "Calça fluida. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90004-2.jpg",
-      "assets/kesses/catalogo-1/90004-1.jpg",
-    ],
-    colors: [{ name: "Marinho", hex: "#17284D" }, { name: "Off", hex: "#F7F1E8" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 198,
-    code: "90005",
-    name: "Blusa conjunto azul",
-    slug: "blusa-conjunto-azul-90005",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Blusa",
-    price: 219.90,
-    description: "Blusa conjunto azul. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90005-2.jpg",
-      "assets/kesses/catalogo-1/90005-1.jpg",
-    ],
-    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Marinho", hex: "#17284D" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 199,
-    code: "90006",
-    name: "Shorts conjunto azul",
-    slug: "shorts-conjunto-azul-90006",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Shorts",
-    price: 239.90,
-    description: "Shorts conjunto azul. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90006-2.jpg",
-      "assets/kesses/catalogo-1/90006-1.jpg",
-    ],
-    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Marinho", hex: "#17284D" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 200,
-    code: "90007",
-    name: "Top listrado",
-    slug: "top-listrado-90007",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Top",
-    price: 319.90,
-    description: "Top listrado. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90007-2.jpg",
-      "assets/kesses/catalogo-1/90007-1.jpg",
-    ],
-    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Vermelho", hex: "#C95757" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 201,
-    code: "90008",
-    name: "Shorts listrado conjunto",
-    slug: "shorts-listrado-conjunto-90008",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Shorts",
-    price: 279.90,
-    description: "Shorts listrado conjunto. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90008-2.jpg",
-      "assets/kesses/catalogo-1/90008-1.jpg",
-    ],
-    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Vermelho", hex: "#C95757" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 202,
-    code: "90009",
-    name: "Vestido longo laço",
-    slug: "vestido-longo-la-o-90009",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Vestido",
-    price: 499.90,
-    description: "Vestido longo laço. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90009-2.jpg",
-      "assets/kesses/catalogo-1/90009-1.jpg",
-    ],
-    colors: [{ name: "Rosa", hex: "#E8BBC9" }, { name: "Azul", hex: "#89B8DE" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 203,
-    code: "90010",
-    name: "Blusa listrada",
-    slug: "blusa-listrada-90010",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Blusa",
-    price: 299.90,
-    description: "Blusa listrada. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90010-2.jpg",
-      "assets/kesses/catalogo-1/90010-1.jpg",
-    ],
-    colors: [{ name: "Rosa", hex: "#E8BBC9" }, { name: "Azul", hex: "#89B8DE" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 204,
-    code: "90011",
-    name: "Vestido longo fluido",
-    slug: "vestido-longo-fluido-90011",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Vestido",
-    price: 419.90,
-    description: "Vestido longo fluido. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90011-2.jpg",
-      "assets/kesses/catalogo-1/90011-1.jpg",
-    ],
-    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Amarelo", hex: "#E8D29A" }, { name: "Marrom", hex: "#705340" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 205,
-    code: "90012",
-    name: "Blusa roxa",
-    slug: "blusa-roxa-90012",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Blusa",
-    price: 199.90,
-    description: "Blusa roxa. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90012-2.jpg",
-      "assets/kesses/catalogo-1/90012-1.jpg",
-    ],
-    colors: [{ name: "Roxo", hex: "#493267" }, { name: "Off", hex: "#F7F1E8" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 206,
-    code: "90013",
-    name: "Shorts roxo",
-    slug: "shorts-roxo-90013",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Shorts",
-    price: 259.90,
-    description: "Shorts roxo. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90013-2.jpg",
-      "assets/kesses/catalogo-1/90013-1.jpg",
-    ],
-    colors: [{ name: "Roxo", hex: "#493267" }, { name: "Off", hex: "#F7F1E8" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    id: 207,
-    code: "90014",
-    name: "Blusa botões",
-    slug: "blusa-bot-es-90014",
-    brand: "kesses",
-    catalog: "Catálogo 1",
-    category: "Blusa",
-    price: 279.90,
-    description: "Blusa botões. Código provisório para identificação da mídia.",
-    composition: "Não informada",
-    images: [
-      "assets/kesses/catalogo-1/90014-2.jpg",
-      "assets/kesses/catalogo-1/90014-1.jpg",
-    ],
-    colors: [{ name: "Azul", hex: "#89B8DE" }, { name: "Rosa", hex: "#E8BBC9" }],
-    sizes: ["36", "38", "40", "42"],
-    stock: 5,
-    isActive: true,
-    createdAt: "2026-10-08"
-  },
-  {
-    "id": 208,
-    "code": "11255",
-    "name": "Vestido Mara",
-    "slug": "vestido-mara-11255",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Vestido",
-    "price": 479.8,
-    "description": "Vestido Mara do catálogo MYSK | Summer 27.",
-    "composition": "marfino, choco e preto Tule 96% Poliéster 4% Elastano",
-    "images": [
-      "assets/mysk/summer-27/11255-1.jpg",
-      "assets/mysk/summer-27/11255-2.jpg",
-      "assets/mysk/summer-27/11255-3.jpg",
-      "assets/mysk/summer-27/11255-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Marfino",
-        "hex": "#F7F1E5"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 209,
-    "code": "11257",
-    "name": "Blusa Malu",
-    "slug": "blusa-malu-11257",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Blusa",
-    "price": 239.8,
-    "description": "Blusa Malu do catálogo MYSK | Summer 27.",
-    "composition": "creme e choco Crepe Texturizado 100% Poliéster",
-    "images": [
-      "assets/mysk/summer-27/11257-2.jpg",
-      "assets/mysk/summer-27/11257-1.jpg",
-      "assets/mysk/summer-27/11257-3.jpg",
-      "assets/mysk/summer-27/11257-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Creme",
-        "hex": "#F3E9DA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 210,
-    "code": "11258",
-    "name": "Calça Malu",
-    "slug": "calca-malu-11258",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Calça",
-    "price": 439.8,
-    "description": "Calça Malu do catálogo MYSK | Summer 27.",
-    "composition": "creme e choco Crepe Texturizado 100% Poliéster",
-    "images": [
-      "assets/mysk/summer-27/11258-1.jpg",
-      "assets/mysk/summer-27/11258-2.jpg",
-      "assets/mysk/summer-27/11258-3.jpg",
-      "assets/mysk/summer-27/11258-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Creme",
-        "hex": "#F3E9DA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 211,
-    "code": "11270",
-    "name": "Top Frente Única Adelia",
-    "slug": "top-frente-unica-adelia-11270",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Top",
-    "price": 319.8,
-    "description": "Top Frente Única Adelia do catálogo MYSK | Summer 27.",
-    "composition": "preto Chiffon Bordado 66% Algodão 34% Poliéster",
-    "images": [
-      "assets/mysk/summer-27/11270-3.jpg",
-      "assets/mysk/summer-27/11270-2.jpg",
-      "assets/mysk/summer-27/11270-1.jpg",
-      "assets/mysk/summer-27/11270-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 212,
-    "code": "11271",
-    "name": "Calça Adelia",
-    "slug": "calca-adelia-11271",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Calça",
-    "price": 539.8,
-    "description": "Calça Adelia do catálogo MYSK | Summer 27.",
-    "composition": "preto Chiffon Bordado 66% Algodão 34% Poliéster",
-    "images": [
-      "assets/mysk/summer-27/11271-3.jpg",
-      "assets/mysk/summer-27/11271-1.jpg",
-      "assets/mysk/summer-27/11271-2.jpg",
-      "assets/mysk/summer-27/11271-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 213,
-    "code": "11184",
-    "name": "Top Pietra",
-    "slug": "top-pietra-11184",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Top",
-    "price": 319.8,
-    "description": "Top Pietra do catálogo MYSK | Summer 27.",
-    "composition": "off e choco Viscotexture 100% Viscose",
-    "images": [
-      "assets/mysk/summer-27/11184-1.jpg",
-      "assets/mysk/summer-27/11184-2.jpg",
-      "assets/mysk/summer-27/11184-3.jpg",
-      "assets/mysk/summer-27/11184-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 214,
-    "code": "11185",
-    "name": "Calça Pietra",
-    "slug": "calca-pietra-11185",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Calça",
-    "price": 399.8,
-    "description": "Calça Pietra do catálogo MYSK | Summer 27.",
-    "composition": "off e choco Viscotexture 100% Viscose",
-    "images": [
-      "assets/mysk/summer-27/11185-2.jpg",
-      "assets/mysk/summer-27/11185-1.jpg",
-      "assets/mysk/summer-27/11185-3.jpg",
-      "assets/mysk/summer-27/11185-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 215,
-    "code": "11247",
-    "name": "Vestido Fran",
-    "slug": "vestido-fran-11247",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Vestido",
-    "price": 499.8,
-    "description": "Vestido Fran do catálogo MYSK | Summer 27.",
-    "composition": "off, marrom e azul Malha Fru Fru 97% Poliéster 3% Elastano",
-    "images": [
-      "assets/mysk/summer-27/11247-1.jpg",
-      "assets/mysk/summer-27/11247-2.jpg",
-      "assets/mysk/summer-27/11247-3.jpg",
-      "assets/mysk/summer-27/11247-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Azul",
-        "hex": "#668CC0"
-      },
-      {
-        "name": "Marrom",
-        "hex": "#79523F"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 216,
-    "code": "11248",
-    "name": "Regata Denise",
-    "slug": "regata-denise-11248",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Regata",
-    "price": 299.8,
-    "description": "Regata Denise do catálogo MYSK | Summer 27.",
-    "composition": "rosa, aveia e choco Linho 70% Viscose 25% Linho 5% Algodão",
-    "images": [
-      "assets/mysk/summer-27/11248-3.jpg",
-      "assets/mysk/summer-27/11248-1.jpg",
-      "assets/mysk/summer-27/11248-2.jpg",
-      "assets/mysk/summer-27/11248-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Rosa",
-        "hex": "#E9A8B6"
-      },
-      {
-        "name": "Aveia",
-        "hex": "#D8CDB8"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 217,
-    "code": "11249",
-    "name": "Calça Denise",
-    "slug": "calca-denise-11249",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Calça",
-    "price": 379.8,
-    "description": "Calça Denise do catálogo MYSK | Summer 27.",
-    "composition": "Linho 70% Viscose 25% Linho 5% Algodão rosa, aveia e choco",
-    "images": [
-      "assets/mysk/summer-27/11249-2.jpg",
-      "assets/mysk/summer-27/11249-1.jpg",
-      "assets/mysk/summer-27/11249-3.jpg",
-      "assets/mysk/summer-27/11249-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Rosa",
-        "hex": "#E9A8B6"
-      },
-      {
-        "name": "Aveia",
-        "hex": "#D8CDB8"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 218,
-    "code": "11250",
-    "name": "Vestido Denise",
-    "slug": "vestido-denise-11250",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Vestido",
-    "price": 459.8,
-    "description": "Vestido Denise do catálogo MYSK | Summer 27.",
-    "composition": "Linho 70% Viscose 25% Linho 5% Algodão rosa, aveia e choco",
-    "images": [
-      "assets/mysk/summer-27/11250-1.jpg",
-      "assets/mysk/summer-27/11250-2.jpg",
-      "assets/mysk/summer-27/11250-3.jpg",
-      "assets/mysk/summer-27/11250-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Rosa",
-        "hex": "#E9A8B6"
-      },
-      {
-        "name": "Aveia",
-        "hex": "#D8CDB8"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 219,
-    "code": "11197",
-    "name": "Top Teka",
-    "slug": "top-teka-11197",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Top",
-    "price": 313.8,
-    "description": "Top Teka do catálogo MYSK | Summer 27.",
-    "composition": "rosa, camel e off Alfaiataria 100% Poliéster",
-    "images": [
-      "assets/mysk/summer-27/11197-1.jpg",
-      "assets/mysk/summer-27/11197-2.jpg",
-      "assets/mysk/summer-27/11197-3.jpg",
-      "assets/mysk/summer-27/11197-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Rosa",
-        "hex": "#E9A8B6"
-      },
-      {
-        "name": "Camel",
-        "hex": "#C19A6B"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 220,
-    "code": "11198",
-    "name": "Calça Teka",
-    "slug": "calca-teka-11198",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Calça",
-    "price": 439.8,
-    "description": "Calça Teka do catálogo MYSK | Summer 27.",
-    "composition": "Alfaiataria 100% Poliéster rosa, camel e off",
-    "images": [
-      "assets/mysk/summer-27/11198-3.jpg",
-      "assets/mysk/summer-27/11198-1.jpg",
-      "assets/mysk/summer-27/11198-2.jpg",
-      "assets/mysk/summer-27/11198-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Rosa",
-        "hex": "#E9A8B6"
-      },
-      {
-        "name": "Camel",
-        "hex": "#C19A6B"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 221,
-    "code": "11528",
-    "name": "Regata com Franja Hanna",
-    "slug": "regata-com-franja-hanna-11528",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Regata",
-    "price": 279.8,
-    "description": "Regata com Franja Hanna do catálogo MYSK | Summer 27.",
-    "composition": "Tricot 43% Acrílico 43% Poliéster 14% Viscose marrom e bege",
-    "images": [
-      "assets/mysk/summer-27/11528-3.jpg",
-      "assets/mysk/summer-27/11528-1.jpg",
-      "assets/mysk/summer-27/11528-2.jpg",
-      "assets/mysk/summer-27/11528-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Marrom",
-        "hex": "#79523F"
-      },
-      {
-        "name": "Bege",
-        "hex": "#E8D7BE"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 222,
-    "code": "11266",
-    "name": "Saia Midia Teka",
-    "slug": "saia-midia-teka-11266",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Saia",
-    "price": 439.8,
-    "description": "Saia Midia Teka do catálogo MYSK | Summer 27.",
-    "composition": "Alfaiataria 100% Poliéster rosa, camel e off",
-    "images": [
-      "assets/mysk/summer-27/11266-1.jpg",
-      "assets/mysk/summer-27/11266-2.jpg",
-      "assets/mysk/summer-27/11266-3.jpg",
-      "assets/mysk/summer-27/11266-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Rosa",
-        "hex": "#E9A8B6"
-      },
-      {
-        "name": "Camel",
-        "hex": "#C19A6B"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 223,
-    "code": "11537",
-    "name": "Calça com Vinco Luara",
-    "slug": "calca-com-vinco-luara-11537",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Calça",
-    "price": 399.8,
-    "description": "Calça com Vinco Luara do catálogo MYSK | Summer 27.",
-    "composition": "Jeans 100% Algodão Denim",
-    "images": [
-      "assets/mysk/summer-27/11537-1.jpg",
-      "assets/mysk/summer-27/11537-2.jpg",
-      "assets/mysk/summer-27/11537-3.jpg",
-      "assets/mysk/summer-27/11537-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Não informada",
-        "hex": "#CCCCCC"
-      }
-    ],
-    "sizes": [
-      "34",
-      "36",
-      "38",
-      "40"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 224,
-    "code": "11275",
-    "name": "Blusa Katarina",
-    "slug": "blusa-katarina-11275",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Blusa",
-    "price": 195.8,
-    "description": "Blusa Katarina do catálogo MYSK | Summer 27.",
-    "composition": "Malha 92% Poliéster 8% Elastano fendi e off",
-    "images": [
-      "assets/mysk/summer-27/11275-2.jpg",
-      "assets/mysk/summer-27/11275-1.jpg",
-      "assets/mysk/summer-27/11275-3.jpg",
-      "assets/mysk/summer-27/11275-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Fendi",
-        "hex": "#B8A58D"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 225,
-    "code": "11240",
-    "name": "Short Renda Fly",
-    "slug": "short-renda-fly-11240",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Short",
-    "price": 279.8,
-    "description": "Short Renda Fly do catálogo MYSK | Summer 27.",
-    "composition": "Renda 45% Poliamida 35% Algodão 20% Viscose off e preto",
-    "images": [
-      "assets/mysk/summer-27/11240-1.jpg",
-      "assets/mysk/summer-27/11240-2.jpg",
-      "assets/mysk/summer-27/11240-3.jpg",
-      "assets/mysk/summer-27/11240-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 226,
-    "code": "11195",
-    "name": "Camisa Marina",
-    "slug": "camisa-marina-11195",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Camisa",
-    "price": 519.8,
-    "description": "Camisa Marina do catálogo MYSK | Summer 27.",
-    "composition": "Sarja Estampada 98% Algodão 2% Elastano choco",
-    "images": [
-      "assets/mysk/summer-27/11195-3.jpg",
-      "assets/mysk/summer-27/11195-1.jpg",
-      "assets/mysk/summer-27/11195-2.jpg",
-      "assets/mysk/summer-27/11195-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 227,
-    "code": "11196",
-    "name": "Calça Marina",
-    "slug": "calca-marina-11196",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Calça",
-    "price": 499.8,
-    "description": "Calça Marina do catálogo MYSK | Summer 27.",
-    "composition": "Sarja Estampada 98% Algodão 2% Elastano choco",
-    "images": [
-      "assets/mysk/summer-27/11196-2.jpg",
-      "assets/mysk/summer-27/11196-1.jpg",
-      "assets/mysk/summer-27/11196-3.jpg",
-      "assets/mysk/summer-27/11196-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 228,
-    "code": "11126",
-    "name": "Blusa Indy",
-    "slug": "blusa-indy-11126",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Blusa",
-    "price": 193.8,
-    "description": "Blusa Indy do catálogo MYSK | Summer 27.",
-    "composition": "Malha 100% Algodão choco, off, rosa e preto",
-    "images": [
-      "assets/mysk/summer-27/11126-3.jpg",
-      "assets/mysk/summer-27/11126-1.jpg",
-      "assets/mysk/summer-27/11126-2.jpg",
-      "assets/mysk/summer-27/11126-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Rosa",
-        "hex": "#E9A8B6"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 229,
-    "code": "11128",
-    "name": "Blusa Mary",
-    "slug": "blusa-mary-11128",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Blusa",
-    "price": 173.8,
-    "description": "Blusa Mary do catálogo MYSK | Summer 27.",
-    "composition": "Malha 100% Algodão choco, off, rosa e preto",
-    "images": [
-      "assets/mysk/summer-27/11128-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Rosa",
-        "hex": "#E9A8B6"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 230,
-    "code": "11535",
-    "name": "Shorts Sarja com Pregas",
-    "slug": "shorts-sarja-com-pregas-11535",
-    "brand": "mysk",
-    "catalog": "Summer 27",
-    "category": "Short",
-    "price": 319.8,
-    "description": "Shorts Sarja com Pregas do catálogo MYSK | Summer 27.",
-    "composition": "11535 Sarja 100% Algodão off white e marrom 34 36 38 40",
-    "images": [
-      "assets/mysk/summer-27/11535-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Marrom",
-        "hex": "#79523F"
-      }
-    ],
-    "sizes": [
-      "34",
-      "36",
-      "38",
-      "40"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 231,
-    "code": "8304",
-    "name": "Camisa Sophia ",
-    "slug": "camisa-sophia-8304",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Camisa",
-    "price": 359.8,
-    "description": "Camisa Sophia  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "liocel TURQUESA",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8304-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8304-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 232,
-    "code": "8303",
-    "name": "Calça Sophia ",
-    "slug": "calca-sophia-8303",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Calça",
-    "price": 439.8,
-    "description": "Calça Sophia  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "liocel TURQUESA",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8303-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8303-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 233,
-    "code": "8343",
-    "name": "Blusa Frente-Única Tereza ",
-    "slug": "blusa-frente-unica-tereza-8343",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Blusa",
-    "price": 279.8,
-    "description": "Blusa Frente-Única Tereza  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "viscose",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8343-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8343-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 234,
-    "code": "8344",
-    "name": "Calça Tereza ",
-    "slug": "calca-tereza-8344",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Calça",
-    "price": 399.8,
-    "description": "Calça Tereza  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "viscose",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8344-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8341-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8341-3.jpg",
-      "assets/kaele/chapter-two-turquoise/8344-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 235,
-    "code": "8345",
-    "name": "Vestido Tereza ",
-    "slug": "vestido-tereza-8345",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Vestido",
-    "price": 479.8,
-    "description": "Vestido Tereza  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "viscose TURQUESA PRETO TURQUESA TURQUESA",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8345-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8345-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8345-3.jpg",
-      "assets/kaele/chapter-two-turquoise/8345-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 236,
-    "code": "8319",
-    "name": "Regata Corina ",
-    "slug": "regata-corina-8319",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Regata",
-    "price": 259.8,
-    "description": "Regata Corina  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "liocel TURQUESA",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8341-3.jpg",
-      "assets/kaele/chapter-two-turquoise/8341-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8319-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8319-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8319-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 237,
-    "code": "8320",
-    "name": "Saia Corina ",
-    "slug": "saia-corina-8320",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Saia",
-    "price": 279.8,
-    "description": "Saia Corina  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "liocel TURQUESA",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8320-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8320-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8320-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 238,
-    "code": "8341",
-    "name": "Blusa Eliza ",
-    "slug": "blusa-eliza-8341",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Blusa",
-    "price": 399.8,
-    "description": "Blusa Eliza  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "paetê *acompanha top",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8341-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8341-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Azul",
-        "hex": "#668CC0"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 239,
-    "code": "8348",
-    "name": "T-Shirt Sea You Soon ",
-    "slug": "t-shirt-sea-you-soon-8348",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "T-Shirt",
-    "price": 159.8,
-    "description": "T-Shirt Sea You Soon  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "algodão",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8348-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8348-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8348-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 240,
-    "code": "8342",
-    "name": "Short Eliza ",
-    "slug": "short-eliza-8342",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Short",
-    "price": 319.8,
-    "description": "Short Eliza  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "paetê AZUL OFF",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8342-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8342-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8342-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Azul",
-        "hex": "#668CC0"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 241,
-    "code": "8318",
-    "name": "Vestido Mara ",
-    "slug": "vestido-mara-8318",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Vestido",
-    "price": 499.8,
-    "description": "Vestido Mara  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "tela crochet",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8317-3.jpg",
-      "assets/kaele/chapter-two-turquoise/8318-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8318-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 242,
-    "code": "8317",
-    "name": "Vestido Pamela ",
-    "slug": "vestido-pamela-8317",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Vestido",
-    "price": 399.8,
-    "description": "Vestido Pamela  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "tela de crochet",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8317-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8317-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8317-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 243,
-    "code": "8314",
-    "name": "Vestido Thici ",
-    "slug": "vestido-thici-8314",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Vestido",
-    "price": 559.8,
-    "description": "Vestido Thici  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "crepe",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8353-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8353-3.jpg",
-      "assets/kaele/chapter-two-turquoise/8314-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8314-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 244,
-    "code": "8353",
-    "name": "Blusa Mara ",
-    "slug": "blusa-mara-8353",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Blusa",
-    "price": 219.8,
-    "description": "Blusa Mara  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "viscose com elastano",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8353-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Azul",
-        "hex": "#668CC0"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 245,
-    "code": "8316",
-    "name": "Regata Debora ",
-    "slug": "regata-debora-8316",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Regata",
-    "price": 339.8,
-    "description": "Regata Debora  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "renda",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8316-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8316-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8316-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Azul",
-        "hex": "#668CC0"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 246,
-    "code": "8340",
-    "name": "Saia Debora ",
-    "slug": "saia-debora-8340",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Saia",
-    "price": 439.8,
-    "description": "Saia Debora  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "renda AZUL PRETO",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8340-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8340-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8340-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Azul",
-        "hex": "#668CC0"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 247,
-    "code": "8297",
-    "name": "Saia Bia ",
-    "slug": "saia-bia-8297",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Saia",
-    "price": 439.8,
-    "description": "Saia Bia  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "renda",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8297-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8297-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8297-3.jpg",
-      "assets/kaele/chapter-two-turquoise/8297-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Azul",
-        "hex": "#668CC0"
-      },
-      {
-        "name": "Marrom",
-        "hex": "#79523F"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 248,
-    "code": "8296",
-    "name": "Corset Bia ",
-    "slug": "corset-bia-8296",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Corset",
-    "price": 299.8,
-    "description": "Corset Bia  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "renda AZUL PRETO MARROM OFF",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8296-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8296-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Azul",
-        "hex": "#668CC0"
-      },
-      {
-        "name": "Marrom",
-        "hex": "#79523F"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 249,
-    "code": "8321",
-    "name": "Blusa Corina ",
-    "slug": "blusa-corina-8321",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Blusa",
-    "price": 239.8,
-    "description": "Blusa Corina  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "liocel",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8321-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8321-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 250,
-    "code": "8322",
-    "name": "Short Corina ",
-    "slug": "short-corina-8322",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Short",
-    "price": 239.8,
-    "description": "Short Corina  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "liocel",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8322-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8322-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Turquesa",
-        "hex": "#36B7BD"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 251,
-    "code": "8262",
-    "name": "Vestido Assimétrico Drica ",
-    "slug": "vestido-assimetrico-drica-8262",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Vestido",
-    "price": 399.8,
-    "description": "Vestido Assimétrico Drica  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "chifon CORAL PRETO",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8264-3.jpg",
-      "assets/kaele/chapter-two-turquoise/8262-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8262-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8262-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Aveia",
-        "hex": "#D8CDB8"
-      },
-      {
-        "name": "Coral",
-        "hex": "#F17868"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 252,
-    "code": "8264",
-    "name": "Regata Drica ",
-    "slug": "regata-drica-8264",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Regata",
-    "price": 319.8,
-    "description": "Regata Drica  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "chifon AVEIA CORAL PRETO",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8264-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8264-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Aveia",
-        "hex": "#D8CDB8"
-      },
-      {
-        "name": "Coral",
-        "hex": "#F17868"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 253,
-    "code": "8265",
-    "name": "Saia Drica ",
-    "slug": "saia-drica-8265",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Saia",
-    "price": 399.8,
-    "description": "Saia Drica  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "chifon CORAL PRETO AVEIA",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8265-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8265-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Aveia",
-        "hex": "#D8CDB8"
-      },
-      {
-        "name": "Coral",
-        "hex": "#F17868"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 254,
-    "code": "8335",
-    "name": "Vestido Rafaela ",
-    "slug": "vestido-rafaela-8335",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Vestido",
-    "price": 659.8,
-    "description": "Vestido Rafaela  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "tricoline acetinado",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8335-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8335-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Creme",
-        "hex": "#F3E9DA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 255,
-    "code": "8328",
-    "name": "Camisa Rafaela ",
-    "slug": "camisa-rafaela-8328",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Camisa",
-    "price": 379.8,
-    "description": "Camisa Rafaela  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "tricoline acetinado CREME CHOCO OFF",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8328-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8328-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Creme",
-        "hex": "#F3E9DA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 256,
-    "code": "8329",
-    "name": "Calça Rafaela ",
-    "slug": "calca-rafaela-8329",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Calça",
-    "price": 439.8,
-    "description": "Calça Rafaela  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "tricoline acetinado CREME CHOCO OFF",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8329-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8329-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      },
-      {
-        "name": "Choco",
-        "hex": "#50332A"
-      },
-      {
-        "name": "Creme",
-        "hex": "#F3E9DA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 257,
-    "code": "8312",
-    "name": "Regata Claire ",
-    "slug": "regata-claire-8312",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Regata",
-    "price": 159.8,
-    "description": "Regata Claire  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "malha de algodão e renda",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8312-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8312-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 258,
-    "code": "8518",
-    "name": "Calça Barrel Tamara ",
-    "slug": "calca-barrel-tamara-8518",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Calça",
-    "price": 399.8,
-    "description": "Calça Barrel Tamara  do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "AZUL 8518 R$ 199,90 CALÇA BARREL TAMARA 36 | 38 | 40 denin",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8518-2.jpg",
-      "assets/kaele/chapter-two-turquoise/8518-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Azul",
-        "hex": "#668CC0"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 259,
-    "code": "8298",
-    "name": "Blusa Peplum Leona",
-    "slug": "blusa-peplum-leona-8298",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Blusa",
-    "price": 319.8,
-    "description": "Blusa Peplum Leona do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "PRETO OFF 8298BLUSA PEPLUM LEONA renda de algodão",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8298-1.jpg",
-      "assets/kaele/chapter-two-turquoise/8298-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  },
-  {
-    "id": 260,
-    "code": "8300",
-    "name": "Calça Leona",
-    "slug": "calca-leona-8300",
-    "brand": "kaele",
-    "catalog": "Chapter Two: Turquoise",
-    "category": "Calça",
-    "price": 419.8,
-    "description": "Calça Leona do catálogo KAELE | Chapter Two: Turquoise.",
-    "composition": "PRETO OFF 8300CALÇA LEONA renda de algodão",
-    "images": [
-      "assets/kaele/chapter-two-turquoise/8300-peca.jpg"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#111111"
-      },
-      {
-        "name": "Off",
-        "hex": "#F8F3EA"
-      }
-    ],
-    "sizes": [
-      "36",
-      "38",
-      "40",
-      "42"
-    ],
-    "stock": 5,
-    "isActive": true,
-    "createdAt": "2026-10-15"
-  }
 ];

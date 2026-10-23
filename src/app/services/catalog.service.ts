@@ -20,12 +20,9 @@ const DEFAULT_STATE: CatalogState = {
   catalogs: [
     { brand: 'Cashier', catalog: 'Golden Hours' },
     { brand: 'Esmeral', catalog: 'Alto Verão 27' },
-    { brand: 'Kaele', catalog: 'The Greek Escape' },
-    { brand: 'Kaele', catalog: 'Chapter One' },
-    { brand: 'Kaele', catalog: 'Chapter Two: Turquoise' },
-    { brand: 'Mysk', catalog: 'Creators Edition' },
-    { brand: 'Mysk', catalog: 'Creators Edition - Drop 02' },
-    { brand: 'Mysk', catalog: 'Summer 27' },
+    { brand: 'Esmeral', catalog: 'Night Edition' },
+    { brand: 'Kaele', catalog: 'Catálogo 1' },
+    { brand: 'Mysk', catalog: 'Summer 26  ' },
     { brand: 'Kesses', catalog: 'Catálogo 1' },
   ]
 };
